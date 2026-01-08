@@ -364,13 +364,13 @@
 <tr>
 <td>16</td>
 <td><a href="16/01_man_2026-04-13/README.md">Mandag 13-04-2026</a></td>
-<td>HTML & CSS udvidet</td>
+<td>Wishlist projektvejledning</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 <tr>
 <td></td>
 <td><a href="16/02_tir_2026-04-14/README.md">Tirsdag 14-04-2026</a></td>
-<td>Wishlist - projektvejledning</td>
+<td>Usability test</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 <tr>
@@ -403,7 +403,7 @@
 <tr>
 <td></td>
 <td><a href="17/02_tir_2026-04-21/README.md">Tirsdag 21-04-2026</a></td>
-<td>Usability test</td>
+<td>Wishlist projektvejledning</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 <tr>
