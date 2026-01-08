@@ -201,19 +201,19 @@
 <tr>
 <td></td>
 <td><a href="10/03_ons_2026-03-04/README.md">Onsdag 04-03-2026</a></td>
-<td>SQL 2</td>
+<td>SQL opgaver</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 <tr>
 <td></td>
 <td><a href="10/04_tor_2026-03-05/README.md">Torsdag 05-03-2026</a></td>
-<td>ITF:</td>
+<td>SQL joins</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 <tr>
 <td></td>
 <td><a href="10/05_fre_2026-03-06/README.md">Fredag 06-03-2026</a></td>
-<td>Normalisering, SQL joins</td>
+<td>Normalisering</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 
