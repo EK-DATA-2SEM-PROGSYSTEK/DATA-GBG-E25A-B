@@ -45,9 +45,10 @@ Se disse videoer:
 - Forstå opbygningen af en URL inkl.
     - request parametre,
     - path variable,
-- Kunne lave get og post-endpoints i Spring Boot, herunder brug af annoteringerne:
+- Kunne lave get endpoints i Spring Boot, herunder brug af annoteringerne:
     - `@Controller` (`@RestController`)
     - `@RequestParam`
     - `@PathVariable`
 - Teste endpoints i HTTP client værktøjet i IntelliJ
 --- 
+
