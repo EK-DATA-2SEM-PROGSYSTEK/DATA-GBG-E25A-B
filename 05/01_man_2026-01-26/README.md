@@ -22,7 +22,7 @@ I skal desuden optimere og automatisere jeres udviklingsproces ud fra CI/CD prin
 
 
 ### Spring Boot, endpoints og HTTP protokollen
-Vi ser på hvad et endpoint er og laver vores første endpoints i Spring Boot. Desuden skal vi snakke om HTTP protokollen og hvordan den virker. Vi kommer også ind på JSON, som er det format vi sender data i i første omgang.
+Vi ser på hvad et endpoint er og laver og tester vores første endpoints i Spring Boot. Desuden skal vi snakke om HTTP protokollen og hvordan den virker.
 
 ## Forberedelse
 
@@ -51,4 +51,5 @@ Se disse videoer:
     - `@PathVariable`
 - Teste endpoints i HTTP client værktøjet i IntelliJ
 --- 
+
 
