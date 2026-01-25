@@ -1,0 +1,39 @@
+# Spring Boot & Turistguide 1
+## Underviser: Signe
+
+## Beskrivelse
+
+I skal kode en lidt mere kompleks arkitektur i et Spring Boot projekt, og samtidig repetere det stof der blev gennemgået i går om GET mappings.
+
+Vi skal også se på hvordan man laver POST mappings. 
+
+Dernæst skal I teste både GET og POST endpoints med testværktøjet “HTTP Client” i IntelliJ.
+
+
+I skal i gang med at lave den første del af Turistguide-projektet, som I får udleveret i dag og skal aflevere på onsdag i næste uge (4/2).
+
+
+## Forberedelse
+
+Se videoerne
+
+[What are JSON files (in less than 3 minutes)](https://www.youtube.com/watch?v=jxvFT6VXty8)
+
+[Spring Boot API @PostMapping & @RequestBody : Step-by-Step Guide](https://www.youtube.com/watch?v=vHEGlrPTFdc&list=PLpxcSt9FGVVGRjn_Hgrxl6WJv4aFUDjKE&index=5) (13 min)
+
+[Spring ResponseEntity : Customizing the response in Spring Boot](https://www.youtube.com/watch?v=qo56g2PlS5o&list=PLpxcSt9FGVVGRjn_Hgrxl6WJv4aFUDjKE&index=6) (3 min) 
+
+Vær opmærksom på at vi ikke tester endpoints med PostMan, men med HTTP Client som er indbygget i IntelliJ.
+
+
+
+
+
+
+## Læringsmål
+
+- at kunne lave struktur, klasser og bruge annotations til både @Controller, @Service og @Repository
+- kunne bruge @RequestBody annotationen
+- at kunne lave både GET og POST mappings i Spring Boot
+- at kunne teste både GET og POST endpoints i Spring Boot med “HTTP Client” i IntelliJ
+
