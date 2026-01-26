@@ -90,6 +90,7 @@ I skal i løbet af semesteret lave tre full-stack projekter, som vist i nedenst�
 <img src="library_framework2.png" alt="Alt Text" width="500">
 
 ### Annotations
+
 Styrer det der foregår "behind the scenes": fx @Controller
 ---
 
@@ -100,6 +101,7 @@ Styrer det der foregår "behind the scenes": fx @Controller
     * Gruppestørrelse: 3-4
 
 Fra i morgen kan I se i kolonnen "Check-in tider" hvornår jeres gruppe skal deltage i online check-in, som vi har hver onsdag.
+
 
 
 
