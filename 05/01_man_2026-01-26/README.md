@@ -107,6 +107,9 @@ Styrer det der foregår "behind the scenes": fx @Controller
 
 Fra i morgen kan I se i kolonnen "Check-in tider" hvornår jeres gruppe skal deltage i online check-in, som vi har hver onsdag.
 
+Opgave 1: [dit første Spring projekt](opgave_dit_første_spring_boot_projekt.md)
+
+
 
 
 
