@@ -78,7 +78,12 @@ I skal i løbet af semesteret lave tre full-stack projekter, som vist i nedenst�
 ---
 ## HTTP
 
+### URL
+<img src="url.png" alt="Alt Text" width="500">
+
+---
 ### Statuskoder
+
 <img src="http_statuskoder.png" alt="Alt Text" width="500">
 
 [Katte som illustrerer HTTP statuskoder](https://httpcats.com)
@@ -101,6 +106,7 @@ Styrer det der foregår "behind the scenes": fx @Controller
     * Gruppestørrelse: 3-4
 
 Fra i morgen kan I se i kolonnen "Check-in tider" hvornår jeres gruppe skal deltage i online check-in, som vi har hver onsdag.
+
 
 
 
