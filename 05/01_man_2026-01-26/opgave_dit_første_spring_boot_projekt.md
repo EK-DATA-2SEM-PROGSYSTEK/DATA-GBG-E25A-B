@@ -7,12 +7,12 @@
 - Gå til File | New | Project...
 - Udfyld dialogbokse
 
-<img src="assets/spring-boot.png" alt="Alt Text" width="700">
-<img src="assets/spring-boot2.png" alt="Alt Text" width="700">
+<img src="spring-boot.png" alt="Alt Text" width="700">
+<img src="spring-boot2.png" alt="Alt Text" width="700">
 
 Opret en pakke `controller`
 
-<img src="assets/spring-boot3.png" alt="Alt Text" width="500">
+<img src="spring-boot3.png" alt="Alt Text" width="500">
 
 Opret en klasse `WelcomeController` i `controller`pakken
 ```java
