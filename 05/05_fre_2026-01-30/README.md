@@ -177,6 +177,8 @@ testbarhed.
 
 ### Demo (live coding)
 
+<img src="assets/internat.png" alt="Web app overblik" width="900">
+
 ---
 
 ### Opgave
