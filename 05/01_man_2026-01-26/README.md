@@ -52,4 +52,60 @@ Se disse videoer:
 - Teste endpoints i HTTP client værktøjet i IntelliJ
 --- 
 
+## Indhold
+### Undervisningsform
+- Vi underviser projektbaseret, dvs. at det er projekterne, der er det styrende element.
+- Undervisningen er tværfaglig og dækker Programmering, Systemudvikling og Teknologi.
+- Emnerne, der undervises i, vælges ud fra behovene i det aktuelle projekt. Nye emner bruges med det samme.
+- Alle emner inden for Programmering, Systemudvikling og Teknologi dækkes, men undervisningens intensitet i de enkelte fagområder varierer fra uge til uge.
+- Vi benytter bl.a. flipped classroom – en undervisningsstrategi, der vender den traditionelle læringsmodel på hovedet. I stedet for at modtage undervisning (f.eks. forelæsninger) i klassen og lave lektier derhjemme, tilegner man sig nyt indhold (som videoer eller læsematerialer) før undervisningen og bruger derefter klassetiden på interaktive aktiviteter, diskussioner og problemløsning med underviserens vejledning.
+
+### Studiegrupperne
+- I skal sidde sammen i studiegruppen i klasselokalet: de bliver brugt i al undervisning
+- når I løser opgaver, så spørg først hinanden om hjælp i gruppen (før tutor og underviser)
+- hvis I har fravær, så giv jeres studiegruppe besked
+- studiegruppen opdaterer den der fx har været syg om hvad der er foregået i undervisningen
+
+### Semesterets projekter
+I skal i løbet af semesteret lave tre full-stack projekter, som vist i nedenstående tabel:
+
+| Projekt | Bemærkninger                                                                                                                           |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Turistguide        | Består af tre delprojekter, hvor hvert enkelt delprojekt understøtter bestemte læringsmål. De fleste nye emner bliver introduceret her |
+| Miniprojekt           | Scrum projekt med ét sprint                                                                                                            |
+| Eksamensprojekt    | Scrum projekt med tre sprints                                                                                                          |
+
+---
+## HTTP
+
+### Statuskoder
+<img src="assets/http_statuskoder.png" alt="Alt Text" width="500">
+
+[Katte som illustrerer HTTP statuskoder](https://httpcats.com)
+
+---
+## Spring Boot
+
+<img src="assets/library_framework1.jpg" alt="Alt Text" width="500">
+<img src="assets/library_framework2.png" alt="Alt Text" width="500">
+
+### Annotations
+Styrer det der foregår "behind the scenes": fx @Controller
+---
+
+## Aktiviteter
+
+* Indskriv jer som grupper på Teams: [A-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/TeamDATA-GBG-E25AB/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B298dffe1-b101-4743-849a-6b39b66eaca1%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1769383931342&web=1) og  [B-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/TeamDATA-GBG-E25AB/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7Ba51a0440-24ae-4ec4-b580-80e356a017ec%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1769383900526&web=1)
+    * I vælger selv hvem I vil arbejde sammen med.
+    * Gruppestørrelse: 3-4
+
+Fra i morgen kan I se i kolonnen "Check-in tider" hvornår jeres gruppe skal deltage i online check-in, som vi har hver onsdag.
+
+
+
+
+
+
+
+
 
