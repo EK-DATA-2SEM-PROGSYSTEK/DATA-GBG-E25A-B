@@ -79,15 +79,15 @@ I skal i løbet af semesteret lave tre full-stack projekter, som vist i nedenst�
 ## HTTP
 
 ### Statuskoder
-<img src="assets/http_statuskoder.png" alt="Alt Text" width="500">
+<img src="http_statuskoder.png" alt="Alt Text" width="500">
 
 [Katte som illustrerer HTTP statuskoder](https://httpcats.com)
 
 ---
 ## Spring Boot
 
-<img src="assets/library_framework1.jpg" alt="Alt Text" width="500">
-<img src="assets/library_framework2.png" alt="Alt Text" width="500">
+<img src="library_framework1.jpg" alt="Alt Text" width="500">
+<img src="library_framework2.png" alt="Alt Text" width="500">
 
 ### Annotations
 Styrer det der foregår "behind the scenes": fx @Controller
@@ -100,6 +100,7 @@ Styrer det der foregår "behind the scenes": fx @Controller
     * Gruppestørrelse: 3-4
 
 Fra i morgen kan I se i kolonnen "Check-in tider" hvornår jeres gruppe skal deltage i online check-in, som vi har hver onsdag.
+
 
 
 
