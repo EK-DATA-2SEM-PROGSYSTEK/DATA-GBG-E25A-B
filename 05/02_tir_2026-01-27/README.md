@@ -67,6 +67,9 @@ Opgave 2: [Test i HTTP Client](opgave_http_test.md)
 
 Opgave 3: [Spring struktur](opgave_spring.md)
 
+Opgave 4: [PostMapping](opgave_postmapping.md)
+
+
 
 
 
