@@ -37,3 +37,24 @@ Vær opmærksom på at vi ikke tester endpoints med PostMan, men med HTTP Client
 - at kunne lave både GET og POST mappings i Spring Boot
 - at kunne teste både GET og POST endpoints i Spring Boot med “HTTP Client” i IntelliJ
 
+
+## Indhold
+
+###  Struktur i en Spring Boot applikation
+```text
+src
+ └── main
+     └── java
+         └── com.example.demo
+             ├── controller
+             ├── service
+             ├── repository
+             └── model
+```
+
+- `controller` håndterer HTTP-forespørgsler
+- `service` indeholder forretningslogik
+- `repository` håndterer dataadgang
+- `model` indeholder klasser der beskriver applikationens data, dvs de data der flyder imellem client og server
+
+Det er vigtigt at alle pakker ligger under projektets rod-pakke, her: com.example.demo
