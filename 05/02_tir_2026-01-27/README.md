@@ -63,4 +63,7 @@ Det er vigtigt at alle pakker ligger under projektets rod-pakke, her: com.exampl
 
 Opgave 1: [@Controller og ResponseEntity](opgave_annotations_@restcontroller_@controller.md)
 
+Opgave 2: [Test i HTTP Client](opgave_http_test.md)
+
+
 
