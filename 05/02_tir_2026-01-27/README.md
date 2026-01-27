@@ -58,3 +58,8 @@ src
 - `model` indeholder klasser der beskriver applikationens data, dvs de data der flyder imellem client og server
 
 Det er vigtigt at alle pakker ligger under projektets rod-pakke, her: com.example.demo
+
+## Aktiviteter
+
+Opgave 1: [@Controller og ResponseEntity]()
+
