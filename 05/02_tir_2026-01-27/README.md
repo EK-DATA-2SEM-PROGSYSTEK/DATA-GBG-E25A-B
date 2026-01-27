@@ -61,5 +61,6 @@ Det er vigtigt at alle pakker ligger under projektets rod-pakke, her: com.exampl
 
 ## Aktiviteter
 
-Opgave 1: [@Controller og ResponseEntity]()
+Opgave 1: [@Controller og ResponseEntity](opgave_annotations_@restcontroller_@controller.md)
+
 
