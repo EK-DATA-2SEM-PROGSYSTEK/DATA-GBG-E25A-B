@@ -16,6 +16,8 @@ Se video på LinkedInLearning: [HTML Essential Training](https://www.linkedin.co
 
 Se fra “CSS syntax and terminology” i afsnit 2, samt hele afsnit 3 om “CSS Box Model” i [CSS Essential Training](https://www.linkedin.com/learning/css-essential-training-22688362/css-syntax-and-terminology?resume=false&u=36836804)
 
+Se videoen  [Build a Classic Layout FAST in CSS Grid ](https://www.youtube.com/watch?v=KOvGeFUHAC0)
+
 Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3schools.com/html/default.asp) (til og med HTML Paragraphs).
 
 
@@ -26,11 +28,13 @@ Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3scho
 - at kunne oprette simple HTML-sider
 - at kende til brugen af CSS
 - at kende til CSS box layout
+- at kende til CSS grid layout
 - at vide hvordan statiske HTML-sider fungerer i Spring Boot
 
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
