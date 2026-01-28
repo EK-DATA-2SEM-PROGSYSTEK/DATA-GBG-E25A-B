@@ -12,6 +12,8 @@ HTML/CSS emnet afrundes ved at vi afprøver hvordan man laver statiske HTML-side
 
 ## Forberedelse
 
+Se introduktopnsvideo om HTML: [HTML in 100 Seconds](https://www.youtube.com/watch?v=ok-plXXHlWw&list=PLEeqf0uSZqXsa5psDHHdU5i4VkkE4wF1s)
+
 Se video på LinkedInLearning: [HTML Essential Training](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36836804)  (sektion 1 til og med sektion 4 samt sektion 10)).
 
 Se fra “CSS syntax and terminology” i afsnit 2, samt hele afsnit 3 om “CSS Box Model” i [CSS Essential Training](https://www.linkedin.com/learning/css-essential-training-22688362/css-syntax-and-terminology?resume=false&u=36836804)
@@ -34,6 +36,7 @@ Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3scho
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
