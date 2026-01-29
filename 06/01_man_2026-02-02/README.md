@@ -13,11 +13,12 @@ HTML/CSS emnet afrundes ved at vi afprøver hvordan man laver statiske HTML-side
 ## Forberedelse
 
 ### Se disse videoer:
-Introduktopnsvideo om HTML: [HTML in 100 Seconds](https://www.youtube.com/watch?v=ok-plXXHlWw&list=PLEeqf0uSZqXsa5psDHHdU5i4VkkE4wF1s)
+Introduktopnsvideo om HTML: [HTML in 100 Seconds](https://www.youtube.com/watch?v=ok-plXXHlWw&list=PLEeqf0uSZqXsa5psDHHdU5i4VkkE4wF1s)  
 HTML-LinkedIn Learning: [HTML Essential Training](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36836804)  (sektion 1 til og med sektion 5 samt sektion 10))  
 CSS-Linkedin Learning: [CSS Essential Training](https://www.linkedin.com/learning/css-essential-training-22688362/css-syntax-and-terminology?resume=false&u=36836804) (Se fra “CSS syntax and terminology” i afsnit 2, samt hele afsnit 3 om “CSS Box Model” )  
 Semantic HTML: [Why & When to Use Semantic HTML Elements over Divs](https://www.youtube.com/watch?v=bOUhq46fd5g)  
-Grid layout  [Build a Classic Layout FAST in CSS Grid ](https://www.youtube.com/watch?v=KOvGeFUHAC0)
+Grid layout  [Build a Classic Layout FAST in CSS Grid ](https://www.youtube.com/watch?v=KOvGeFUHAC0)  
+Chrome developer tool [Chrome DevTools Crash Course - using Chrome 'Inspector' for CSS Development](https://www.youtube.com/watch?v=151NXMk0a2c)
 
 Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3schools.com/html/default.asp) (til og med HTML Paragraphs).
 
@@ -221,6 +222,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
