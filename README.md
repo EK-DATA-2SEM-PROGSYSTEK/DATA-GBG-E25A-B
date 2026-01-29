@@ -68,7 +68,7 @@
 <td></td>
 <td><a href="06/03_ons_2026-02-04/README.md">Onsdag 04-02-2026</a></td>
 <td>Check-in/vejledning på Turistguide 1</td>
-<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td></td><td></td><td><img src="assets/online.png"></td><td></td><td></td><td><img src="assets/online.png"></td><td></td><td></td>
 </tr>
 <tr>
 <td></td>
