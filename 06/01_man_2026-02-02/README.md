@@ -136,7 +136,7 @@ HTML:
   <div>Four</div>
 </div>
 ```
-### Grid med semantisk layout (grid-template-areas)
+### [Grid med semantisk layout (grid-template-areas)](https://www.w3schools.com/cssref/pr_grid-template.php)
 CSS Grid kan bruges til at definere hele sidens layout på en læsbar måde.
 Mobile-first eksempel:
 ```html
@@ -222,6 +222,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
