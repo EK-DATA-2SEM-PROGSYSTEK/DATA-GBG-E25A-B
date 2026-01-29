@@ -115,7 +115,7 @@ p {
 Det anbefales at inspicere elementer i browserens DevTools for visuelt
 at se box modellens opbygning og forstå spacing.
 
-### CSS Grid – layout med rækker og kolonner
+### [CSS Grid – layout med rækker og kolonner](https://www.w3schools.com/css/css_grid.asp)
 CSS Grid er et todimensionelt layout-system, hvor man arbejder med både
 rækker og kolonner samtidig.
 Et grid aktiveres med display: grid.
@@ -222,6 +222,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
