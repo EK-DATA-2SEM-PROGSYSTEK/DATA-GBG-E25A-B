@@ -200,7 +200,7 @@ indholdets størrelse kan variere.
 Sammen giver `em`, `fr` og `auto` mulighed for at lave fleksible og responsive
 layouts, der tilpasser sig både indhold og skærmstørrelse.
 
-### Responsivt grid med media query
+### [Responsivt grid med media query](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 Layoutet kan ændres ved større skærme uden at ændre HTML-strukturen:
 ```html
 @media (min-width: 40em) {
@@ -222,6 +222,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
