@@ -168,6 +168,38 @@ HTML:
 <main>Main content</main>
 <footer>Footer</footer>
 ```
+### Vigtige CSS-enheder og begreber
+
+Når man arbejder med CSS, anvendes forskellige enheder og nøgleord til at
+beskrive størrelser, afstande og layout. Tre særligt vigtige begreber
+er `em`, `fr` og `auto`.
+
+Begrebet `em` er en relativ enhed, der tager udgangspunkt i den aktuelle
+skriftstørrelse. Én `em` svarer til font-størrelsen på det element, som styles,
+eller dets nærmeste forælder. Hvis et element har en font-størrelse på 16px,
+vil `1em` svare til 16px, mens `2em` svarer til 32px. Fordelen ved `em` er, at
+størrelser skalerer naturligt, hvis brugeren ændrer tekststørrelse i browseren.
+Ulempen kan være, at værdierne kan blive svære at overskue, hvis flere elementer
+arver og multiplicerer font-størrelser.
+
+I CSS Grid anvendes ofte enheden `fr`, som står for “fraction”. `fr` bruges til
+at fordele den tilgængelige plads i en grid-container. Når man eksempelvis
+skriver `grid-template-columns: 1fr 3fr`, betyder det, at den første kolonne
+får én del af den tilgængelige plads, mens den anden kolonne får tre dele.
+`fr`-enheden gør det nemt at lave fleksible layouts, hvor kolonner automatisk
+tilpasser sig containerens bredde.
+
+Nøgleordet `auto` bruges i CSS til at lade browseren beregne størrelsen
+automatisk. Når `auto` anvendes på bredde eller højde, betyder det, at elementet
+tilpasser sig sit indhold eller den plads, der er til rådighed. I CSS Grid
+bruges `auto` ofte i `grid-template-rows` eller `grid-template-columns` til
+rækker eller kolonner, der skal have den højde eller bredde, som indholdet
+kræver. Dette er særligt nyttigt til elementer som header og footer, hvor
+indholdets størrelse kan variere.
+
+Sammen giver `em`, `fr` og `auto` mulighed for at lave fleksible og responsive
+layouts, der tilpasser sig både indhold og skærmstørrelse.
+
 ### Responsivt grid med media query
 Layoutet kan ændres ved større skærme uden at ændre HTML-strukturen:
 ```html
@@ -190,6 +222,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
