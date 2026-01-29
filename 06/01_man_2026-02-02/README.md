@@ -72,7 +72,7 @@ HTML og CSS anvendes bl.a. til:
 I dette forløb arbejdes der med klassiske HTML-sider, som senere kan indgå
 som statiske views i en Spring Boot-applikation.
 
-### CSS – grundlæggende styling
+### [CSS – grundlæggende styling](https://www.w3schools.com/html/html_css.asp)
 
 CSS skrives som regler, der består af:
 
@@ -222,6 +222,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
