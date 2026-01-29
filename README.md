@@ -56,7 +56,7 @@
 <td>06</td>
 <td><a href="06/01_man_2026-02-02/README.md">Mandag 02-02-2026</a></td>
 <td>HTML & CSS</td>
-<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td></td><td>X</td><td></td><td></td><td></td><td>X</td><td></td><td></td>
 </tr>
 <tr>
 <td></td>
