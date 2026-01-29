@@ -92,7 +92,7 @@ h1 {
   font-weight: lighter;
 }
 ```
-CSS-filen kobles til HTML via <link> i <head>
+CSS-filen kobles til HTML via et <link>-element i <head>
 
 ### [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
 Alle HTML-elementer renderes som rektangulære bokse.
@@ -222,6 +222,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
