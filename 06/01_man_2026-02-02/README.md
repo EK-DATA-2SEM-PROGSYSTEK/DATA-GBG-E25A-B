@@ -94,7 +94,7 @@ h1 {
 ```
 CSS-filen kobles til HTML via <link> i <head>
 
-### CSS Box Model
+### [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
 Alle HTML-elementer renderes som rektangulære bokse.
 Browseren anvender CSS Box Model til at beregne et elements samlede størrelse.
 
@@ -222,6 +222,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
