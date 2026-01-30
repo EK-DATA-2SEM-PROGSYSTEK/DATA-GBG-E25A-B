@@ -470,7 +470,7 @@
 <tr>
 <td></td>
 <td><a href="19/02_tir_2026-05-05/README.md">Tirsdag 05-05-2026</a></td>
-<td>ITF:  projektvejledning</td>
+<td>Eksamensprojekt - sprint 1</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 <tr>
@@ -488,7 +488,7 @@
 <tr>
 <td></td>
 <td><a href="19/05_fre_2026-05-08/README.md">Fredag 08-05-2026</a></td>
-<td>Eksamensprojekt - sprint 1</td>
+<td>ITF:</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 
@@ -497,7 +497,7 @@
 <tr>
 <td>20</td>
 <td><a href="20/01_man_2026-05-11/README.md">Mandag 11-05-2026</a></td>
-<td>Eksamensprojekt - sprint 1</td>
+<td>ITF:</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 <tr>
