@@ -115,6 +115,59 @@ p {
 Det anbefales at inspicere elementer i browserens DevTools for visuelt
 at se box modellens opbygning og forstå spacing.
 
+### CSS selectors – class og id
+
+CSS selectors bruges til at angive, hvilke HTML-elementer en CSS-regel skal
+anvendes på. To af de mest anvendte selectors er **class selectors** og
+**id selectors**. De bruges begge til at style specifikke elementer, men har
+forskellige formål og anvendelser.
+
+En **class selector** bruges, når den samme styling skal genbruges på flere
+elementer. En class angives i HTML med attributten `class` og refereres i CSS
+med et punktum (`.`). Det samme class-navn kan bruges på så mange elementer,
+man ønsker.
+
+Eksempel på brug af class:
+
+```html
+HTML:
+<p class="highlight">Dette er vigtigt</p>
+<p class="highlight">Dette er også vigtigt</p>
+
+CSS:
+.highlight {
+  background-color: #ffffcc;
+  padding: 0.5em;
+}
+```
+Her får begge paragraffer samme styling, fordi de deler samme class.
+
+En id selector bruges til at identificere ét unikt element på siden.
+Et id angives i HTML med attributten id og refereres i CSS med et hashtag
+(#). Et id må kun forekomme én gang i et HTML-dokument.
+
+Eksempel på brug af id:
+```html
+HTML:
+<header id="main-header">
+  <h1>Min hjemmeside</h1>
+</header>
+
+CSS:
+#main-header {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 1em;
+}
+```
+Her styles kun det ene element med id’et main-header.
+
+Som tommelfingerregel bruges class, når styling skal genbruges på flere
+elementer, og id, når et element er unikt, fx hovedheader, hovednavigation
+eller main content. I praksis anvendes class langt oftere end id, især i større
+projekter og moderne CSS.
+
+
 ### [CSS Grid – layout med rækker og kolonner](https://www.w3schools.com/css/css_grid.asp)
 CSS Grid er et todimensionelt layout-system, hvor man arbejder med både
 rækker og kolonner samtidig.
@@ -222,6 +275,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
