@@ -115,7 +115,7 @@ p {
 Det anbefales at inspicere elementer i browserens DevTools for visuelt
 at se box modellens opbygning og forstå spacing.
 
-### CSS selectors – class og id
+### [CSS selectors – class og id](https://www.w3schools.com/css/css_selectors.asp)
 
 CSS selectors bruges til at angive, hvilke HTML-elementer en CSS-regel skal
 anvendes på. To af de mest anvendte selectors er **class selectors** og
@@ -275,6 +275,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
