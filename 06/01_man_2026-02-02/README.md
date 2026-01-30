@@ -30,6 +30,7 @@ Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3scho
 - at kunne oprette simple HTML-sider
 - at kende til brugen af CSS
 - at kende til CSS box model
+- at kende CSS selectors
 - at kende til CSS grid layout
 - at vide hvordan statiske HTML-sider fungerer i Spring Boot
 
@@ -275,6 +276,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
