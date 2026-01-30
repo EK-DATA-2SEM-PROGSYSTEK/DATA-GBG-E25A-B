@@ -240,13 +240,13 @@
 <tr>
 <td></td>
 <td><a href="11/04_tor_2026-03-12/README.md">Torsdag 12-03-2026</a></td>
-<td>ITF:</td>
+<td>Database deployment</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 <tr>
 <td></td>
 <td><a href="11/05_fre_2026-03-13/README.md">Fredag 13-03-2026</a></td>
-<td>Database deployment</td>
+<td>Databasetransaktioner</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 
@@ -306,7 +306,7 @@
 <tr>
 <td></td>
 <td><a href="13/04_tor_2026-03-26/README.md">Torsdag 26-03-2026</a></td>
-<td>Databasetransaktioner</td>
+<td>ITF:</td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 <tr>
