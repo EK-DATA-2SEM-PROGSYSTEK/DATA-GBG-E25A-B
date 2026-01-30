@@ -22,7 +22,8 @@ Chrome developer tool [Chrome DevTools Crash Course - using Chrome 'Inspector' f
 
 Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3schools.com/html/default.asp) (til og med HTML Paragraphs).
 
-
+### Resourcer
+I kan klone eksempelkode her:
 
 ## Læringsmål
 
@@ -276,6 +277,7 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+
 
 
 
