@@ -23,7 +23,8 @@ Chrome developer tool [Chrome DevTools Crash Course - using Chrome 'Inspector' f
 Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3schools.com/html/default.asp) (til og med HTML Paragraphs).
 
 ### Resourcer
-I kan klone eksempelkode her: [html-css](https://github.com/EK-DATA-2SEM-PROGSYSTEK/html-css)
+I kan klone eksempelkode her: [html-css](https://github.com/EK-DATA-2SEM-PROGSYSTEK/html-css)  
+Eksemplerne fra denne side findes i folderen: /src/main/resources/static/GitHub/
 
 ## Læringsmål
 
@@ -279,6 +280,7 @@ Denne tilgang gør det muligt at:
 ## Aktiviteter
 Arbejd med disse [opgaver](opgaver.md)  
 Fortsæt herefter med Turistguide projektet
+
 
 
 
