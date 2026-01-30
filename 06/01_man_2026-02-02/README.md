@@ -277,6 +277,8 @@ Denne tilgang gør det muligt at:
 
 
 ## Aktiviteter
+Arbejd med disse [opgaver](opgaver.md)  
+Fortsæt herefter med Turistguide projektet
 
 
 
