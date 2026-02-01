@@ -45,14 +45,14 @@ bredden.
 
 Udvid evt til tre skærmstørrelser:
 
-Telefon (mobil): standard (ingen media query)
+- Telefon (mobil): standard (ingen media query)
 Layout: 1 kolonne (stack)
 
-Tablet / mellem skærm: @media (min-width: 40em)
+- Tablet / mellem skærm: @media (min-width: 40em)
 Ca. 640px hvis 1em ≈ 16px
 Layout: 2 kolonner (nav + main)
 
-Desktop / stor skærm: @media (min-width: 70em)
+- Desktop / stor skærm: @media (min-width: 70em)
 Ca. 1120px hvis 1em ≈ 16px
 Layout: stadig 2 kolonner, men centreret og “luftigere” med max-width og bredere nav
 
