@@ -76,3 +76,22 @@ Din opgave er at:
 2. forklare hvorfor det fejler
 3. rette CSS’en, så layoutet virker
 
+```html
+body {
+  min-height: 100vh;
+  display: grid;
+  gap: 1em;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+  grid-template-columns: 12em;  
+  grid-template-rows: auto 1fr auto;
+}
+
+header { grid-area: head; }    
+nav    { grid-area: nav; }
+main   { grid-area: main; }
+footer { grid-area: footer; }
+```
+
