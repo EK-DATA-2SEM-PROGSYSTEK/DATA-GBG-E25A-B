@@ -145,7 +145,7 @@ CSS:
 ```
 Her får begge paragraffer samme styling, fordi de deler samme class.
 
-En id selector bruges til at identificere ét unikt element på siden.
+En **id selector** bruges til at identificere ét unikt element på siden.
 Et id angives i HTML med attributten id og refereres i CSS med et hashtag
 (#). Et id må kun forekomme én gang i et HTML-dokument.
 
@@ -280,6 +280,7 @@ Denne tilgang gør det muligt at:
 ## Aktiviteter
 Arbejd med disse [opgaver](opgaver.md)  
 Fortsæt herefter med Turistguide projektet
+
 
 
 
