@@ -67,7 +67,7 @@ Eksempel på simpel HTML-struktur:
 
 HTML og CSS anvendes bl.a. til:
 
-- statiske informationssider (fx Spring Boot static folder
+- statiske informationssider (fx Spring Boot static folder)
 - views og templates i backend-frameworks (fx Spring Boot template folder)
 - layout og styling af brugergrænseflader
 - responsive designs til mobil, tablet og desktop
@@ -280,6 +280,7 @@ Denne tilgang gør det muligt at:
 ## Aktiviteter
 Arbejd med disse [opgaver](opgaver.md)  
 Fortsæt herefter med Turistguide projektet
+
 
 
 
