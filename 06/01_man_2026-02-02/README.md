@@ -72,8 +72,8 @@ HTML og CSS anvendes bl.a. til:
 - layout og styling af brugergrænseflader
 - responsive designs til mobil, tablet og desktop
 
-I dette forløb arbejdes der med klassiske HTML-sider, som senere kan indgå
-som statiske views i en Spring Boot-applikation.
+I dette forløb arbejdes der med statiske HTML-sider, som senere kan indgå
+som template views i en Spring Boot-applikation.
 
 ### [CSS – grundlæggende styling](https://www.w3schools.com/html/html_css.asp)
 
@@ -280,6 +280,7 @@ Denne tilgang gør det muligt at:
 ## Aktiviteter
 Arbejd med disse [opgaver](opgaver.md)  
 Fortsæt herefter med Turistguide projektet
+
 
 
 
