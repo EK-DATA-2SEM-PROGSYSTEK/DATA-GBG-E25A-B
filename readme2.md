@@ -381,15 +381,15 @@
   <td></td>
   <td><a href="15/02_tir_2026-04-07/README.md">Tirsdag 07-04-2026</a></td>
   <td>User interface design</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="15/03_ons_2026-04-08/README.md">Onsdag 08-04-2026</a></td>
   <td>Kickoff - Wishlist-projekt &amp; GitHub Projects + evaluering</td>
-  <td></td>
-  <td></td>
+  <td>MANY</td>
+  <td>Samlæst</td>
 </tr>
 <tr>
   <td></td>
@@ -402,7 +402,7 @@
   <td></td>
   <td><a href="15/05_fre_2026-04-10/README.md">Fredag 10-04-2026</a></td>
   <td>Wishlist - projektvejledning</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
@@ -412,22 +412,22 @@
   <td>16</td>
   <td><a href="16/01_man_2026-04-13/README.md">Mandag 13-04-2026</a></td>
   <td>Wishlist projektvejledning</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="16/02_tir_2026-04-14/README.md">Tirsdag 14-04-2026</a></td>
   <td>Usability test</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="16/03_ons_2026-04-15/README.md">Onsdag 15-04-2026</a></td>
   <td>Check-in/vejledning på Wishlist</td>
-  <td></td>
-  <td></td>
+  <td>IANB/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -440,7 +440,7 @@
   <td></td>
   <td><a href="16/05_fre_2026-04-17/README.md">Fredag 17-04-2026</a></td>
   <td>Wishlist - projektvejledning</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
@@ -450,22 +450,22 @@
   <td>17</td>
   <td><a href="17/01_man_2026-04-20/README.md">Mandag 20-04-2026</a></td>
   <td>Readme og contribute</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="17/02_tir_2026-04-21/README.md">Tirsdag 21-04-2026</a></td>
   <td>Wishlist projektvejledning</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="17/03_ons_2026-04-22/README.md">Onsdag 22-04-2026</a></td>
   <td>Wishlist - projektvejledning</td>
-  <td></td>
-  <td></td>
+  <td>IANB/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -478,7 +478,7 @@
   <td></td>
   <td><a href="17/05_fre_2026-04-24/README.md">Fredag 24-04-2026</a></td>
   <td>Afslutning Wishlist-projekt: eksamenstræning &amp; retrospective</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
@@ -489,21 +489,21 @@
   <td>18</td>
   <td><a href="18/01_man_2026-04-27/README.md">Mandag 27-04-2026</a></td>
   <td>Wishlist projekt feedback fortsat (eksamenstræning)</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="18/02_tir_2026-04-28/README.md">Tirsdag 28-04-2026</a></td>
   <td>Repetition</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="18/03_ons_2026-04-29/README.md">Onsdag 29-04-2026</a></td>
   <td>Præsentation af eksamensprojekt (Sprint 0)</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
@@ -517,7 +517,7 @@
   <td></td>
   <td><a href="18/05_fre_2026-05-01/README.md">Fredag 01-05-2026</a></td>
   <td>Eksamensprojekt - sprint 1</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
@@ -527,22 +527,22 @@
   <td>19</td>
   <td><a href="19/01_man_2026-05-04/README.md">Mandag 04-05-2026</a></td>
   <td>Rapport, præsentation, eksamination</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="19/02_tir_2026-05-05/README.md">Tirsdag 05-05-2026</a></td>
   <td>Eksamensprojekt - sprint 1</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="19/03_ons_2026-05-06/README.md">Onsdag 06-05-2026</a></td>
   <td>Eksamensprojekt - statusmøde</td>
-  <td></td>
-  <td></td>
+  <td>SIEB/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -572,14 +572,14 @@
   <td></td>
   <td><a href="20/02_tir_2026-05-12/README.md">Tirsdag 12-05-2026</a></td>
   <td>Eksamensprojekt - sprint 1</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="20/03_ons_2026-05-13/README.md">Onsdag 13-05-2026</a></td>
   <td>Eksamensprojekt - statusmøde</td>
-  <td></td>
+  <td>SIEB/MANY</td>
   <td></td>
 </tr>
 <tr>
@@ -603,22 +603,22 @@
   <td>21</td>
   <td><a href="21/01_man_2026-05-18/README.md">Mandag 18-05-2026</a></td>
   <td>Eksamensprojekt - sprint 2</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="21/02_tir_2026-05-19/README.md">Tirsdag 19-05-2026</a></td>
   <td>Eksamensprojekt - sprint 2</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="21/03_ons_2026-05-20/README.md">Onsdag 20-05-2026</a></td>
   <td>Eksamensprojekt - statusmøde</td>
-  <td></td>
-  <td></td>
+  <td>IANB/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -631,7 +631,7 @@
   <td></td>
   <td><a href="21/05_fre_2026-05-22/README.md">Fredag 22-05-2026</a></td>
   <td>Eksamensprojekt - sprint 2</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 
