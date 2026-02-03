@@ -19,22 +19,22 @@
   <td>05</td>
   <td><a href="05/01_man_2026-01-26/README.md">Mandag 26-01-2026</a></td>
   <td>Introduktion til semester og Spring Boot</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="05/02_tir_2026-01-27/README.md">Tirsdag 27-01-2026</a></td>
   <td>Spring Boot, Turistguide 1</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="05/03_ons_2026-01-28/README.md">Onsdag 28-01-2026</a></td>
   <td>Check-in/vejledning på Turistguide 1</td>
-  <td></td>
-  <td></td>
+  <td>SIEB/IANB</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -47,7 +47,7 @@
   <td></td>
   <td><a href="05/05_fre_2026-01-30/README.md">Fredag 30-01-2026</a></td>
   <td>Spring Boot arkitektur + opgaver/konsolidering af Spring Boot</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
@@ -640,7 +640,7 @@
 <tr>
   <td>22</td>
   <td><a href="22/01_man_2026-05-25/README.md">Mandag 25-05-2026</a></td>
-  <td>Eksamensprojekt - sprint 2</td>
+  <td>Undervisningsfri (Pinsemandag)</td>
   <td></td>
   <td></td>
 </tr>
