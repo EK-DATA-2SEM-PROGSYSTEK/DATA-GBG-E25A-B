@@ -96,22 +96,22 @@
   <td>07</td>
   <td><a href="07/01_man_2026-02-09/README.md">Mandag 09-02-2026</a></td>
   <td>Introduktion til ThymeLeaf</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="07/02_tir_2026-02-10/README.md">Tirsdag 10-02-2026</a></td>
   <td>ThymeLeaf, HTML forms &amp; Thymeleaf, Turistguide 2</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="07/03_ons_2026-02-11/README.md">Onsdag 11-02-2026</a></td>
   <td>Check-in/vejledning på Turistguide 2</td>
-  <td></td>
-  <td></td>
+  <td>IANB/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -124,7 +124,7 @@
   <td></td>
   <td><a href="07/05_fre_2026-02-13/README.md">Fredag 13-02-2026</a></td>
   <td>MockMVC og test af Controller</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
