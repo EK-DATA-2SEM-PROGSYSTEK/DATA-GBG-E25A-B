@@ -64,14 +64,14 @@
   <td></td>
   <td><a href="06/02_tir_2026-02-03/README.md">Tirsdag 03-02-2026</a></td>
   <td>Java Collections, Map</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="06/03_ons_2026-02-04/README.md">Onsdag 04-02-2026</a></td>
   <td>Check-in/vejledning på Turistguide 1</td>
-  <td>-</td>
+  <td>IANB/MANY</td>
   <td>Online</td>
 </tr>
 <tr>
@@ -85,7 +85,7 @@
   <td></td>
   <td><a href="06/05_fre_2026-02-06/README.md">Fredag 06-02-2026</a></td>
   <td>Feedback Turistguide 1</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 
