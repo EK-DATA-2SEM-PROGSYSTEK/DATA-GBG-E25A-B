@@ -287,22 +287,22 @@
   <td>12</td>
   <td><a href="12/01_man_2026-03-16/README.md">Mandag 16-03-2026</a></td>
   <td>Integrationstest med H2 database</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="12/02_tir_2026-03-17/README.md">Tirsdag 17-03-2026</a></td>
   <td>Vejledning turistguide 3</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="12/03_ons_2026-03-18/README.md">Onsdag 18-03-2026</a></td>
   <td>Check-in/vejledning på Turistguide 3</td>
-  <td></td>
-  <td></td>
+  <td>IANB/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -315,7 +315,7 @@
   <td></td>
   <td><a href="12/05_fre_2026-03-20/README.md">Fredag 20-03-2026</a></td>
   <td>Vejledning turistguide 3</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
