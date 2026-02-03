@@ -314,7 +314,7 @@
 <tr>
   <td></td>
   <td><a href="12/05_fre_2026-03-20/README.md">Fredag 20-03-2026</a></td>
-  <td>Vejledning turistguide 3</td>
+  <td>Vejledning turistguide </td>
   <td>IANB</td>
   <td></td>
 </tr>
@@ -325,14 +325,14 @@
   <td>13</td>
   <td><a href="13/01_man_2026-03-23/README.md">Mandag 23-03-2026</a></td>
   <td>Fejlhåndtering i Spring Boot</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="13/02_tir_2026-03-24/README.md">Tirsdag 24-03-2026</a></td>
   <td>Sessions</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
@@ -353,7 +353,7 @@
   <td></td>
   <td><a href="13/05_fre_2026-03-27/README.md">Fredag 27-03-2026</a></td>
   <td>Turistguide del 3 - feedback</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 
