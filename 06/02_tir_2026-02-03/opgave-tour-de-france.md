@@ -65,7 +65,7 @@ JONAS ABRAHAMSEN, ANDERS HALLAND JOHANNESSEN, MAGNUS CORT NIELSEN og STIAN EDVAR
 
 ### Hints:
 
-Der kan læses fra en tekstfil på flere forskellige måder. En måde er at bruger ```Scanner```:
+Der kan læses fra en tekstfil på flere forskellige måder. En måde er at bruge ```Scanner```:
 
 ```
 public class TDFFileReader {
