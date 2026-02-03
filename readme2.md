@@ -249,35 +249,35 @@
   <td>11</td>
   <td><a href="11/01_man_2026-03-09/README.md">Mandag 09-03-2026</a></td>
   <td>JDBCtemplate og Spring 1, Turistguide del 3</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="11/02_tir_2026-03-10/README.md">Tirsdag 10-03-2026</a></td>
   <td>JDBCtemplate og Spring 2, functional interfaces</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="11/03_ons_2026-03-11/README.md">Onsdag 11-03-2026</a></td>
   <td>Azure deployment</td>
-  <td></td>
-  <td></td>
+  <td>MANY</td>
+  <td>Samlæst</td>
 </tr>
 <tr>
   <td></td>
   <td><a href="11/04_tor_2026-03-12/README.md">Torsdag 12-03-2026</a></td>
   <td>Database deployment</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="11/05_fre_2026-03-13/README.md">Fredag 13-03-2026</a></td>
   <td>Databasetransaktioner</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
