@@ -172,22 +172,22 @@
   <td>09</td>
   <td><a href="09/01_man_2026-02-23/README.md">Mandag 23-02-2026</a></td>
   <td>GitHub Actions 1</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="09/02_tir_2026-02-24/README.md">Tirsdag 24-02-2026</a></td>
   <td>GitHub Actions 2</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="09/03_ons_2026-02-25/README.md">Onsdag 25-02-2026</a></td>
   <td>Check-in/vejledning på Turistguide 2</td>
-  <td></td>
-  <td></td>
+  <td>SIEB/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -200,7 +200,7 @@
   <td></td>
   <td><a href="09/05_fre_2026-02-27/README.md">Fredag 27-02-2026</a></td>
   <td>Feedback og review af Turistguide 2</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
