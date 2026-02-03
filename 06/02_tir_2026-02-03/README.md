@@ -26,7 +26,7 @@ Læs:
 
 ## Læringsmål
 
-- At kunne beskrive forskellen mellem Java Collection Framework typer som ist, Map og Set
+- At kunne beskrive forskellen mellem Java Collection Framework typer som List, Map og Set
 - At kunne udvælge og anvende passende collection typer
 - At kunne forklare og implementere unittest
 
@@ -192,4 +192,6 @@ An object that maps keys to values.
 
 ---
 
-## Aktiviteter
+### [Opgave Tour de France](opgave-tour-de-france.md)
+
+___
