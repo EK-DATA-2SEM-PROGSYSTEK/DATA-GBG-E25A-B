@@ -648,15 +648,15 @@
   <td></td>
   <td><a href="22/02_tir_2026-05-26/README.md">Tirsdag 26-05-2026</a></td>
   <td>Eksamensprojekt - sprint 2</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="22/03_ons_2026-05-27/README.md">Onsdag 27-05-2026</a></td>
   <td>Eksamensprojekt - aflevering</td>
-  <td></td>
-  <td></td>
+  <td>SIEB/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
