@@ -211,35 +211,35 @@
   <td>10</td>
   <td><a href="10/01_man_2026-03-02/README.md">Mandag 02-03-2026</a></td>
   <td>E/R model og relationel model</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="10/02_tir_2026-03-03/README.md">Tirsdag 03-03-2026</a></td>
   <td>Introduktion til SQL og DDL</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="10/03_ons_2026-03-04/README.md">Onsdag 04-03-2026</a></td>
   <td>SQL opgaver</td>
-  <td></td>
-  <td></td>
+  <td>SIEB/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
   <td><a href="10/04_tor_2026-03-05/README.md">Torsdag 05-03-2026</a></td>
   <td>SQL joins</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="10/05_fre_2026-03-06/README.md">Fredag 06-03-2026</a></td>
   <td>Normalisering</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
