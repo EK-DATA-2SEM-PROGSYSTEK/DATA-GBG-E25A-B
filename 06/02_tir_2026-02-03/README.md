@@ -149,7 +149,7 @@ kræves at `equals()` metoden er overridden. `hashCode()`skal også være overri
 
 ---
 
-### [Opgave: Unittest](opgave-movie-unittest.md)
+### [Opgave: Unittest](opgave-movie-test.md)
 
 ---
 
