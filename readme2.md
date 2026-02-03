@@ -134,22 +134,22 @@
   <td>08</td>
   <td><a href="08/01_man_2026-02-16/README.md">Mandag 16-02-2026</a></td>
   <td>Operativsystemer, command shell &amp; Git Bash</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="08/02_tir_2026-02-17/README.md">Tirsdag 17-02-2026</a></td>
   <td>Kode review med pull requests</td>
-  <td></td>
+  <td>SIEB</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="08/03_ons_2026-02-18/README.md">Onsdag 18-02-2026</a></td>
   <td>Check-in/vejledning på Turistguide 2</td>
-  <td></td>
-  <td></td>
+  <td>IANB/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -162,7 +162,7 @@
   <td></td>
   <td><a href="08/05_fre_2026-02-20/README.md">Fredag 20-02-2026</a></td>
   <td>Statisk kodeanalyse med tools</td>
-  <td></td>
+  <td>IANB</td>
   <td></td>
 </tr>
 
