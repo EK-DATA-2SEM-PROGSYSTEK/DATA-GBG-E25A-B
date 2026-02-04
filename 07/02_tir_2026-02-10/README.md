@@ -1,5 +1,7 @@
 # Thymeleaf & HTML forms, Turistguide 2
 
+## Underviser: Signe
+
 ## Beskrivelse
 
 
@@ -25,6 +27,7 @@ Se disse videoer om Thymeleaf og forms i [Thymeleaf Tutorial](https://www.youtub
 - at kunne anvende HTML forms i Thymeleaf
 - at forstå annotatioen @ModelAttribute
 - at kunne håndtere response/redirect i controlleren
+
 
 
 
