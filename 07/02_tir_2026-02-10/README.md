@@ -5,7 +5,7 @@
 ## Beskrivelse
 
 
-Vi skal arbejde HTML forms, og I vil lære hvordan man får data fra en HTML form til en Spring Boot applikation ved brug af Thymeleaf.
+Vi skal arbejde med HTML forms, og I vil lære hvordan man får data fra en HTML form til en Spring Boot applikation ved brug af Thymeleaf.
 
 I kommer til at starte på 2. del af Turistguideprojektet, som skal afleveres onsdag 25. februar.
 
@@ -27,6 +27,7 @@ Se disse videoer om Thymeleaf og forms i [Thymeleaf Tutorial](https://www.youtub
 - at kunne anvende HTML forms i Thymeleaf
 - at forstå annotatioen @ModelAttribute
 - at kunne håndtere response/redirect i controlleren
+
 
 
 
