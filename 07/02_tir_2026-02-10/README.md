@@ -24,9 +24,10 @@ Se disse videoer om Thymeleaf og forms i [Thymeleaf Tutorial](https://www.youtub
 
 
 ## Læringsmål
-- at kunne anvende HTML forms i Thymeleaf
+- at kunne anvende HTML forms med Thymeleaf
 - at forstå annotationen @ModelAttribute
 - at kunne håndtere response/redirect i controlleren
+
 
 
 
