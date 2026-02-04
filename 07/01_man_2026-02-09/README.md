@@ -1,4 +1,4 @@
-# Introduktion til Thymeleaf & Turistguide del 2
+# Introduktion til Thymeleaf
 
 ## Underviser: Signe
 
@@ -25,4 +25,5 @@ Se følgende afsnit i videoen [Thymeleaf Tutorial](https://www.youtube.com/watch
 
 - at kunne anvende simple Thymeleaf attributes i HTML sider
 - at forstå hvordan Model-objektet fungerer i Spring Boot og Thymeleaf
+
 
