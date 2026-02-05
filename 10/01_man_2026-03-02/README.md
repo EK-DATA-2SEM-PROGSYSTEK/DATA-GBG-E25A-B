@@ -10,7 +10,12 @@ Se disse videoer:
 [Entity Relationship Diagram (ERD) Tutorial - Part 2: Primary keys, foreign keys, and bridge tables](https://www.youtube.com/watch?v=hktyW5Lp0Vo)  
 
 Resourcer:  
-[Understanding Crow's Foot Notation: Symbols & Usage Guide](https://creately.com/guides/crows-foot-notation/)
+[Understanding Crow's Foot Notation: Symbols & Usage Guide](https://creately.com/guides/crows-foot-notation/)  
+
+Værktøjer:  
+[Visual Paradigm](https://online.visual-paradigm.com/)  
+[Lucid Chart](https://lucid.app/)  
+[Diagrams.net](https://app.diagrams.net/)
 
 ## Læringsmål
 - kan forklare hvordan en relationel database er opbygget
@@ -20,6 +25,7 @@ Resourcer:
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
