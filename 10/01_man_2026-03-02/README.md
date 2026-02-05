@@ -4,7 +4,10 @@
 
 
 ## Forberedelse
-
+Se disse videoer:  
+[What Is a Relational Database? | Beginner’s Guide](https://www.youtube.com/watch?v=zDNAOM6Mx4E)  (til 6:30)
+[]()  
+[]()
 
 ## Læringsmål
 - kan forklare hvordan en relationel database er opbygget
@@ -14,5 +17,6 @@
 ## Indhold
 
 ## Aktiviteter
+
 
 
