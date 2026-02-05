@@ -5,8 +5,8 @@
 
 ## Forberedelse
 Se disse videoer:  
-[What Is a Relational Database? | Beginner’s Guide](https://www.youtube.com/watch?v=zDNAOM6Mx4E)  (til 6:30)
-[]()  
+[What Is a Relational Database? | Beginner’s Guide](https://www.youtube.com/watch?v=zDNAOM6Mx4E)  (til 6:30)  
+[Entity Relationship Diagram (ERD) Tutorial - Part 1](https://www.youtube.com/watch?v=xsg9BDiwiJE)  
 []()
 
 ## Læringsmål
@@ -17,6 +17,7 @@ Se disse videoer:
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
