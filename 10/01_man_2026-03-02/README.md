@@ -145,19 +145,8 @@ erDiagram
 ```
 I den relationelle model er nøgler helt centrale:
 
-Primærnøgle (PK)
-Identificerer entydigt en række i en tabel
 
-Fremmednøgle (FK)
-Skaber relationer mellem tabeller og sikrer referentiel integritet
-
-Eksempel:
-        int fag_id FK
-    }
-```
 #### Primærnøgler og fremmednøgler
-I den relationelle model er nøgler helt centrale:
-
 - Primærnøgle (PK)
 Identificerer entydigt en række i en tabel
 
@@ -169,6 +158,7 @@ Eksempel:
 erDiagram
     ORDRE {
         int ordre_id PK
+        int kunde_id FK
         date ordre_dato
     }
 
@@ -183,6 +173,7 @@ Her ligger kunde_id som FK i ORDRE-tabellen.
 
 
 ## Aktiviteter
+
 
 
 
