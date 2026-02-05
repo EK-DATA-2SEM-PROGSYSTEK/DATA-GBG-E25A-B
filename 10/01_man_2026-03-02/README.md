@@ -1,6 +1,7 @@
 # E/R model og relationel model
 
-## Beskrivelse
+## Beskrivelse  
+I dag skal vi se på hvad en relationel database er og hvordan vi modellerer data vha E/R diagrammer
 
 
 ## Forberedelse
@@ -25,6 +26,7 @@ Værktøjer:
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
