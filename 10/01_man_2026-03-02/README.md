@@ -11,6 +11,7 @@ Se disse videoer:
 [Entity Relationship Diagram (ERD) Tutorial - Part 2: Primary keys, foreign keys, and bridge tables](https://www.youtube.com/watch?v=hktyW5Lp0Vo)  
 
 Resourcer:  
+[What is Entity Relationship Diagram (ERD)?](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/)  
 [Understanding Crow's Foot Notation: Symbols & Usage Guide](https://creately.com/guides/crows-foot-notation/)  
 
 Værktøjer:  
@@ -26,6 +27,7 @@ Værktøjer:
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
