@@ -302,10 +302,14 @@ erDiagram
 
     ORDRE ||--|{ ORDRELINJE : indeholder
 ```
+Her:
 
+- ORDRELINJE kan ikke eksistere uden ORDRE
+- primærnøglen består af (ordre_id, linjenummer)
 
 
 ## Aktiviteter
+
 
 
 
