@@ -326,6 +326,15 @@ Her:
 - ORDRELINJE kan ikke eksistere uden ORDRE
 - primærnøglen består af (ordre_id, linjenummer)
 
+I Crow’s Foot notation skelner man visuelt mellem:
+| Relationstype   | Linjetype         | Betydning                                  |
+| --------------- | ----------------- | ------------------------------------------ |
+| Identifying     | **Hel linje**     | Forælderens PK er del af barnets PK        |
+| Non-identifying | **Stiplet linje** | Forælderens PK er *ikke* del af barnets PK |
+
+GitHub/Mermaid understøtter ikke stiplede linjer i ER-diagrammer.
+Identifying vs non-identifying relationer aflæses derfor via primær- og fremmednøgler.
+
 #### Sammenfatning
 
 | Type            | Karakteristika                |
@@ -337,7 +346,9 @@ Her:
 
 
 
+
 ## Aktiviteter
+
 
 
 
