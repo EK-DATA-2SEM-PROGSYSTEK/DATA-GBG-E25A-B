@@ -171,8 +171,142 @@ erDiagram
 ```
 Her ligger kunde_id som FK i ORDRE-tabellen.
 
+#### Ternære relationer
+
+En ternær relation er en relation, der involverer tre entiteter på samme tid.
+De kan ikke altid reduceres korrekt til flere binære relationer uden at miste betydning.
+
+Ternære relationer opstår typisk, når:
+- en hændelse involverer flere aktører
+- relationen har sin egen semantik (fx tidspunkt, rolle, ansvar)
+
+Eksempel: Underviser tildeler fag til hold
+
+I dette eksempel:
+
+"en underviser underviser et fag for et bestemt hold"
+
+```mermaid
+erDiagram
+    UNDERVISER {
+        int underviser_id PK
+        string navn
+    }
+
+    FAG {
+        int fag_id PK
+        string titel
+    }
+
+    HOLD {
+        int hold_id PK
+        string betegnelse
+    }
+
+    UNDERVISER }o--o{ FAG : underviser
+    FAG }o--o{ HOLD : afholdes_for
+    UNDERVISER }o--o{ HOLD : tilknyttet
+```
+
+I praksis vil en korrekt relationel model ofte kræve en forbindelsestabel, fx:
+UNDERVISNING(underviser_id, fag_id, hold_id)
+
+Her giver det kun mening, at alle tre nøgler eksisterer samtidig.
+
+#### Rekursive relationer
+
+En rekursiv relation er en relation, hvor en entitet er relateret til sig selv.
+
+Det bruges, når objekter i samme tabel kan have:
+
+- hierarkier
+- forældre/barn-forhold
+- afhængigheder
+
+Eksempel: Medarbejder som leder for medarbejdere
+
+```mermaid
+erDiagram
+    MEDARBEJDER {
+        int medarbejder_id PK
+        string navn
+    }
+
+    MEDARBEJDER ||--o{ MEDARBEJDER : leder_for
+```
+Fortolkning:
+
+- En medarbejder kan være leder for mange medarbejdere
+- En medarbejder kan have én leder
+- Relationens fremmednøgle peger tilbage på samme tabel
+
+Relationel implementering:
+MEDARBEJDER(
+    medarbejder_id PK,
+    navn,
+    leder_id FK → MEDARBEJDER.medarbejder_id
+)
+
+### Identifying vs. non-identifying relations
+
+Denne skelnen er vigtig for at forstå, hvordan primærnøgler dannes i relationelle databaser.
+
+Non-identifying relation:
+
+En non-identifying relation betyder, at:
+
+- barnets primærnøgle ikke afhænger af forælderens nøgle
+- fremmednøglen er ikke en del af PK
+
+Eksempel: Kunde og Ordre
+```mermaid
+erDiagram
+    KUNDE {
+        int kunde_id PK
+        string navn
+    }
+
+    ORDRE {
+        int ordre_id PK
+        date ordre_dato
+        int kunde_id FK
+    }
+
+    KUNDE ||--o{ ORDRE : afgiver
+```
+Her:
+- ordre_id identificerer ordren alene
+- kunde_id er kun en fremmednøgle
+
+#### Identifying relation
+
+En identifying relation betyder, at:
+
+- barnets eksistens afhænger af forælderen
+- barnets primærnøgle indeholder forælderens nøgle
+
+Eksempel: Ordre og Ordrelinje
+
+```mermaid
+erDiagram
+    ORDRE {
+        int ordre_id PK
+        date ordre_dato
+    }
+
+    ORDRELINJE {
+        int ordre_id PK, FK
+        int linjenummer PK
+        int antal
+    }
+
+    ORDRE ||--|{ ORDRELINJE : indeholder
+```
+
+
 
 ## Aktiviteter
+
 
 
 
