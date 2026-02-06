@@ -245,9 +245,11 @@ erDiagram
     MEDARBEJDER {
         int medarbejder_id PK
         string navn
+        int leder_id FK
     }
 
     MEDARBEJDER ||--o{ MEDARBEJDER : leder_for
+
 ```
 Fortolkning:
 
@@ -261,6 +263,8 @@ MEDARBEJDER(
     navn,
     leder_id FK → MEDARBEJDER.medarbejder_id
 )
+
+Bemærk: leder_id er nullable, topchefen har ingen leder
 
 ### Identifying vs. non-identifying relations
 
@@ -334,6 +338,7 @@ Her:
 
 
 ## Aktiviteter
+
 
 
 
