@@ -210,7 +210,7 @@ erDiagram
 
     UNDERVISNING {
         int undervisning_id PK
-        string semester
+        string lokale
         int underviser_id FK
         int fag_id FK
         int hold_id FK
@@ -218,7 +218,15 @@ erDiagram
 ```
 
 Her modelleres relationen som:
-én UNDERVISNING-forekomst, der forbinder præcis én Underviser, Ét Fag og Ét Hold, men hvor hver af de tre kan indgå i mange undervisninger
+én UNDERVISNING-forekomst, der forbinder præcis én Underviser, Ét FAG og Ét HOLD, men hvor hver af de tre kan indgå i mange undervisninger.  
+
+Lokale afhænger ikke kun af:
+
+- underviser (samme underviser kan være i flere lokaler)
+- fag (samme fag kan være i forskellige lokaler)
+- hold (samme hold kan være i forskellige lokaler)
+
+Lokale giver derfor kun mening for den konkrete undervisningssituation
 
 #### Rekursive relationer
 
@@ -326,6 +334,7 @@ Her:
 
 
 ## Aktiviteter
+
 
 
 
