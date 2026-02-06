@@ -251,7 +251,7 @@ MEDARBEJDER(
 
 Denne skelnen er vigtig for at forstå, hvordan primærnøgler dannes i relationelle databaser.
 
-Non-identifying relation:
+#### Non-identifying relation:
 
 En non-identifying relation betyder, at:
 
@@ -307,8 +307,19 @@ Her:
 - ORDRELINJE kan ikke eksistere uden ORDRE
 - primærnøglen består af (ordre_id, linjenummer)
 
+#### Sammenfatning
+
+| Type            | Karakteristika                |
+| --------------- | ----------------------------- |
+| Non-identifying | FK er **ikke** del af PK      |
+| Identifying     | FK er **del af** PK           |
+| Rekursiv        | Relation til samme entitet    |
+| Ternær          | Relation mellem tre entiteter |
+
+
 
 ## Aktiviteter
+
 
 
 
