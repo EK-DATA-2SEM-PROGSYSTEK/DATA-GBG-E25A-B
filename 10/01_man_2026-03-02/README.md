@@ -186,8 +186,13 @@ I dette eksempel:
 
 "en underviser underviser et fag for et bestemt hold"
 
+
 ```mermaid
 erDiagram
+    UNDERVISER ||--o{ UNDERVISNING : deltager_i
+    FAG ||--o{ UNDERVISNING : omfatter
+    HOLD ||--o{ UNDERVISNING : afholdes_for
+
     UNDERVISER {
         int underviser_id PK
         string navn
@@ -203,15 +208,17 @@ erDiagram
         string betegnelse
     }
 
-    UNDERVISER }o--o{ FAG : underviser
-    FAG }o--o{ HOLD : afholdes_for
-    UNDERVISER }o--o{ HOLD : tilknyttet
+    UNDERVISNING {
+        int undervisning_id PK
+        string semester
+        int underviser_id FK
+        int fag_id FK
+        int hold_id FK
+    }
 ```
 
-I praksis vil en korrekt relationel model ofte kræve en forbindelsestabel, fx:
-UNDERVISNING(underviser_id, fag_id, hold_id)
-
-Her giver det kun mening, at alle tre nøgler eksisterer samtidig.
+Her modelleres relationen som:
+én UNDERVISNING-forekomst, der forbinder præcis én Underviser, Ét Fag og Ét Hold, men hvor hver af de tre kan indgå i mange undervisninger
 
 #### Rekursive relationer
 
@@ -319,6 +326,7 @@ Her:
 
 
 ## Aktiviteter
+
 
 
 
