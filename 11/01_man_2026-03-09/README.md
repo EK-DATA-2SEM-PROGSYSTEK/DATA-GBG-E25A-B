@@ -12,13 +12,14 @@ Resourcer:
 [JDBC standalone eksempel]()  
 [JDBC Spring Boot eksempel]()
 
-
-
 ## Læringsmål
-
+- Kan lave simpel databaseapplikation, som forbinder et Java Springboot-projekt med en MYSQL database.
+- Kan bruge JdbcTemplate, herunder forklare centrale biblioteksklasser og metoder der er involveret i at få forbindelsen mellem Springboot og databasen til at virke
+- Kan integrere brugen af JDBC Teplate i en Spring Boot applikation, herunder brug af environment variable  
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
