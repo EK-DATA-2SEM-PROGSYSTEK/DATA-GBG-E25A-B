@@ -8,11 +8,17 @@ Vi starter med en standalone applikation som viser de basale ting. Herefter ser 
 
 ## Forberedelse
 
+Resourcer:  
+[JDBC statnalone eksempel]()  
+[JDBC Spring Boot eksempel]()
+
+
 
 ## Læringsmål
 
 ## Indhold
 
 ## Aktiviteter
+
 
 
