@@ -9,7 +9,7 @@ Vi starter med en standalone applikation som viser de basale ting. Herefter ser 
 ## Forberedelse
 
 Resourcer:  
-[JDBC statnalone eksempel]()  
+[JDBC standalone eksempel]()  
 [JDBC Spring Boot eksempel]()
 
 
@@ -19,6 +19,7 @@ Resourcer:
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
