@@ -31,7 +31,7 @@ Se følgende afsnit i videoen [Thymeleaf Tutorial](https://www.youtube.com/watch
 
 ### Hvad er Thymeleaf?
 
-[Thymeleafs referenceside](https://www.thymeleaf.org)
+[Thymeleaf projektets egen tutorial](https://www.thymeleaf.org/doc/tutorials/3.1/usingthymeleaf.html)
 
 - bruges til at generere HTML med dynamisk indhold
 - template engine, der erstatter Thymeleaf variabler og udtryk, fx ${name}, på en HTML template side med Model data fra Controlleren.
@@ -50,6 +50,7 @@ Se følgende afsnit i videoen [Thymeleaf Tutorial](https://www.youtube.com/watch
 [Opgave 3](opgave3_today.md)
 
 [Opgave 4]()
+
 
 
 
