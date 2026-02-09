@@ -27,3 +27,28 @@ Se følgende afsnit i videoen [Thymeleaf Tutorial](https://www.youtube.com/watch
 - at forstå hvordan Model-objektet fungerer i Spring Boot og Thymeleaf
 
 
+## Indhold
+
+### Hvad er Thymeleaf?
+
+[Thymeleafs referenceside](wwww.thymeleaf.org)
+
+- bruges til at generere HTML med dynamisk indhold
+- template engine, der erstatter Thymeleaf variabler og udtryk, fx ${name}, på en HTML template side med Model data fra Controlleren.
+- man skal huske at tilføje Thymeleaf i dependencies
+- Thymeleaf er embedded i HTML tags, fx
+
+
+<img src="htmltag.png" alt="Alt Text" width="300">
+
+
+## Aktiviteter
+
+[Opgave 1]()
+
+[Opgave 2]()
+
+[Opgave 3]()
+
+[Opgave 4]()
+
