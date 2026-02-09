@@ -46,10 +46,12 @@ Se følgende afsnit i videoen [Thymeleaf Tutorial](https://www.youtube.com/watch
 
 [Opgave 1](opgave1_thymeleafdemo.md)
 
+[Opgave 2](opgave2_thymeleafconditions.md)
 
 [Opgave 3](opgave3_today.md)
 
 [Opgave 4](opgave4_isitfriday.md)
+
 
 
 
