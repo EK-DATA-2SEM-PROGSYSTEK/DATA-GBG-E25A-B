@@ -7,6 +7,8 @@ Vi starter med en standalone applikation som viser de basale ting. Herefter ser 
 
 
 ## Forberedelse
+Se denne video:  
+[Spring JDBC Template Tutorial: Learn to build a full CRUD application in Spring Boot](https://www.youtube.com/watch?v=0uLqdBpYAVA&list=PLEeqf0uSZqXutWJ-xNpSs5X4WdwKqBmab)  
 
 Resourcer:  
 [JDBC standalone eksempel]()  
@@ -19,6 +21,7 @@ Resourcer:
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
