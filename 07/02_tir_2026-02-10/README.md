@@ -61,6 +61,15 @@ Dette vil føre os tilbage til endpointet /attractions (som i dette eksempel er 
 Vi kan have behov for at sende data som brugeren ikke skal se med ind i formen fra controlleren, og med tilbage fra formen til næste endpoint. Det kunne fx være et id. Til dette formål bruges hidden fields i formen. Et eksempel: 
 
 ```html
-<input type=hidden th:field="*{id}"/> 
+<input type=hidden th:field="*{id}"/>
+```
+
+## Aktiviteter
+
+[Opgave 1]()
+
+[Opgave 2]()
+
+
 
 
