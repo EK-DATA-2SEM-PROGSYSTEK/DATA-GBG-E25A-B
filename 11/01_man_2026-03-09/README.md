@@ -21,7 +21,6 @@ Resourcer:
 
 ## Indhold  
 Vi skal arbejde med databaseadgang i Spring Boot ved hjælp af JDBC Template. Fokus er på at forstå, hvordan data bevæger sig mellem MySQL-tabeller og Java-objekter.
-
 Undervisningen er bygget op omkring repository-klasser, hvor al databaseadgang samles ét sted, så koden er let at forstå, teste og videreudvikle.
 
 ### Opsætning i Spring Boot: DataSource, dependencies og Dependency Injection
@@ -265,6 +264,7 @@ spring.sql.init.mode=always
 # application-prod.properties
 spring.sql.init.mode=never
 ```
+
 
 
 
