@@ -227,7 +227,7 @@ Spring Profiles bruges typisk til:
 - mock vs. rigtig integration
 
 
-### Initialisering af databasen
+### Automatisk initialisering af databasen
 
 Spring Boot kan automatisk køre SQL-scripts ved opstart.
 
@@ -241,6 +241,30 @@ Dette sikrer, at:
 - tabeller oprettes automatisk
 - databasen starter med kendte testdata
 - alle på holdet arbejder mod samme struktur
+
+### Manuel oprettelse og initialisering af databasen
+
+I et produktionsmiljø er det normalt ikke applikationen, der opretter tabeller eller indsætter startdata automatisk ved opstart. I stedet håndteres databaseændringer typisk af drift/DevOps via fx:
+
+- manuelle SQL-scripts kørt én gang
+- release-processer (migrations)
+- databaseadministration (DBA) / platform-team
+
+Det betyder, at databasen (schema + evt. basisdata) skal være oprettet på forhånd, og applikationen skal kun forbinde og arbejde med data.  
+
+I Spring Boot kan man sikre sig, at init-scripts (schema.sql og data.sql) ikke køres automatisk ved at sætte følgende i application-prod.properties:  
+```
+spring.sql.init.mode=never
+```
+Det forhindrer Spring Boot i at køre SQL-init scripts automatisk.
+Hvis man bruger profiles, kan man f.eks. have dette i prod-profilen, mens dev-profilen gerne må initialisere:  
+```
+# application-dev.properties
+spring.sql.init.mode=always
+
+# application-prod.properties
+spring.sql.init.mode=never
+```
 
 
 
