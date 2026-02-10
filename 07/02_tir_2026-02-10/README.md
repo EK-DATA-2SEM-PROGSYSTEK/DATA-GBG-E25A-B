@@ -46,6 +46,15 @@ Se disse videoer om Thymeleaf og forms i [Thymeleaf Tutorial](https://www.youtub
 <img src="redirect2.png" alt="Alt Text" width="700">
 
 
+I stedet for en String der er navnet på et view, så returneres en String med redirect, fx: 
+
+```java
+return "redirect:/attractions";
+
+```
+
+Dette vil føre os tilbage til endpointet /attractions (som i dette eksempel er en GetMapping)
+
 
 
 
