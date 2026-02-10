@@ -260,7 +260,7 @@ ___
 ## Aktiviteter
 
 Lav følgende opgaver
-- [Web layer slice test](opgave-weblayer-slice-test.md)
+- [Web layer slice test](opgave-weblayer-slice-test.md) **Tilføj link 13/02**
 - [Forklar test begreberne](opgave-forklar-test-begreberne.md)
 - [Turistguide controller test (weblag)](opgave-turistguide-controller-weblag-tests.md)
 
