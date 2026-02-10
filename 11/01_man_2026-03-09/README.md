@@ -165,6 +165,68 @@ Værdierne sættes som environment variables i udviklingsmiljøet (fx IntelliJ),
 - credentials ikke eksponeres
 - konfiguration kan variere mellem miljøer
 
+### Brug af Spring Profiles
+
+Når en applikation skal køre i forskellige miljøer (fx udvikling, test og produktion), er det vigtigt, at konfigurationen kan variere uden at ændre Java-koden.
+I Spring Boot løses dette ved hjælp af Spring Profiles.
+
+Et profile repræsenterer et bestemt miljø og gør det muligt at have forskellige konfigurationer for samme applikation.
+
+#### Konfigurationsfiler pr. miljø
+
+I stedet for kun én application.properties, kan man opdele konfigurationen:
+```
+application.properties
+application-dev.properties
+application-test.properties
+application-prod.properties
+```
+Eksempel: application-dev.properties
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/countries_dev
+spring.datasource.username=dev_user
+spring.datasource.password=dev_pw
+```
+Eksempel: application-prod.properties
+```
+spring.datasource.url=jdbc:mysql://prod-db:3306/countries
+spring.datasource.username=prod_user
+spring.datasource.password=prod_pw
+```
+Spring Boot vælger automatisk den rigtige fil baseret på det aktive profile.
+
+#### Aktivering af et profile
+
+Der er flere måder at aktivere et profile på.
+
+Via application.properties
+```
+spring.profiles.active=dev
+```
+Via environment variable
+```
+SPRING_PROFILES_ACTIVE=prod
+```
+#### Sammenhæng med DataSource og JdbcTemplate
+
+Når et profile er aktivt:
+1. Spring Boot læser den tilhørende application-<profile>.properties
+2. DataSource konfigureres ud fra disse værdier
+3. JdbcTemplate oprettes automatisk baseret på DataSource
+4. Repository-klasserne bruger JdbcTemplate uden at kende miljøet
+
+Repository-koden er identisk i alle miljøer og det bliver herved muligt at holde samme kodebase og skifte miljø uden kodeændringer.
+
+#### Typiske anvendelser af Spring Profiles
+
+Spring Profiles bruges typisk til:
+
+- forskellige databaser (H2 / MySQL)
+- forskellig mængde logging
+- testdata vs. produktionsdata
+- mock vs. rigtig integration
+
+
 ### Initialisering af databasen
 
 Spring Boot kan automatisk køre SQL-scripts ved opstart.
@@ -179,6 +241,7 @@ Dette sikrer, at:
 - tabeller oprettes automatisk
 - databasen starter med kendte testdata
 - alle på holdet arbejder mod samme struktur
+
 
 
 
