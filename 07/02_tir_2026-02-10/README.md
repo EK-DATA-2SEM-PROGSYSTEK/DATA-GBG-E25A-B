@@ -29,6 +29,21 @@ Se disse videoer om Thymeleaf og forms i [Thymeleaf Tutorial](https://www.youtub
 - at kunne håndtere response/redirect i controlleren
 
 
+## Indhold
+
+### Redirect-pattern
+
+#### Problemet
+
+<img src="redirect1.png" alt="Alt Text" width="700">
+
+
+
+
+
+#### Løsningen
+
+<img src="redirect2.png" alt="Alt Text" width="700">
 
 
 
