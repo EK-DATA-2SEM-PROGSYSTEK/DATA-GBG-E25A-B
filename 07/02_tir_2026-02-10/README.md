@@ -66,9 +66,10 @@ Vi kan have behov for at sende data som brugeren ikke skal se med ind i formen f
 
 ## Aktiviteter
 
-[Opgave 1]()
+[Opgave 1](opgave1_userregistration.md)
 
 [Opgave 2]()
+
 
 
 
