@@ -7,5 +7,5 @@ samt hvordan de anvendes i forbindelse med test af Spring Boot-applikationer:
 3.	Mocking
 4.	MockMvc
 5.	@WebMvcTest
-6.	@MockBean
+6.	@MockitoBean
 7.	Mockito
