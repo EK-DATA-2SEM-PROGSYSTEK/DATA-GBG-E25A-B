@@ -122,7 +122,7 @@ Når git init køres oprettes der et lolalt git repo og metadata om repoet finde
 ## Aktiviteter
 Opret et tomt Spring boot projekt og gennemfør eksemplet i [Create and Resolve Conflict Merge in Git and Github](https://www.youtube.com/watch?v=9At8XcYicF8) til (14.38).  
 Du kan gøre det ved at lave en simpel index.html fil under resourcer.  
-Bemærk: Når man laver en commit efter man har løst merge konflikten vises en status i i terminalens VI editor (standard Unix editor). For at afslutte denne tastes ':q* ([VI editor cheat sheet](https://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf))
+Bemærk: Når man laver en commit efter man har løst merge konflikten vises en status i i terminalens VI editor (standard Unix editor). For at afslutte denne tastes ':q!' ([VI editor cheat sheet](https://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf))
 
 
 
