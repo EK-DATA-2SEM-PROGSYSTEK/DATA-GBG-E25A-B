@@ -51,3 +51,15 @@ Se videoer:
 12. Gentag fra step 2 for den næste feature eller bugfix
 
 ---
+
+### Merge conflicts
+
+En merge-konflikt opstår, når der laves ændringer i den samme del af en fil på to forskellige grene (branches).
+
+Git ved ikke, hvilke ændringer der skal anvendes, og konflikten skal løses af udvikleren, før en pull request kan merges.
+
+## Aktiviteter
+
+Opgave 1: Pull request
+
+Opgave 2: Merge conflict
