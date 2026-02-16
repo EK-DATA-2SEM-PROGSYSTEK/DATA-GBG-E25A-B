@@ -131,7 +131,21 @@ Opret et tomt Spring boot projekt og gennemfør eksemplet i [Create and Resolve 
 Du kan gøre det ved at lave en simpel index.html fil under resourcer.  
 Bemærk: Når man laver en commit efter man har løst merge konflikten vises en status i i terminalens VI editor (standard Unix editor). For at afslutte denne trykkes ```<esc>``` og der tastes ':q!' ([VI editor cheat sheet](https://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf))  
 
-Bruge kommandoen: ```git log --oneline --graph --all ``` til at vise hvordan hver branch har udviklet sig
+Bruge kommandoen: ```git log --oneline --graph --all ``` til at vise hvordan hver branch har udviklet sig  
+
+```mermaid
+gitGraph
+   commit id: "BASE: title er 'Document'"
+   branch b1
+   checkout b1
+   commit id: "Ret title til B1"
+   checkout main
+   branch b2
+   checkout b2
+   commit id: "Ret title til B2"
+   checkout b1
+   merge b2 id: "merge - konflikt i title"
+```
 
 
 
