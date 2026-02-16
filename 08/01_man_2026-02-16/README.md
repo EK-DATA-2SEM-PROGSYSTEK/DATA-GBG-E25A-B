@@ -113,7 +113,7 @@ Efterhånden som du bliver mere fortrolig med at bruge Bash, vil du opdage mange
 #### git commands ####
 <img src="assets/git_workflow.png" alt="Alt Text" width="500">   
 
-git status, git init
+git status, git init:  
 git status viser status over hvilke filer de er staged og hvilke der er commited. I starten er der ikke noget git repo
 Når git init køres oprettes der et lolalt git repo og metadata om repoet findes i folderen .git
 
