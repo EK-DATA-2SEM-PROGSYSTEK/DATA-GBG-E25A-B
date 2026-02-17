@@ -60,6 +60,7 @@ Git ved ikke, hvilke ændringer der skal anvendes, og konflikten skal løses af 
 
 ## Aktiviteter
 
-Opgave 1: Pull request
+Opgave 1: [Pull request](opgave-pull-request.md)
 
 Opgave 2: Merge conflict
+
