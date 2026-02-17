@@ -25,7 +25,7 @@ Before each step, discuss what the step does and the expected result.
    ```
    
    You should see that a new commit has been created in the local repository:
-   <img src="assets/intellij-terminal-1.png" alt="Initial commit" width="700">  
+   <img src="intellij-terminal-1.png" alt="Initial commit" width="700">  
 
 5. In IntelliJ, share the project on GitHub 
  (see [share on GitHub](https://www.jetbrains.com/help/idea/manage-projects-hosted-on-github.html#share-on-GitHub) 
