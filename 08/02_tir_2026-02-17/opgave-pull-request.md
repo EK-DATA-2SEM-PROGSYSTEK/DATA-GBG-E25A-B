@@ -108,19 +108,19 @@ to enable GitHub CLI to automatically store your Git credentials.
 
 14. On GitHub, open a pull request to merge the feature branch into main:
 
-    <img src="assets/create-pull-request.png" alt="Create pull request" width="700">
+    <img src="create-pull-request.png" alt="Create pull request" width="700">
     
     - Make sure the feature branch is set as the source branch and main as the target branch.
     - Click on "Create pull request".
     - Add a title and description to the pull request.
     - Assign your fellow student as a reviewer.
     
-    <img src="assets/open-pull-request.png" alt="Open pull request" width="700"> 
+    <img src="open-pull-request.png" alt="Open pull request" width="700"> 
     
     - Click on "Create pull request".
     - You should now see the pull request:
     
-    <img src="assets/pull-request-created.png" alt="Pull request created" width="700">
+    <img src="pull-request-created.png" alt="Pull request created" width="700">
 
 15. The reviewer (your fellow student) should now review the changes in the pull request.
 
@@ -132,17 +132,17 @@ to enable GitHub CLI to automatically store your Git credentials.
     - Approve the changes if everything is fine.
     - Click on "Submit review".
 
-    <img src="assets/pull-request-reviewed.png" alt="Pull request reviewed" width="700">    
+    <img src="pull-request-reviewed.png" alt="Pull request reviewed" width="700">    
 
 16. The author of the pull request can now see the pull request has been approved 
     and should now merge the changes into main.
 
-    <img src="assets/merge-pull-request.png" alt="Pull request reviewed" width="700"> 
+    <img src="merge-pull-request.png" alt="Pull request reviewed" width="700"> 
 
     - Click on "Merge pull request" and then "Confirm merge".
     - The feature branch can now be deleted by clicking on "Delete branch".
 
-    <img src="assets/delete-branch.png" alt="Delete branch" width="700">
+    <img src="delete-branch.png" alt="Delete branch" width="700">
 
 17. The local feature branch can now be deleted.
     - First switch to the local main branch and update the local to be in sync with the remote main branch.
