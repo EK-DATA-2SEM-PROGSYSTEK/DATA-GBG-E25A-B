@@ -62,6 +62,7 @@ Git ved ikke, hvilke ændringer der skal anvendes, og konflikten skal løses af 
 
 Opgave 1: [Pull request](opgave-pull-request.md)
 
-Opgave 2: [Merge conflict](opgave-merge-conflict)
+Opgave 2: [Merge conflict](opgave-merge-conflict.md)
+
 
 
