@@ -64,7 +64,7 @@ Software skal nemt at:
 ---
 ### Kodekvalitet
 
-[Opgave: Kvalitetskode?](opgave-kvalitetskode.md) **Tilføj 20/2**
+[Opgave: Kvalitetskode?](opgave-kvalitetskode.md)
 
 ---
 ### Kodekvalitet
@@ -192,3 +192,4 @@ Vælg Tools > Qodana > Try Code Analysis with Qodana
 ## Aktiviteter
 
 ---
+
