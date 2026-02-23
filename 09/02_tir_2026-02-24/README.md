@@ -56,14 +56,14 @@ I DevSecOps-cyklussen (se figur) hører Qodana især hjemme i disse faser:
 
 3. **Policy enforcement**  
    - Teams kan definere regler for, hvad der må passere (f.eks. *ingen kritiske sikkerhedsfejl*, *ingen nye licenskonflikter*).  
-   - Dette understøtter governance og compliance i organisationen.
+   - Dette understøtter  [compliance og governance](https://www.rismasystems.com/da/ressourcer/artikler/govenance-og-compliance) i organisationen.
 
 ---
 
 ### Hvorfor er Qodana vigtig i DevSecOps?
 - Den gør sikkerhed til en **integreret del af udviklingen**.  
 - Den giver **hurtig feedback** til udviklere.  
-- Den understøtter [compliance og governance](https://www.rismasystems.com/da/ressourcer/artikler/govenance-og-compliance)  
+- Den understøtter compliance og governance  
 - Den reducerer omkostninger ved at finde fejl tidligt.  
 
 Kort sagt hjælper Qodana med at skabe en **kultur, hvor sikkerhed er alles ansvar** – præcis som DevSecOps-tilgangen foreskriver.
