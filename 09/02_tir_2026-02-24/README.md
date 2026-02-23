@@ -52,7 +52,7 @@ I DevSecOps-cyklussen (se figur) hører Qodana især hjemme i disse faser:
 
 2. **I CI/CD pipeline (GitHub Actions, GitLab, Azure DevOps, Jenkins m.fl.)**  
    - Qodana integreres som et build-step, der automatisk stopper et build, hvis kritiske sikkerheds- eller kvalitetsfejl opdages.  
-   - Rapporterne kan eksporteres i et standardformat (SARIF), så resultaterne kan vises i GitHub Security eller andre dashboards.
+   - Rapporterne kan eksporteres i et standardformat (SARIF), så resultaterne kan vises i GitHub Security eller andre dashboards, som f.eks. Qodana Cloud
 
 3. **Policy enforcement**  
    - Teams kan definere regler for, hvad der må passere (f.eks. *ingen kritiske sikkerhedsfejl*, *ingen nye licenskonflikter*).  
