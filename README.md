@@ -387,7 +387,7 @@
 <tr>
   <td></td>
   <td><a href="15/03_ons_2026-04-08/README.md">Onsdag 08-04-2026</a></td>
-  <td>Kickoff - Wishlist-projekt &amp; GitHub Projects + evaluering</td>
+  <td>Kickoff - Wishlist-projekt &amp; GitHub Projects</td>
   <td>MANY</td>
   <td>Samlæst</td>
 </tr>
