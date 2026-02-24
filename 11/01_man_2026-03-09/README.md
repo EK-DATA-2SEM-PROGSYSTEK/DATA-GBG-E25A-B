@@ -11,8 +11,8 @@ Se denne video:
 [Spring JDBC Template Tutorial: Learn to build a full CRUD application in Spring Boot](https://www.youtube.com/watch?v=0uLqdBpYAVA&list=PLEeqf0uSZqXutWJ-xNpSs5X4WdwKqBmab)  
 
 Resourcer:  
-[JDBC standalone eksempel]()  
-[JDBC Spring Boot eksempel]()
+[JDBC standalone eksempel](https://github.com/EK-DATA-2SEM-PROGSYSTEK/jdbctemplate_standalone)  
+[JDBC Spring Boot eksempel](https://github.com/EK-DATA-2SEM-PROGSYSTEK/countries-starter)
 
 ## Læringsmål
 - Kan lave simpel databaseapplikation, som forbinder et Java Springboot-projekt med en MYSQL database.
@@ -264,6 +264,7 @@ spring.sql.init.mode=always
 # application-prod.properties
 spring.sql.init.mode=never
 ```
+
 
 
 
