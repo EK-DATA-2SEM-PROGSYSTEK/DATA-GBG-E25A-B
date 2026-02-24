@@ -12,7 +12,7 @@ Se denne video:
 
 Resourcer:  
 [JDBC standalone eksempel](https://github.com/EK-DATA-2SEM-PROGSYSTEK/jdbctemplate_standalone)  
-[JDBC Spring Boot eksempel](https://github.com/EK-DATA-2SEM-PROGSYSTEK/countries-starter)
+[JDBC Spring Boot eksempel(countries-starter)](https://github.com/EK-DATA-2SEM-PROGSYSTEK/countries-starter)
 
 ## Læringsmål
 - Kan lave simpel databaseapplikation, som forbinder et Java Springboot-projekt med en MYSQL database.
@@ -264,6 +264,7 @@ spring.sql.init.mode=always
 # application-prod.properties
 spring.sql.init.mode=never
 ```
+
 
 
 
