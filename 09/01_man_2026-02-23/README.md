@@ -9,6 +9,7 @@ Se disse videoer (total : 40 min):
 [GitHub Actions - Supercharge your GitHub Flow](https://www.youtube.com/watch?v=cP0I9w2coGU)  
 [GitHub Actions - Create a Simple GitHub Workflow](https://www.youtube.com/watch?v=sZ_Z8l95g4s)    
 [YAML | In One Video](https://www.youtube.com/watch?v=cdLNKUoMc6c)  
+[Maven Tutorial - Crash Course](https://www.youtube.com/watch?v=A0sF3tQm6ew)
 
 Resourcer:  
 [Understanding GitHub Actions](https://docs.github.com/en/actions/get-started/understand-github-actions#jobs)
