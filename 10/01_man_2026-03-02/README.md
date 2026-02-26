@@ -183,7 +183,7 @@ erDiagram
 I den relationelle model er nøgler helt centrale:
 
 
-### Primærnøgler og fremmednøgler
+#### Primærnøgler og fremmednøgler
 - Primærnøgle (PK)
 Identificerer entydigt en række i en tabel
 
@@ -385,6 +385,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
