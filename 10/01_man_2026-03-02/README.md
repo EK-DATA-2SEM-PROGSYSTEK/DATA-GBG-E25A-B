@@ -22,10 +22,10 @@ Værktøjer:
 ## Læringsmål
 - kan forklare hvordan en relationel database er opbygget
 - Kan designe en datamodel vha. ER modellering
-- Kan identificere tabeller, kolonner, nøgler, og relationer ml. tabeller ud fra en E/R model.  
+- Kan identificere tabeller, kolonner, nøgler, og relationer ml. tabeller ud fra en konceptuel E/R model.  
 
 ## Indhold
-I dette undervisningsforløb arbejder vi med modellering af data, som er et centralt fundament for al backend-udvikling og databasesystemer. Fokus er på sammenhængen mellem virkelighed → model → database.
+I dette dag arbejder vi med modellering af data, som er et centralt fundament for al backend-udvikling og databasesystemer. Fokus er på sammenhængen mellem virkelighed → model → database.
 
 Vi starter med E/R-modeller (Entity/Relationship) som et konceptuelt værktøj, og bevæger os videre til den relationelle databasemodel, som er den struktur, vi rent faktisk implementerer i en SQL-database (fx MySQL) ved anvendelse af SQL DDL.    
 En samlet oversigt over processen er vist nedenfor:  
@@ -383,6 +383,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
