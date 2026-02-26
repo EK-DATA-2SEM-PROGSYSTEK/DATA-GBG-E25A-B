@@ -201,7 +201,7 @@
   <td><a href="09/05_fre_2026-02-27/README.md">Fredag 27-02-2026</a></td>
   <td>Feedback og review af Turistguide 2</td>
   <td>IANB</td>
-  <td></td>
+  <td>Online</td>
 </tr>
 
 <!-- UGE 10 -->
