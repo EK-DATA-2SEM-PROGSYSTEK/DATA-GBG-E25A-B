@@ -72,9 +72,10 @@ erDiagram
 
     UNDERVISER ||--o{ FAG : "underviser"
 ```
-Fortolkning:
-- Et fag skal have præcis én underviser
+Fortolkning:  
 - En underviser kan undervise i flere fag  
+- Et fag skal have præcis én underviser
+
 
 Karinaliyteten vises ved brug af [crows foot notation](https://creately.com/guides/crows-foot-notation/)
 
@@ -383,6 +384,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
