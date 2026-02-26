@@ -1,4 +1,4 @@
-# Turistguide del 3, normalisering, SQL DDL
+# Turistguide del 3, normalisering
 
 ## Beskrivelse
 
@@ -6,24 +6,18 @@ Vi ser hvordan vi kan strukturere en database og organiserer data i tabeller på
 der reducerer redundans (gentagne data) og forbedrer dataintegritet.
 Det gør vi ved at kigge på 1., 2. og 3. normalform.
 
-Vi ser også på hvordan vi kan anvende SQL DDL (Data Definition Language) til at oprette databaser og tabeller.
-
 ## Forberedelse
 
 Se videoer:
 
-[
-Database Normalization: 1NF to 5NF in Plain English](https://youtu.be/wY1qqBFnKhk?si=XlyCfYIsKi5zKYNi) - kun op til 3NF (12.00) 
+[Database Normalization: 1NF to 5NF in Plain English](https://youtu.be/wY1qqBFnKhk?si=XlyCfYIsKi5zKYNi) - kun op til 3NF (12.00) 
 
 [Normalization: first, second and third form](https://www.linkedin.com/learning-login/share?account=36836804&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fprogramming-foundations-databases-2%2Fnormalization-2%3Ftrk%3Dshare_video_url%26shareId%3DIsTl7CEuSX6lgNbtVl3%252Ftg%253D%253D)
-
-[DDL](https://www.linkedin.com/learning-login/share?account=36836804&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fprogramming-foundations-databases-2%2Fcreating-a-database%3Ftrk%3Dshare_video_url%26shareId%3DUIS%252FcAcMQxmgB6iVaSU0bg%253D%253D)
 
 ## Læringsmål
 
 - At kunne beskrive 1., 2. og 3. normalform.
 - At kunne normalisere en database til 3. normalform.
-- At kunne anvende SQL DDL til at oprette databaser og tabeller.
 
 ## Indhold
 
@@ -57,3 +51,4 @@ Tredje Normalform (3NF) - Ingen transitive afhængigheder
 -  Ingen ikke-nøgleattributter må være afhængige af en anden ikke-nøgleattribut
 
 ---
+
