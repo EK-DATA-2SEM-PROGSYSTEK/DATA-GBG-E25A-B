@@ -1,4 +1,4 @@
-# Databaser - introduktion til SQL & DDL
+# Databaser - introduktion til SQL DML & DDL
 
 ## Beskrivelse
 Vi skal nu til at gemme data i en database fremfor i en ArrayList (eller tekstfil).
@@ -31,3 +31,4 @@ Om brugen af MySQL Workbench: [SQL Course for Beginners](https://www.youtube.com
 - At kunne oprette en database vha. et SQL Script med DDL.
 - At kunne bruge SQL SELECT statements til forespørgsler.
 - At kunne indsætte, opdatere og slette data
+
