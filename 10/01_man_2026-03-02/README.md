@@ -27,14 +27,14 @@ Værktøjer:
 ## Indhold
 I dette undervisningsforløb arbejder vi med modellering af data, som er et centralt fundament for al backend-udvikling og databasesystemer. Fokus er på sammenhængen mellem virkelighed → model → database.
 
-Vi starter med E/R-modeller (Entity/Relationship) som et konceptuelt værktøj, og bevæger os videre til den relationelle databasemodel, som er den struktur, vi rent faktisk implementerer i en SQL-database (fx MySQL).  
+Vi starter med E/R-modeller (Entity/Relationship) som et konceptuelt værktøj, og bevæger os videre til den relationelle databasemodel, som er den struktur, vi rent faktisk implementerer i en SQL-database (fx MySQL) ved anvendelse af SQL DDL.    
 En samlet oversigt over processen er vist nedenfor:  
 
 ```mermaid
 flowchart LR
     A[Domæneforståelse] --> B[Konceptuel E/R-model]
     B --> C[Logisk relationel model]
-    C --> D[Fysisk SQL-implementering]
+    C --> D[Fysisk SQL-implementering, SQL-DDL]
 ```
 ### Fra domæne til datamodel
 
@@ -51,9 +51,9 @@ Eksempel (simpelt studieadministrativt domæne):
 Disse begreber modelleres først som entiteter og relationer i en E/R-model.
 
 ### Konceptuel E/R-model
-En E/R-model beskriver:
-- Entiteter (fx Studerende, Fag)
-- Attributter (fx studienummer, navn)
+En konceptuel E/R-model beskriver:
+- Entiteter
+- Attributter
 - Relationer mellem entiteter
 - Kardinalitet (1-1, 1-mange, mange-mange)
 
@@ -72,7 +72,7 @@ erDiagram
 
     UNDERVISER ||--o{ FAG : "underviser"
 ```
-Her betyder det:
+Fortolkning:
 - Et fag skal have præcis én underviser
 - En underviser kan undervise i flere fag
 
@@ -382,6 +382,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
