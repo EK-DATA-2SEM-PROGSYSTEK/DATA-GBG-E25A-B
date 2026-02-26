@@ -191,7 +191,7 @@ Identificerer entydigt en række i en tabel
 Skaber relationer mellem tabeller og sikrer referentiel integritet
 
 
-#### Ternære relationer
+### Ternære relationer
 
 En ternær relation er en relation, der involverer tre entiteter på samme tid.
 De kan ikke altid reduceres korrekt til flere binære relationer uden at miste betydning.
@@ -248,7 +248,7 @@ Lokale afhænger ikke kun af:
 
 Lokale giver derfor kun mening for den konkrete undervisningssituation
 
-#### Rekursive relationer
+### Rekursive relationer
 
 En rekursiv relation er en relation, hvor en entitet er relateret til sig selv.
 
@@ -368,6 +368,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
