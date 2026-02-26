@@ -27,8 +27,15 @@ Værktøjer:
 ## Indhold
 I dette undervisningsforløb arbejder vi med modellering af data, som er et centralt fundament for al backend-udvikling og databasesystemer. Fokus er på sammenhængen mellem virkelighed → model → database.
 
-Vi starter med E/R-modeller (Entity/Relationship) som et konceptuelt værktøj, og bevæger os videre til den relationelle databasemodel, som er den struktur, vi rent faktisk implementerer i en SQL-database (fx MySQL).
+Vi starter med E/R-modeller (Entity/Relationship) som et konceptuelt værktøj, og bevæger os videre til den relationelle databasemodel, som er den struktur, vi rent faktisk implementerer i en SQL-database (fx MySQL).  
+En samlet oversigt over processen er vist nedenfor:  
 
+```mermaid
+flowchart LR
+    A[Domæneforståelse] --> B[Konceptuel E/R-model]
+    B --> C[Logisk relationel model]
+    C --> D[Fysisk SQL-implementering]
+```
 ### Fra domæne til datamodel
 
 Når man designer en database, starter man ikke med tabeller – man starter med domænet:
@@ -43,12 +50,32 @@ Eksempel (simpelt studieadministrativt domæne):
 
 Disse begreber modelleres først som entiteter og relationer i en E/R-model.
 
-### E/R-modellen (Entity / Relationship)
+### Konceptuel E/R-model
 En E/R-model beskriver:
 - Entiteter (fx Studerende, Fag)
 - Attributter (fx studienummer, navn)
 - Relationer mellem entiteter
 - Kardinalitet (1-1, 1-mange, mange-mange)
+
+Eksempel: Underviser og Fag
+```mermaid
+erDiagram
+    UNDERVISER {
+        int underviser_id PK
+        string navn
+    }
+
+    FAG {
+        int fag_id PK
+        string titel
+    }
+
+    UNDERVISER ||--o{ FAG : "underviser"
+```
+Her betyder det:
+- Et fag skal have præcis én underviser
+- En underviser kan undervise i flere fag
+
 
 Eksempel: Studerende og Fag
 ```mermaid
@@ -80,24 +107,6 @@ E/R-modeller gør det tydeligt:
 - hvor mange instanser der kan deltage i en relation
 - om relationen er obligatorisk eller valgfri
 
-Eksempel: Underviser og Fag
-```mermaid
-erDiagram
-    UNDERVISER {
-        int underviser_id PK
-        string navn
-    }
-
-    FAG {
-        int fag_id PK
-        string titel
-    }
-
-    UNDERVISER ||--o{ FAG : "underviser"
-```
-Her betyder det:
-- Et fag skal have præcis én underviser
-- En underviser kan undervise i flere fag
 
 #### Fra E/R-model til relationel databasemodel
 Når E/R-modellen er på plads, oversættes den til den relationelle model, dvs.:
@@ -348,6 +357,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
