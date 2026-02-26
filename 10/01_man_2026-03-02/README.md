@@ -57,7 +57,7 @@ En E/R-model beskriver:
 - Relationer mellem entiteter
 - Kardinalitet (1-1, 1-mange, mange-mange)
 
-Eksempel: Underviser og Fag
+**Eksempel: Underviser og Fag**
 ```mermaid
 erDiagram
     UNDERVISER {
@@ -77,7 +77,7 @@ Her betyder det:
 - En underviser kan undervise i flere fag
 
 
-Eksempel: Studerende og Fag
+**Eksempel: Studerende og Fag**
 ```mermaid
 erDiagram
     STUDERENDE {
@@ -108,19 +108,44 @@ E/R-modeller gør det tydeligt:
 - om relationen er obligatorisk eller valgfri
 
 
-#### Fra E/R-model til relationel databasemodel
+### Logisk relationel model
 Når E/R-modellen er på plads, oversættes den til den relationelle model, dvs.:
 
 - tabeller
 - primærnøgler
 - fremmednøgler
 
+**Eksempel: Underviser og Fag**  
+Her oversætter vi E/R-modellen til:
+- tabeller
+- primærnøgler
+- fremmednøgler
+
+Nu handler det om hvordan det lagres relationelt. Vi indføre en fremmednøgle på "mange" siden til "1" siden. Vi kan vise det i E/R modellen (ikke strengt nødvendigt, da det er underforstået)  
+
+```mermaid
+erDiagram
+    UNDERVISER ||--o{ FAG : underviser
+
+    UNDERVISER {
+        int underviser_id PK
+        string navn
+    }
+
+    FAG {
+        int fag_id PK
+        string titel
+        int underviser_id FK
+    }
+```
+
+
 Entiteter → tabeller:
 ```
-STUDERENDE(studienummer PK, navn, email)
-FAG(fag_id PK, titel, ects)
+UNDERVISER(underviser_id PK, navn)
+FAG(fag_id PK, titel, underviser_id FK)
 ```
-Mange-til-mange → forbindelsestabel
+**Eksempel: Studerende og Fag**  
 
 Relationen Studerende–Fag kræver en join-tabel:  
 ```
@@ -130,7 +155,7 @@ TILMELDING(
     PRIMARY KEY (studienummer, fag_id)
 )
 ```
-Visualiseret:  
+Visualiseret i et E/R diagram:  
 ```mermaid
 erDiagram
     STUDERENDE ||--o{ TILMELDING : har
@@ -357,6 +382,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
