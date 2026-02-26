@@ -48,7 +48,7 @@ Eksempel (simpelt studieadministrativt domæne):
 - Underviser
 - Tilmelding
 
-Disse begreber modelleres først som entiteter og relationer i en E/R-model.
+Disse begreber modelleres først som entiteter og relationer i en konceptuel E/R-model.
 
 ### Konceptuel E/R-model
 En konceptuel E/R-model beskriver:
@@ -383,6 +383,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
