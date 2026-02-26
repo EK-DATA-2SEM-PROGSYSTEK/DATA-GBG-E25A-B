@@ -1,4 +1,4 @@
-# FeedBack og review af Turistguide 2
+# FeedBack og review af Turistguide 2 - Online i Teams kanalen
 
 ---
 
@@ -55,3 +55,4 @@ Sørg for at kunne forklare koden i projektet og vise funktionaliteten.
 
 
 ---
+
