@@ -123,7 +123,8 @@ Her oversætter vi E/R-modellen til:
 - primærnøgler
 - fremmednøgler
 
-Nu handler det om hvordan det lagres relationelt. Vi indføre en fremmednøgle på "mange" siden til "1" siden. Vi kan vise det i E/R modellen (ikke strengt nødvendigt, da det er underforstået)  
+Nu handler det om hvordan det lagres relationelt. Vi indfører en fremmednøgle på "mange" siden, som refererer til "1" siden.  
+Vi kan ligeledes vise den logiske datamodel i et E/R diagram.  
 
 ```mermaid
 erDiagram
@@ -384,6 +385,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
