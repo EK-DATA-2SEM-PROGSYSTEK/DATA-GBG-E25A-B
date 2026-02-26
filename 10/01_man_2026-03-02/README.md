@@ -190,23 +190,6 @@ Identificerer entydigt en række i en tabel
 - Fremmednøgle (FK)
 Skaber relationer mellem tabeller og sikrer referentiel integritet
 
-Eksempel:
-```mermaid
-erDiagram
-    ORDRE {
-        int ordre_id PK
-        int kunde_id FK
-        date ordre_dato
-    }
-
-    KUNDE {
-        int kunde_id PK
-        string navn
-    }
-
-    KUNDE ||--o{ ORDRE : afgiver
-```
-Her ligger kunde_id som FK i ORDRE-tabellen.
 
 #### Ternære relationer
 
@@ -385,6 +368,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
