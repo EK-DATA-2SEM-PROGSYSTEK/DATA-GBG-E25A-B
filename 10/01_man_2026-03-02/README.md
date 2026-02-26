@@ -74,8 +74,9 @@ erDiagram
 ```
 Fortolkning:
 - Et fag skal have præcis én underviser
-- En underviser kan undervise i flere fag
+- En underviser kan undervise i flere fag  
 
+Karinaliyteten vises ved brug af [crows foot notation](https://creately.com/guides/crows-foot-notation/)
 
 **Eksempel: Studerende og Fag**
 ```mermaid
@@ -382,6 +383,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
