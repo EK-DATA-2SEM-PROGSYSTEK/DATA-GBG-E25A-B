@@ -313,7 +313,7 @@ erDiagram
 
     KUNDE ||--o{ ORDRE : afgiver
 ```
-Her:
+Fortolkning:
 - ordre_id identificerer ordren alene
 - kunde_id er kun en fremmednøgle
 
@@ -341,7 +341,7 @@ erDiagram
 
     ORDRE ||--|{ ORDRELINJE : indeholder
 ```
-Her:
+Fortolkning:
 
 - ORDRELINJE kan ikke eksistere uden ORDRE
 - primærnøglen består af (ordre_id, linjenummer)
@@ -368,6 +368,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
