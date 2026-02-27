@@ -144,7 +144,14 @@ FAG(fag_id PK, titel, underviser_id FK)
 ```
 **Eksempel: Studerende og Fag**  
 
-Relationen Studerende–Fag kræver en join-tabel:  
+I en relationel database kan vi ikke gemme en mange-til-mange relation direkte.
+Vi kan ikke:
+- lægge en liste af fag_id i STUDERENDE
+- lægge en liste af studienummer i FAG
+
+Det ville bryde med 1. normalform (ingen gentagne grupper)
+
+I stedet indfører vi en join-tabel, TILMELDING, i relationen Studerende–Fag:  
 ```
 TILMELDING(
     studienummer FK → STUDERENDE,
@@ -362,6 +369,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
