@@ -279,12 +279,13 @@ Fortolkning:
 - Relationens fremmednøgle peger tilbage på samme tabel
 
 Relationel implementering:
+```
 MEDARBEJDER(
     medarbejder_id PK,
     navn,
     leder_id FK → MEDARBEJDER.medarbejder_id
 )
-
+```
 Bemærk: leder_id er nullable, topchefen har ingen leder
 
 ### Identifying vs. non-identifying relations
@@ -369,6 +370,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
