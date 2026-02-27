@@ -239,7 +239,7 @@ erDiagram
 ```
 
 Her modelleres relationen som:
-én UNDERVISNING-forekomst, der forbinder præcis én Underviser, Ét FAG og Ét HOLD, men hvor hver af de tre kan indgå i mange undervisninger.  
+én UNDERVISNING-forekomst, der forbinder præcis én UNDERVISER, Ét FAG og Ét HOLD, men hvor hver af de tre kan indgå i mange undervisninger.  
 
 Lokale afhænger ikke kun af:
 
@@ -369,6 +369,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
