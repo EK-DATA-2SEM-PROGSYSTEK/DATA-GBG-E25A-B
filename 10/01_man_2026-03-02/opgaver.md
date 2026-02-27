@@ -4,7 +4,7 @@ Når vi designer en database, starter vi med en domænebeskrivelse – en tekst 
 
 Arbejdsprocessen består af tre trin:
 
-## Trin 1 – Konceptuel E/R-model
+### Trin 1 – Konceptuel E/R-model
 
 Her identificerer du:
 
@@ -18,7 +18,7 @@ Ingen fremmednøgler.
 Ingen tabeller.
 Kun struktur og forretningsregler.
 
-## Trin 2 – Logisk (relationel) model
+### Trin 2 – Logisk (relationel) model
 
 Her oversætter du E/R-modellen til den relationelle datamodel:
 
@@ -33,7 +33,7 @@ Regler:
 - Mange–mange → join-tabel
 - 1–1 → FK på den mest afhængige side
 
-## Trin 3 – Opskrivning af tabeller
+### Trin 3 – Opskrivning af tabeller
 
 Her skriver du tabellerne op i strukturel form:  
 ```
@@ -42,10 +42,34 @@ TABELNAVN(
   attribut FK → ANDEN_TABEL.attribut
 )
 ```
+Bemærk: Ingen SQL - kun struktur.
 
+## Opgave 1
 
+En virksomhed har en række afdelinger (og hver afdeling er en del af virksomheden).
+I hver afdeling er der en eller flere medarbejdere (og hver medarbejder er kun knyttet til én afdeling).
+Nogle medarbejdere har en firmabil (og en firmabil tilhører altid kun én medarbejder).
+En medarbejder kan have en ansættelseshistorik (og en historik er altid knyttet til en specifik medarbejder).
 
+Du skal udarbejde:  
+1️ Konceptuel E/R-model
+- Identificér alle entiteter
+- Fastlæg relationer og kardinalitet
+- Vis optionalitet
 
+Ingen PK/FK
+
+2️ Logisk (relationel) model
+- Tilføj primærnøgler
+- Placér fremmednøgler korrekt
+- Begrund håndtering af 1–1 relationen (firmabil)
+
+3️ Opskrivning af tabeller
+- Tabellenavne
+- Attributter
+- PK og FK tydeligt markeret
+
+Ingen SQL
 
 
 # Opgave: ER modellering
