@@ -142,14 +142,22 @@ E/R diagrammet oversættes til tabeller med angivelse af nøgler (PK: Primary ke
 UNDERVISER(underviser_id PK, navn)
 FAG(fag_id PK, titel, underviser_id FK)
 ```
+
+Primærnøgler og fremmednøgler:  
+- Primærnøgle (PK)
+Identificerer entydigt en række i en tabel
+
+- Fremmednøgle (FK)
+Skaber relationer mellem tabeller og sikrer referentiel integritet
+
 **Eksempel: Studerende og Fag**  
 
-I en relationel database kan vi ikke gemme en mange-til-mange relation direkte.
+I en relationel database kan vi ikke gemme en mange-til-mange relation direkte.  
 Vi kan ikke:
 - lægge en liste af fag_id i STUDERENDE
 - lægge en liste af studienummer i FAG
 
-Det ville bryde med 1. normalform (ingen gentagne grupper)
+da det ville bryde med 1. normalform (ingen gentagne grupper)
 
 I stedet indfører vi en join-tabel, TILMELDING, i relationen Studerende–Fag:  
 ```
@@ -182,14 +190,6 @@ erDiagram
 
 ```
 I den relationelle model er nøgler helt centrale:
-
-
-#### Primærnøgler og fremmednøgler
-- Primærnøgle (PK)
-Identificerer entydigt en række i en tabel
-
-- Fremmednøgle (FK)
-Skaber relationer mellem tabeller og sikrer referentiel integritet
 
 
 ### Ternære relationer
@@ -369,6 +369,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
