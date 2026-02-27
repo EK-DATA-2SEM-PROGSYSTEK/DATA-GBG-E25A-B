@@ -101,8 +101,7 @@ Ingen PK/FK
 
 2️ Logisk (relationel) model
 - Tilføj primærnøgler
-- Placér fremmednøgler korrekt
-- Begrund håndtering af 1–1 relationen (firmabil)
+- Placér fremmednøgler korrekt  
 
 3️ Opskrivning af tabeller
 - Tabellenavne
