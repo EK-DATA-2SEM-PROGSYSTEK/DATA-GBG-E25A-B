@@ -290,7 +290,13 @@ Bemærk: leder_id er nullable, topchefen har ingen leder
 
 ### Identifying vs. non-identifying relations
 
-Denne skelnen er vigtig for at forstå, hvordan primærnøgler dannes i relationelle databaser.
+Denne skelnen er vigtig for at forstå, hvordan primærnøgler dannes i relationelle databaser.  
+I en relation mellem to entiteter taler vi om forælder/barn:
+
+- Forælder (parent)
+Den entitet, hvis primærnøgle bliver refereret.
+- Barn (child)
+Den entitet, der indeholder fremmednøglen.
 
 #### Non-identifying relation:
 
@@ -299,7 +305,7 @@ En non-identifying relation betyder, at:
 - barnets primærnøgle ikke afhænger af forælderens nøgle
 - fremmednøglen er ikke en del af PK
 
-Eksempel: Kunde og Ordre
+Eksempel: Kunde og Ordre (Kunde er forælder og Ordre er barn)
 ```mermaid
 erDiagram
     KUNDE {
@@ -326,7 +332,7 @@ En identifying relation betyder, at:
 - barnets eksistens afhænger af forælderen
 - barnets primærnøgle indeholder forælderens nøgle
 
-Eksempel: Ordre og Ordrelinje
+Eksempel: Ordre og Ordrelinje (Ordre er forælder og Ordrelinje er barn)
 
 ```mermaid
 erDiagram
@@ -370,6 +376,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
