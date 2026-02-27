@@ -12,6 +12,8 @@ Se følgende videoer:
 
 [SQL Joins: A Guide and Examples](https://youtu.be/UfgRTbRN9FM?si=gVz0KXmqdX842PvC)
 
+[SQL Join 3 Tables: How-To with Example](https://youtu.be/TGt2xa7EzvI?si=jAJDnLCX_4vljRpT)
+
 [SQL Group By: An Explanation and How To Use It](https://youtu.be/x2_mOJ3skSc?si=G02l9CtNsJdNy0JL)
 
 [What is SQL HAVING and Why Use It?](https://youtu.be/ecjuQK2th24?si=gL4DAvKGU3B4GAui)
@@ -24,3 +26,4 @@ Se følgende videoer:
 - Kan bruge JOIN til at læse data fra mere end én tabel
 - Kan bruge GROUP BY og HAVING
 - Kan bruge subqueries
+
