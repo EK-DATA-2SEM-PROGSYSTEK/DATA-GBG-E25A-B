@@ -1,3 +1,53 @@
+# Opgaver: Fra domænebeskrivelse til relationel model
+
+Når vi designer en database, starter vi med en domænebeskrivelse – en tekst der beskriver virkeligheden.
+
+Arbejdsprocessen består af tre trin:
+
+## Trin 1 – Konceptuel E/R-model
+
+Her identificerer du:
+
+- Entiteter (navneord)
+- Relationer (udsagnsord)
+- Kardinalitet (1–1, 1–mange, mange–mange)
+- Optionalitet (obligatorisk/valgfri)
+
+Vigtigt:
+Ingen fremmednøgler.
+Ingen tabeller.
+Kun struktur og forretningsregler.
+
+## Trin 2 – Logisk (relationel) model
+
+Her oversætter du E/R-modellen til den relationelle datamodel:
+
+- Tabeller
+- Primærnøgler (PK)
+- Fremmednøgler (FK)
+- Join-tabeller ved mange–mange relationer
+
+Regler:
+
+- 1–mange → FK på mange-siden
+- Mange–mange → join-tabel
+- 1–1 → FK på den mest afhængige side
+
+## Trin 3 – Opskrivning af tabeller
+
+Her skriver du tabellerne op i strukturel form:  
+```
+TABELNAVN(
+  attribut PK,
+  attribut FK → ANDEN_TABEL.attribut
+)
+```
+
+
+
+
+
+
 # Opgave: ER modellering
 
 ## Opgave 1
