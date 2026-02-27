@@ -75,7 +75,7 @@ erDiagram
 Fortolkning:  
 - En underviser kan undervise i flere fag  
 - Et fag skal have præcis én underviser
-
+- Relationstypen er 1-til-mange
 
 Kardinaliteten vises ved brug af [crows foot notation](https://creately.com/guides/crows-foot-notation/)
 
@@ -118,13 +118,8 @@ Når E/R-modellen er på plads, oversættes den til den relationelle model, dvs.
 - fremmednøgler
 
 **Eksempel: Underviser og Fag**  
-Her oversætter vi E/R-modellen til:
-- tabeller
-- primærnøgler
-- fremmednøgler
-
-Nu handler det om hvordan det lagres relationelt. Vi indfører en fremmednøgle på "mange" siden, som refererer til "1" siden.  
-Vi kan ligeledes vise den logiske datamodel i et E/R diagram.  
+Nu handler det om hvordan data lagres relationelt. Vi indfører en fremmednøgle på "mange" siden, som refererer til "1" siden.  
+Vi kan vise den logiske datamodel i et E/R diagram med angivelse af fremmednøgler.  
 
 ```mermaid
 erDiagram
@@ -142,8 +137,7 @@ erDiagram
     }
 ```
 
-
-Entiteter → tabeller:
+E/R diagrammet oversættes til tabeller med angivelse af nøgler (PK: Primary key, FK: Foreign key):
 ```
 UNDERVISER(underviser_id PK, navn)
 FAG(fag_id PK, titel, underviser_id FK)
@@ -368,6 +362,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
