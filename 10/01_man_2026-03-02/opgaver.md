@@ -71,7 +71,34 @@ Ingen PK/FK
 
 Ingen SQL
 
+## Opgave 2
 
+En virksomhed har en række udviklingsprojekter.
+I hvert udviklingsprojekt indgår som oftest en eller flere softwarelicenser. En softwarelicens er knyttet til en bestemt IT-leverandør. En IT-leverandør tilbyder typisk flere forskellige softwarelicenser.
+Et udviklingsprojekt har en projektleder tilknyttet. En medarbejder kan være projektleder på flere projekter.
+Der er oftest knyttet en eller flere menige medarbejdere til et udviklingsprojekt.
+
+Du skal udarbejde:  
+1️ Konceptuel E/R-model
+
+- Identificér entiteter
+- Fastlæg kardinalitet
+- Overvej om projektleder og menige medarbejdere skal modelleres som roller
+
+2️ Logisk (relationel) model
+- Placér primærnøgler
+- Placér fremmednøgler
+- Opret join-tabeller ved mange–mange relationer
+
+Forklar dine valg
+
+3️ Opskrivning af tabeller
+
+- Tabellenavne
+- Attributter
+- PK og FK tydeligt angivet
+
+Ingen SQL  
 # Opgave: ER modellering
 
 ## Opgave 1
