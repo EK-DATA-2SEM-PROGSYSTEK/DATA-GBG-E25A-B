@@ -20,9 +20,9 @@ Værktøjer:
 [Diagrams.net](https://app.diagrams.net/)
 
 ## Læringsmål
-- kan forklare hvordan en relationel database er opbygget
-- Kan designe en datamodel vha. ER modellering
-- Kan identificere tabeller, kolonner, nøgler, og relationer ml. tabeller ud fra en konceptuel E/R model.  
+- kan forklare trin i datamodelleringsprocessen, fra konceptuel model til fysisk design
+- Kan designe en datamodel vha. E/R modellering
+- Kan ovesrsætte en konceptuel E/R datamodel til en logisk relationel datamodel med tabeller, kolonner, nøgler, og relationer ml. tabeller  
 
 ## Indhold
 I dette dag arbejder vi med modellering af data, som er et centralt fundament for al backend-udvikling og databasesystemer. Fokus er på sammenhængen mellem virkelighed → model → database.
@@ -368,6 +368,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
