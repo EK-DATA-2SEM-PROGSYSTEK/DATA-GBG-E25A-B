@@ -111,7 +111,8 @@ Ingen PK/FK
 --- 
 Løs nedenstående opgaver.  
 I skal bruge Lucidchart til at tegne E/R diagrammer i.  
-Se denne video [LucidChart Tutorial: How to Create an ERD](https://www.youtube.com/watch?v=RBZtPhZkUZM)
+Se denne video:  
+[LucidChart Tutorial: How to Create an ERD](https://www.youtube.com/watch?v=RBZtPhZkUZM)
 
 ## Opgave 1
 
