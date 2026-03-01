@@ -106,8 +106,12 @@ Ingen PK/FK
 3️ Opskrivning af tabeller
 - Tabellenavne
 - Attributter
-- PK og FK tydeligt markeret
+- PK og FK tydeligt markeret  
 
+--- 
+Løs nedenstående opgaver.  
+I skal bruge Lucidchart til at tegne E/R diagrammer i.  
+Se denne video [LucidChart Tutorial: How to Create an ERD](https://www.youtube.com/watch?v=RBZtPhZkUZM)
 
 ## Opgave 1
 
