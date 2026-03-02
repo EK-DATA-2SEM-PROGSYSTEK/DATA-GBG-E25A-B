@@ -91,7 +91,9 @@ TABELNAVN(
 ```
 Bemærk: Ingen SQL - kun struktur.
 
-I de to følgende opgaver skal du udarbejde:  
+---
+I de to følgende opgaver skal du udarbejde:    
+
 1️ Konceptuel E/R-model
 - Identificér alle entiteter
 - Fastlæg relationer og kardinalitet
@@ -101,16 +103,14 @@ Ingen PK/FK
 
 2️ Logisk (relationel) model
 - Tilføj primærnøgler
-- Placér fremmednøgler korrekt  
+- Placér fremmednøgler korrekt
 
 3️ Opskrivning af tabeller
 - Tabellenavne
 - Attributter
-- PK og FK tydeligt markeret  
+- PK og FK tydeligt markeret
 
---- 
-Løs nedenstående opgaver.  
-I skal bruge Lucidchart til at tegne E/R diagrammer i.  
+Brug Lucidchart til at tegne E/R diagrammer i.  
 Se denne video:  
 [LucidChart Tutorial: How to Create an ERD](https://www.youtube.com/watch?v=RBZtPhZkUZM)
 
