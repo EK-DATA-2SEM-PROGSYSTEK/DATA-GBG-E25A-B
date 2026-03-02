@@ -377,6 +377,8 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+Løs [opgaverne](opgaver.md) til i dag.
+
 
 
 
