@@ -219,12 +219,12 @@
   <td><a href="10/02_tir_2026-03-03/README.md">Tirsdag 03-03-2026</a></td>
   <td>Introduktion til SQL og DDL</td>
   <td>SIEB</td>
-  <td></td>
+  <td>(AFLYST)</td>
 </tr>
 <tr>
   <td></td>
   <td><a href="10/03_ons_2026-03-04/README.md">Onsdag 04-03-2026</a></td>
-  <td>SQL opgaver</td>
+  <td>SQL</td>
   <td>SIEB/MANY</td>
   <td>Online</td>
 </tr>
