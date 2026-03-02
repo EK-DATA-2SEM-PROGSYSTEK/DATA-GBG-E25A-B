@@ -108,7 +108,7 @@ E/R-modeller gør det tydeligt:
 
 - hvor mange instanser der kan deltage i en relation
 - om relationen er obligatorisk eller valgfri
-  - i relationen "underviser" er der valgfrit medlemskab af FAG, men obligatorisk medlemskab af UNDERVISER
+  - Eksempel: i relationen "underviser" er der valgfrit medlemskab af FAG, men obligatorisk medlemskab af UNDERVISER
 
 
 ### Logisk relationel model
@@ -377,6 +377,7 @@ Identifying vs non-identifying relationer aflæses derfor via primær- og fremme
 
 
 ## Aktiviteter
+
 
 
 
