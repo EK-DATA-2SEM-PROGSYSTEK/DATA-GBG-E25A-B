@@ -110,6 +110,7 @@ Ingen PK/FK
 - Attributter
 - PK og FK tydeligt markeret
 
+Hvis der mangler oplysninger i domænebeskrivelsen, f.eks. relevante attributter, må du gerne tilføje disse selv.  
 Brug Lucidchart til at tegne E/R diagrammer i.  
 Se denne video:  
 [LucidChart Tutorial: How to Create an ERD](https://www.youtube.com/watch?v=RBZtPhZkUZM)
