@@ -33,6 +33,21 @@ SQl er inddelt i emn række kommandikategoier med hver deres formål.
 
 ![SQl kommandoer](assets/sql-kommandoer.png)
 
+### DDL – Data Definition Language
+DDL er den del af SQL, der bruges til at definere og ændre databasestrukturen.
+DDL ændrer altså strukturen – ikke indholdet.
+
+#### CREATE
+Opret database
+En database oprettes med:  
+```sql
+CREATE SCHEMA products_db;
+```
+eller en nyere syntaks:  
+```sql
+CREATE DATABASE products_db;
+```
+
 
 Det bruges til at:  
 
