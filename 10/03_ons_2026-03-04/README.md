@@ -243,4 +243,30 @@ UPDATE = Ret (Update)
 DELETE = Fjern (Delete)  
 
 ## Aktiviteter  
+I skal gennemføre eksemplerne i videoerne SQL: DDL and DML Part 1 of 4.  
+Disse er lavet i MS SQl server og der er en række dialekt forskelle i forhold til MySql som vi bruger.  
+
+Hvad skal ændres i forhold til videoens SQL Server-syntaks?
+
+**GO fjernes**
+- GO er en SQL Server batch-separator. MySQL Workbench bruger den ikke.
+
+**IDENTITY → AUTO_INCREMENT**  
+SQL Server:
+```sql
+id int IDENTITY not null
+```  
+MySQL:  
+```sql
+id INT NOT NULL AUTO_INCREMENT
+```
+**use spiffylube** virker, men du skal selv oprette databasen først **CREATE DATABASE** ... (eller DROP + CREATE for en ren start).
+
+
+**Datoformat**  
+I MySQL er '2021-01-28' det sikre format.
+Undgå '1/28/2021', da det kan afhænge af serverindstillinger.
+
+
+
 
