@@ -4,7 +4,7 @@
 Vi skal nu til at gemme data i en database fremfor en hardkodet ArrayList eller tekstfil.
 Vi skal i dag arbejde med en MySQL database, så det er vigtigt at du har - i det mindste forsøgt - at installere denne inden undervisning.  Det gælder også MySQL WorkBench, som er det værktøj vi skal bruge til at tilgå databasen. 
 
-I bliver i dag introduceret til sproget SQL for at hente data fra en database vha. ‘SELECT’ kommando, der henter data fra én tabel.
+I bliver i dag introduceret til sproget SQL, specifikt DDL: Data Definition Language, og DML: Data Manipulation Language. DDL hanler om at definere strukturen af tabeller i databasen og DML handler om hvordan vi laver CRUD operationer på tabeller.
 Dagen bliver en workshop med øvelser, så afprøv basisdelen i W3Schools introduktion til SQL inden undervisningen starter. Den behøver ingen installation på egen maskine.
 
 ## Forberedelse
