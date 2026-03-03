@@ -14,15 +14,16 @@ NB! Det er vigtigt at du husker dit MySql root password, da det er meget besvær
 
 Se disse videoer:  
 [SQL - Introduction - W3Schools.com](https://www.youtube.com/watch?v=zpnHsWOy0RY). Afprøv eksemplet i videoen her [The Try-SQL Editor](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)  
-[SQL Course for Beginners [Full Course]](https://www.youtube.com/watch?v=7S_tz1z_5bA) til 1:24. Dette er mere et opslagsværk, se TOC i kommentarerne.  
+
 
 [SQL: DDL and DML Part 1 of 4: CREATE TABLE, Primary Keys and INSERT](https://www.youtube.com/watch?v=dVxd5z97878)  
 [SQL: DDL and DML Part 2 of 4: ALTER TABLE, and CONSTRAINTs: Check, Unique, and Foreign Key](https://www.youtube.com/watch?v=hrwq_FFky30)  
 [SQL: DDL and DML Part 3 of 4: INSERT, UPDATE, SELECT and DELETE](https://www.youtube.com/watch?v=ifNJ3KFcTUo)  
 [SQL: DDL and DML Part 4 of 4: INFORMATION SCHEMA](https://www.youtube.com/watch?v=Yf_TMV0eIQc)  
 
-Arbejd med [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) (til og med aliases)
-samt [SQL Databases](https://www.w3schools.com/sql/sql_create_db.asp)
+Referencer:  
+Arbejd med [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) (til og med aliases) samt [SQL Databases](https://www.w3schools.com/sql/sql_create_db.asp)  
+[SQL Course for Beginners [Full Course]](https://www.youtube.com/watch?v=7S_tz1z_5bA) til 1:24. Dette er mere et opslagsværk, se TOC i kommentarerne.  
 
 ## Læringsmål
 - At kunne forklare hvad en database er
