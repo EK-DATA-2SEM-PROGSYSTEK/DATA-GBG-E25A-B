@@ -29,8 +29,9 @@ Arbejd med [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) (til og med 
 ## Hvad er SQL?  
 
 **SQL** står for *Structured Query Language* og er det mest udbredte sprog til at arbejde med databaser.  
-SQl er inddelt i emn række kommandikategoier med hver deres formål.  
-()
+SQl er inddelt i emn række kommandikategoier med hver deres formål.    
+
+![SQl kommandoer](assets/sql-kommandoer.png)
 
 
 Det bruges til at:  
