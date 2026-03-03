@@ -21,8 +21,8 @@ samt [SQL Databases](https://www.w3schools.com/sql/sql_create_db.asp)
 
 ## Læringsmål
 - At kunne forklare hvad en database er
-- At kunne oprette en database vha. et SQL Script.
-- At kunne bruge SQL 'SELECT' statement til forespørgsler på data fra en tabel.
+- At kunne oprette en database med tilhørende tabeller med SQL DDL.
+- At kunne lave CRUD operationer på data i en database med SQl DML
 
 ## Indhold
 # Introduktion til SQL  
