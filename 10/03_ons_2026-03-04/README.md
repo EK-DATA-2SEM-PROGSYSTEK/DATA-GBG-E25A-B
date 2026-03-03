@@ -38,7 +38,7 @@ DDL er den del af SQL, der bruges til at definere og ændre databasestrukturen.
 DDL ændrer altså strukturen – ikke indholdet.
 
 #### CREATE
-Opret database
+##### Opret database
 En database oprettes med:  
 ```sql
 CREATE SCHEMA products_db;
@@ -47,15 +47,70 @@ eller en nyere syntaks:
 ```sql
 CREATE DATABASE products_db;
 ```
+Herefer vælges den aktive database:  
+```sql
+USE products_db;
+```
+##### Opret tabeller – CREATE TABLE
+```sql
+CREATE TABLE supplier (
+    supplier_id INT,
+    name VARCHAR(50),
+    address VARCHAR(100),
+    city VARCHAR(50),
+    postal_code VARCHAR(10),
+    country VARCHAR(50),
+    phone VARCHAR(20),
+    email VARCHAR(50),
+    PRIMARY KEY (supplier_id)
+);
 
+CREATE TABLE product (
+    id INT,
+    price INT,
+    name VARCHAR(30),
+    description VARCHAR(255),
+    supplier_id INT,
+    PRIMARY KEY(id),
+    FOREIGN KEY (supplier_id)
+        REFERENCES supplier(supplier_id)
+);
+```
 
-Det bruges til at:  
+#### SQL Constraints (DDL)   
+| Constraint       | Formål                     | Hvad sikrer den?                    | Eksempel                                       |
+| ---------------- | -------------------------- | ----------------------------------- | ---------------------------------------------- |
+| `PRIMARY KEY`    | Unik identifikation        | Unik + NOT NULL                     | `PRIMARY KEY (id)`                             |
+| `FOREIGN KEY`    | Relation mellem tabeller   | Referentiel integritet              | `FOREIGN KEY (deptno) REFERENCES dept(deptno)` |
+| `NOT NULL`       | Felt må ikke være tomt     | Ingen NULL-værdier                  | `name VARCHAR(50) NOT NULL`                    |
+| `UNIQUE`         | Unik værdi i kolonne       | Ingen dubletter                     | `UNIQUE (email)`                               |
+| `CHECK`          | Regel for værdier          | Betingelse skal være opfyldt        | `CHECK (age >= 18)`                            |
+| `DEFAULT`        | Standardværdi              | Automatisk værdi hvis intet angives | `DEFAULT 0`                                    |
+| `AUTO_INCREMENT` | Automatisk genereret nøgle | Automatisk id                       | `id INT AUTO_INCREMENT`                        |
+
+Eksempel med brug af flere constraints:  
+```sql
+CREATE TABLE employee (
+    emp_id INT AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    age INT CHECK (age >= 18),
+    salary DECIMAL(10,2) DEFAULT 0,
+    dept_id INT,
+    PRIMARY KEY (emp_id),
+    FOREIGN KEY (dept_id)
+        REFERENCES department(dept_id)
+);
+ ```
+Databasen giver fejl hvis man forsøger at indsætte data hvor consrints ikke er overholdt.  
+
+### DML – Data Manipulation Language
+DML er den del af SQL, der bruges til at forespøge på data og ændre indholdet i databasen (CRUD operationer).
 
 - **Hente data** fra en database (f.eks. finde alle kunder i København)  
 - **Indsætte data** (f.eks. tilføje en ny ordre)  
 - **Opdatere data** (f.eks. ændre en kundes telefonnummer)  
 - **Slette data** (f.eks. slette en ordre)  
-- **Administrere databaser** (f.eks. oprette tabeller eller brugere)  
 
 SQL fungerer på næsten alle relationelle databasesystemer (f.eks. MySQL, PostgreSQL, Oracle og SQL Server), og sproget er standardiseret, så grundlæggende kommandoer er ens på tværs af systemer.  
 
