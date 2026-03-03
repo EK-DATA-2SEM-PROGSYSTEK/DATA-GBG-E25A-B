@@ -267,6 +267,8 @@ id INT NOT NULL AUTO_INCREMENT
 I MySQL er '2021-01-28' det sikre format.
 Undgå '1/28/2021', da det kan afhænge af serverindstillinger.
 
+**Afslut sætninger med ';'**  
+MySql sætninger afsluttes med ';'
 
 
 
