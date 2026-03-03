@@ -29,6 +29,10 @@ Arbejd med [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) (til og med 
 ## Hvad er SQL?  
 
 **SQL** står for *Structured Query Language* og er det mest udbredte sprog til at arbejde med databaser.  
+SQl er inddelt i emn række kommandikategoier med hver deres formål.  
+()
+
+
 Det bruges til at:  
 
 - **Hente data** fra en database (f.eks. finde alle kunder i København)  
