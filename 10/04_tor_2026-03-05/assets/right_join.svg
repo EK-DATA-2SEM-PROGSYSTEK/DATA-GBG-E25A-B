@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420">
+    <!-- Title -->
+    <text x="350" y="70" text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="48" font-weight="700" fill="#000">
+        RIGHT JOIN
+    </text>
+
+    <!-- Right circle filled (RIGHT JOIN result) -->
+    <circle cx="450" cy="245" r="140"
+            fill="#16a085"
+            stroke="#000"
+            stroke-width="4"/>
+
+    <!-- Left circle outline only -->
+    <circle cx="250" cy="245" r="140"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"/>
+
+    <!-- Labels -->
+    <text x="250" y="255" text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="32" font-weight="700" fill="#000">
+        TABLE1
+    </text>
+
+    <text x="450" y="255" text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="32" font-weight="700" fill="#000">
+        TABLE2
+    </text>
+</svg>
