@@ -243,4 +243,4 @@ UPDATE = Ret (Update)
 DELETE = Fjern (Delete)  
 
 ## Aktiviteter  
-Løs [opgaven](opgave.md) til i dag
+
