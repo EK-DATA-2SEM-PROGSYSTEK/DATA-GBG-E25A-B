@@ -178,6 +178,28 @@ ORDER BY salary DESC;
 INSERT INTO employees (empno, name, job, salary)
 VALUES (7900, 'JENSEN', 'CLERK', 1500);
 ```
+Hvis vi lader databasewn generere den prrimære nøgle med AUTO_INCREMET skal vi ikke indsætte denne.  
+Eksempel:
+```sql
+CREATE TABLE product (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
+    PRIMARY KEY (id)
+);
+```
+- id genereres automatisk af databasen
+- Man skal ikke angive id ved INSERT
+- Databasen starter typisk ved 1 og tæller op
+
+```sql
+INSERT INTO product (name, price)
+VALUES ('Microphone', 799.00);
+
+INSERT INTO product (name, price)
+VALUES ('Keyboard', 499.00);
+```
+
 ## 3. Opdater data – UPDATE
 ```sql
 -- Opdater løn for en bestemt medarbejder
