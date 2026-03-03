@@ -17,6 +17,7 @@ Se disse videoer:
 [SQL Course for Beginners [Full Course]](https://www.youtube.com/watch?v=7S_tz1z_5bA) til 1:24
 
 Arbejd med [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) (til og med aliases)
+samt [SQL Databases](https://www.w3schools.com/sql/sql_create_db.asp)
 
 ## Læringsmål
 - At kunne forklare hvad en database er
