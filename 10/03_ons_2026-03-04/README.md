@@ -87,6 +87,11 @@ CREATE TABLE product (
 #### SQL Constraints (DDL)   
 Eksempel med brug af flere constraints:  
 ```sql
+CREATE TABLE department (
+    dept_id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
 CREATE TABLE employee (
     emp_id INT AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
