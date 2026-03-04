@@ -37,6 +37,7 @@ Arbejd med [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) (til og med 
 
 **SQL** står for *Structured Query Language* og er det mest udbredte sprog til at arbejde med relationelle databaser.  
 SQl er inddelt i emn række kommandikategoier med hver deres formål.    
+SQL fungerer på næsten alle relationelle databasesystemer (f.eks. MySQL, PostgreSQL, Oracle og SQL Server), og sproget er standardiseret, så grundlæggende kommandoer er ens på tværs af systemer, men der kan være små dialektiske forskelle. 
 
 ![SQl kommandoer](assets/sql-kommandoer.png)
 
@@ -124,8 +125,6 @@ DML er den del af SQL, der bruges til at forespøge på data og ændre indholdet
 - **Indsætte data** (f.eks. tilføje en ny ordre)  
 - **Opdatere data** (f.eks. ændre en kundes telefonnummer)  
 - **Slette data** (f.eks. slette en ordre)  
-
-SQL fungerer på næsten alle relationelle databasesystemer (f.eks. MySQL, PostgreSQL, Oracle og SQL Server), og sproget er standardiseret, så grundlæggende kommandoer er ens på tværs af systemer.  
 
 De mest centrale kommandoer i SQL kaldes ofte for **CRUD**:  
 - **C**reate → `INSERT`  
