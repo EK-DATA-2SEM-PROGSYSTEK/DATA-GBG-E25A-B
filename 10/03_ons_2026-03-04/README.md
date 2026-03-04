@@ -190,7 +190,7 @@ ORDER BY salary DESC;
 INSERT INTO employees (empno, name, job, salary)
 VALUES (7900, 'JENSEN', 'CLERK', 1500);
 ```
-Hvis vi lader databasewn generere den prrimære nøgle med AUTO_INCREMET skal vi ikke indsætte denne.  
+Hvis vi lader databasen generere den prrimære nøgle med AUTO_INCREMET skal vi ikke indsætte denne.  
 Eksempel:
 ```sql
 CREATE TABLE product (
