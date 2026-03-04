@@ -54,7 +54,7 @@ eller en nyere syntaks:
 ```sql
 CREATE DATABASE products_db;
 ```
-Herefer vælges den aktive database:  
+Herefter vælges den aktive database:  
 ```sql
 USE products_db;
 ```
