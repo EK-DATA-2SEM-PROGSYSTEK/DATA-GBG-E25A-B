@@ -110,7 +110,7 @@ CREATE TABLE employee (
 | `AUTO_INCREMENT` | Automatisk genereret nøgle | Automatisk id                       | `id INT AUTO_INCREMENT`                        |
 
 
-Databasen giver fejl hvis man forsøger at indsætte data hvor consrints ikke er overholdt.  
+Databasen giver fejl hvis man forsøger at indsætte data hvor constraints ikke er overholdt.  
 
 ### DML – Data Manipulation Language
 DML er den del af SQL, der bruges til at forespøge på data og ændre indholdet i databasen (CRUD operationer).
