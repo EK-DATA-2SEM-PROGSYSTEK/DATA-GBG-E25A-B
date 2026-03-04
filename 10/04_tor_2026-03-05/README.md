@@ -207,3 +207,23 @@ Hver column i SELECT skal enten:
 
 ---
 
+### Subquery
+
+En subquery er en SQL-forespørgsel inde i en anden forespørgsel.
+
+En subquery bruges til at beregne et resultat, som den ydre forespørgsel derefter anvender.
+
+Hvordan finder man movies som har en rating større end gennemsnittet?
+
+```mysql
+SELECT m.movie_title
+FROM movie m
+JOIN rating r ON r.movie_id = m.movie_id
+WHERE r.rating_value > (
+    SELECT AVG(rating_value)
+    FROM rating
+);
+```
+
+---
+
