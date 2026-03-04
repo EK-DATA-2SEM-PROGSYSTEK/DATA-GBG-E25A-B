@@ -85,16 +85,6 @@ CREATE TABLE product (
 ```
 
 #### SQL Constraints (DDL)   
-| Constraint       | Formål                     | Hvad sikrer den?                    | Eksempel                                       |
-| ---------------- | -------------------------- | ----------------------------------- | ---------------------------------------------- |
-| `PRIMARY KEY`    | Unik identifikation        | Unik + NOT NULL                     | `PRIMARY KEY (id)`                             |
-| `FOREIGN KEY`    | Relation mellem tabeller   | Referentiel integritet              | `FOREIGN KEY (deptno) REFERENCES dept(deptno)` |
-| `NOT NULL`       | Felt må ikke være tomt     | Ingen NULL-værdier                  | `name VARCHAR(50) NOT NULL`                    |
-| `UNIQUE`         | Unik værdi i kolonne       | Ingen dubletter                     | `UNIQUE (email)`                               |
-| `CHECK`          | Regel for værdier          | Betingelse skal være opfyldt        | `CHECK (age >= 18)`                            |
-| `DEFAULT`        | Standardværdi              | Automatisk værdi hvis intet angives | `DEFAULT 0`                                    |
-| `AUTO_INCREMENT` | Automatisk genereret nøgle | Automatisk id                       | `id INT AUTO_INCREMENT`                        |
-
 Eksempel med brug af flere constraints:  
 ```sql
 CREATE TABLE employee (
@@ -109,6 +99,17 @@ CREATE TABLE employee (
         REFERENCES department(dept_id)
 );
  ```
+| Constraint       | Formål                     | Hvad sikrer den?                    | Eksempel                                       |
+| ---------------- | -------------------------- | ----------------------------------- | ---------------------------------------------- |
+| `PRIMARY KEY`    | Unik identifikation        | Unik + NOT NULL                     | `PRIMARY KEY (id)`                             |
+| `FOREIGN KEY`    | Relation mellem tabeller   | Referentiel integritet              | `FOREIGN KEY (deptno) REFERENCES dept(deptno)` |
+| `NOT NULL`       | Felt må ikke være tomt     | Ingen NULL-værdier                  | `name VARCHAR(50) NOT NULL`                    |
+| `UNIQUE`         | Unik værdi i kolonne       | Ingen dubletter                     | `UNIQUE (email)`                               |
+| `CHECK`          | Regel for værdier          | Betingelse skal være opfyldt        | `CHECK (age >= 18)`                            |
+| `DEFAULT`        | Standardværdi              | Automatisk værdi hvis intet angives | `DEFAULT 0`                                    |
+| `AUTO_INCREMENT` | Automatisk genereret nøgle | Automatisk id                       | `id INT AUTO_INCREMENT`                        |
+
+
 Databasen giver fejl hvis man forsøger at indsætte data hvor consrints ikke er overholdt.  
 
 ### DML – Data Manipulation Language
