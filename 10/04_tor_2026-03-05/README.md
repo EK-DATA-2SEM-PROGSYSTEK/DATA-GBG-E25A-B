@@ -203,7 +203,7 @@ Hver column i SELECT skal enten:
 
 ---
 
-[Opgave: GROUP BY, HAVING](opgave_group_by_having)
+[Opgave: GROUP BY, HAVING](opgave_movie_catalog_group_by.pdf)
 
 ---
 
