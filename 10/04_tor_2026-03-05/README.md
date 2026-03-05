@@ -145,7 +145,7 @@ ON movie.movie_id = movie_person.movie_id;
 
 ---
 
-[Opgave: Joins](opgave_joins.pdf)
+[Opgave: Joins](opgave_movie_catalog_joins.pdf)
 
 ---
 
