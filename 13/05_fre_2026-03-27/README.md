@@ -15,26 +15,22 @@ arbejder resten af klassen med forbedring af Turistguide del 3
 som f.eks kodekvalitet, evt. manglende webslice tests, html/css og evt. anden teknisk gæld
 
 
-
----
-
 ## Forberedelse
 
 - Sørg for at kunne forklare koden i projektet og vise funktionaliteten for et selvvalgt end-point.
 
----
 
 ## Læringsmål
 
 - At kunne gennemføre en kode gennemgang (walkthrough).
 
---
 
 ## Tidsplan
 Vi bruger samme tidsplan som ved check-in møderne
 
 
 ---
+
 
 
 
