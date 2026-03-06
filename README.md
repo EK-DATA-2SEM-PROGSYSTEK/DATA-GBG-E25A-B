@@ -687,7 +687,7 @@ gantt
     Turistguide (samlet)            :active, tg, 2026-01-26, 2026-03-27
     Turistguide 1                   :tg1, 2026-01-26, 2026-02-06
     Turistguide 2                   :tg2, 2026-02-09, 2026-02-27
-    Turistguide 3                   :tg3, 2026-03-02, 2026-03-27
+    Turistguide 3                   :tg3, 2026-03-09, 2026-03-27
 
     section Miniprojekt
     Miniprojekt                     :mini, 2026-04-06, 2026-04-24
