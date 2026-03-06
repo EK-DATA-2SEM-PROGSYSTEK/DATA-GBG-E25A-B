@@ -12,7 +12,7 @@ Kode-walkthrougen tager udgangspunkt i et end-point efter eget valg, som I skal 
 
 Mens den enkelte gruppe får feedback af underviseren, 
 arbejder resten af klassen med forbedring af Turistguide del 3 
-som f.eks kodekvalitet, evt. manglende webslice tests, html/css og evt. anden teknisk gæld
+som f.eks kodekvalitet (teknisk gæld), evt. manglende webslice tests, html/css
 
 
 ## Forberedelse
@@ -30,6 +30,7 @@ Vi bruger samme tidsplan som ved check-in møderne
 
 
 ---
+
 
 
 
