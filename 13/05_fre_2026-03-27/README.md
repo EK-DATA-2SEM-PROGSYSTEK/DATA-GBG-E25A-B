@@ -26,10 +26,11 @@ som f.eks kodekvalitet (teknisk gæld), evt. manglende webslice tests, html/css
 
 
 ## Tidsplan
-Vi bruger samme tidsplan som ved check-in møderne
+Vi bruger samme tidsplan som til check-in møderne
 
 
 ---
+
 
 
 
