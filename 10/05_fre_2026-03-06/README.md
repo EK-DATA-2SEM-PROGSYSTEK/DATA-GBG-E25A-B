@@ -182,9 +182,10 @@ erDiagram
 
 #### Opgave: Normalisering
 
-[Opgave: Normalisering](opgave-normalisering.md)
+[Opgave: Normalisering](opgave_normalisering.md)
 
 ---
+
 
 
 
