@@ -354,7 +354,7 @@
   <td><a href="13/05_fre_2026-03-27/README.md">Fredag 27-03-2026</a></td>
   <td>Turistguide del 3 - feedback</td>
   <td>MANY</td>
-  <td></td>
+  <td>Online</td>
 </tr>
 
 <!-- UGE 14 -->
