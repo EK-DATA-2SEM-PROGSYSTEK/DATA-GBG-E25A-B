@@ -169,11 +169,11 @@ Værdierne sættes som environment variables i udviklingsmiljøet (fx IntelliJ),
 Når en applikation skal køre i forskellige miljøer (fx udvikling, test og produktion), er det vigtigt, at konfigurationen kan variere uden at ændre Java-koden.
 I Spring Boot løses dette ved hjælp af Spring Profiles.
 
-Et profile repræsenterer et bestemt miljø og gør det muligt at have forskellige konfigurationer for samme applikation.
+En profile repræsenterer et bestemt miljø og gør det muligt at have forskellige konfigurationer for samme applikation.
 
 #### Konfigurationsfiler pr. miljø
 
-I stedet for kun én application.properties, kan man opdele konfigurationen:
+I stedet for kun én application.properties, kan man opdele konfigurationen i forkellige profiler:
 ```
 application.properties
 application-dev.properties
@@ -192,11 +192,11 @@ spring.datasource.url=jdbc:mysql://prod-db:3306/countries
 spring.datasource.username=prod_user
 spring.datasource.password=prod_pw
 ```
-Spring Boot vælger automatisk den rigtige fil baseret på det aktive profile.
+Spring Boot vælger automatisk den rigtige fil baseret på den aktive profile.
 
 #### Aktivering af et profile
 
-Der er flere måder at aktivere et profile på.
+Der er flere måder at aktivere en profile på.
 
 Via application.properties
 ```
@@ -208,7 +208,7 @@ SPRING_PROFILES_ACTIVE=prod
 ```
 #### Sammenhæng med DataSource og JdbcTemplate
 
-Når et profile er aktivt:
+Når en profile er aktivt:
 1. Spring Boot læser den tilhørende application-<profile>.properties
 2. DataSource konfigureres ud fra disse værdier
 3. JdbcTemplate oprettes automatisk baseret på DataSource
@@ -264,6 +264,7 @@ spring.sql.init.mode=always
 # application-prod.properties
 spring.sql.init.mode=never
 ```
+
 
 
 
