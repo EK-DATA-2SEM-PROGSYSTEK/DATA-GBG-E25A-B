@@ -182,9 +182,10 @@ erDiagram
 
 #### Opgave: Normalisering
 
-[Opgave: Normalisering](opgave_normalisering.md)
+[Opgave: Normalisering](opgave_normalisering.pdf)
 
 ---
+
 
 
 
