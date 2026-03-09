@@ -13,7 +13,7 @@ Se disse videoer:
 [How to deploy Spring boot app to azure with GitHub actions!](https://www.youtube.com/watch?v=sbcPyaqycyI)
 
 Opret en student account på Azure:  
-[How To Sign Up for Azure for Students](https://www.youtube.com/watch?v=uSRCE8wVBLI&list=PLEeqf0uSZqXs0pDemlMhS4ifv3anaZQHj)  
+[How to Activate the Microsoft Azure Student Plan [2026 Full Guide]](https://www.youtube.com/watch?v=fvTVxDa3B10)  
 NB: Brug din EK microsoft account  
 
 Ressourcer:  
