@@ -12,3 +12,13 @@ Kig på dokumentationen for [JdbcTemplate](https://docs.spring.io/spring-framewo
 - Kan forklare hvad et funktionelt interface er, og hvordan det optræder i Spring.
 - Kan bruge JdbcTemplate (fortsat)
 - Kan forstå og forklare andre centrale biblioteksklasser og metoder der er involveret i at få forbindelsen mellem Springboot og databasen til at virke
+
+## Indhold
+
+Funktionelle interfaces bruges flere steder i de biblioteker der hører til Springboot.
+
+De bruges sammen med lambda-expressions, som I muligvis er stødt ind i på 1. semester. Det er vigtigt at forstå dem for at kunne læse kode som andre har skrevet (eller AI har givet jer), og selvfølgelig for at  kunne skrive dem selv.
+
+Strukturen i en lambda-expression er 
+
+<img src="lambdajava8.png" alt="lambda" width="900">
