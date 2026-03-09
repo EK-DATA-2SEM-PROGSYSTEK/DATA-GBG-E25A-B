@@ -269,7 +269,9 @@ spring.sql.init.mode=never
 
 
 ## Aktiviteter  
+Afprøv [JDBC standalone eksempel](https://github.com/EK-DATA-2SEM-PROGSYSTEK/jdbctemplate_standalone)  på din laptop.  
 Få [JDBC Spring Boot eksempel(countries-starter)](https://github.com/EK-DATA-2SEM-PROGSYSTEK/countries-starter) til at virke på din laptop
+
 
 
 
