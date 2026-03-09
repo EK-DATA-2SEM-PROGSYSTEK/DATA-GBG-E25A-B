@@ -17,8 +17,23 @@ Kig på dokumentationen for [JdbcTemplate](https://docs.spring.io/spring-framewo
 
 Funktionelle interfaces bruges flere steder i de biblioteker der hører til Springboot.
 
-De bruges sammen med lambda-expressions, som I muligvis er stødt ind i på 1. semester. Det er vigtigt at forstå dem for at kunne læse kode som andre har skrevet (eller AI har givet jer), og selvfølgelig for at  kunne skrive dem selv.
+De bruges sammen med lambda-udtryk, som I muligvis er stødt ind i på 1. semester. Det er vigtigt at forstå dem for at kunne læse kode som andre har skrevet (eller AI har givet jer), og selvfølgelig for at  kunne skrive dem selv.
 
-Strukturen i en lambda-expression er 
+Strukturen i et lambda-udtryk er 
 
 <img src="lambdajava8.png" alt="lambda" width="900">
+
+### Regler for lambda-udtryk
+
+ - Optional type declaration — we don't need to declare the types of the parameters on the left-hand side of the lambda because the compiler can infer them from their values. As a result, int param ->... and param ->... are both legal.
+
+ - Optional parentheses - we don't need to use parenthesis when only one parameter is declared. This indicates that param ->... and (param) ->... are both legal, but parentheses are necessary when more than one parameter is provided.
+
+ - Optional curly braces – Curly braces are not required when the expressions component contains only one statement. This indicates that param – > statement and param – > statement; are both legitimate options, but curly brackets are required when several statements are present.
+
+ - Optional return statement – We don't require a return statement if the expression returns a value and is enclosed in curly braces. As a result, both (a, b) – > return a+b; and (a, b) – > a+b; are correct.
+
+
+   
+
+<img src="java-lambda-syntax.jpeg" alt="lambda" width="700">
