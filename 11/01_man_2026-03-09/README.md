@@ -192,7 +192,9 @@ spring.datasource.url=jdbc:mysql://prod-db:3306/countries
 spring.datasource.username=prod_user
 spring.datasource.password=prod_pw
 ```
-Spring Boot vælger automatisk den rigtige fil baseret på den aktive profile.
+Spring Boot vælger automatisk den rigtige fil baseret på den aktive profile.  
+application.properties er altid basis-konfigurationen, og de profil-specifikke filer (fx application-dev.properties) arver automatisk værdierne fra den.
+
 
 #### Aktivering af et profile
 
@@ -271,6 +273,7 @@ spring.sql.init.mode=never
 ## Aktiviteter  
 Afprøv [JDBC standalone eksempel](https://github.com/EK-DATA-2SEM-PROGSYSTEK/jdbctemplate_standalone)  på din laptop.  
 Få [JDBC Spring Boot eksempel(countries-starter)](https://github.com/EK-DATA-2SEM-PROGSYSTEK/countries-starter) til at virke på din laptop
+
 
 
 
