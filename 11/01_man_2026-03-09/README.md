@@ -268,6 +268,9 @@ spring.sql.init.mode=never
 ```
 
 
+## Aktiviteter  
+Få [JDBC Spring Boot eksempel(countries-starter)](https://github.com/EK-DATA-2SEM-PROGSYSTEK/countries-starter) til at virke på din laptop
+
 
 
 
