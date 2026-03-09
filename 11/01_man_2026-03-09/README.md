@@ -224,7 +224,9 @@ Spring Profiles bruges typisk til:
 - forskellig mængde logging
 - testdata vs. produktionsdata
 - mock vs. rigtig integration
-
+ 
+#### Valg af kode baseret på active profile  
+Eksempel: @Profile("test") - koden aktives kun hvis active profile er 'test'
 
 ### Automatisk initialisering af databasen
 
@@ -264,6 +266,7 @@ spring.sql.init.mode=always
 # application-prod.properties
 spring.sql.init.mode=never
 ```
+
 
 
 
