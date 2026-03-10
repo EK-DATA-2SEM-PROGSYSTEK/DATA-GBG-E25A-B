@@ -45,9 +45,12 @@ Strukturen i et lambda-udtryk er
 
 [Opgave 2 - funktionelle interfaces, Comparator](opgave_functional_interface_comparator.md)
 
+[Opgave 3 - refaktorer RowMapper](opgave_rowmapper_med_lambda.md)
+
 
 
    
+
 
 
 
