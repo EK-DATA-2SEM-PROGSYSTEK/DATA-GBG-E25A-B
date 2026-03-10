@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS bank;
+CREATE DATABASE bank
+    DEFAULT CHARACTER SET utf8mb4;
+
+USE bank;
+
+CREATE TABLE user_account (
+    account_id INT AUTO_INCREMENT PRIMARY KEY,
+    balance DECIMAL(10,2) DEFAULT 0
+);
