@@ -43,9 +43,12 @@ Strukturen i et lambda-udtryk er
 
 [Opgave 1 - funktionelle interfaces, videoens eksempel](opgave_functional_interfaces.md)
 
+[Opgave 2 - funktionelle interfaces, Comparator](opgave_functional_interface_comparator.md)
+
 
 
    
+
 
 
 
