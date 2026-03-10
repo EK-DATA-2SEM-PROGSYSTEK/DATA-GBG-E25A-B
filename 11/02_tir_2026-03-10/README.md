@@ -34,6 +34,18 @@ Strukturen i et lambda-udtryk er
  - Optional return statement – We don't require a return statement if the expression returns a value and is enclosed in curly braces. As a result, both (a, b) – > return a+b; and (a, b) – > a+b; are correct.
 
 
+<img src="java-lambda-syntax.jpeg" alt="lambda" width="700">
+
+
+
+
+## Aktiviteter
+
+[Opgave 1 - funktionelle interfaces, videoens eksempel](opgave_functional_interfaces.md)
+
+
+
    
 
-<img src="java-lambda-syntax.jpeg" alt="lambda" width="700">
+
+
