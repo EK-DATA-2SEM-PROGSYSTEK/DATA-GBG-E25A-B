@@ -187,6 +187,11 @@ SET TRANSACTION ISOLATION LEVEL REPEATABLE READ;
 SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
 ```
 
+---
+NB. Opgaven skal udføres på localhost - ikke en deployede database.
+[Opgave: SQL Transactions](opgave_transaction_sql.md)
+
+---
 
 ### Opsummering
 
@@ -199,6 +204,8 @@ Isolationsniveauer balancerer datasikkerhed vs. performance.
 Isolationsniveauer styrer, hvad transaktioner kan læse, mens databasens låsemekanismer forhindrer konflikter ved samtidige skrivninger.
 
 ---
+
+### Transactions med JDBC og Spring Boot
 
 ### JDBC Eksempel
 
@@ -237,11 +244,51 @@ finally {
 
 ### Spring Boot Eksempel
 
+```java
+@Service
+public class AccountService {
 
+    private final AccountRepository accountRepository;
+
+    public AccountService(AccountRepository accountRepository) {
+        this.accountRepository = accountRepository;
+    }
+
+    @Transactional
+    public void transferMoney(int fromAccountId, int toAccountID, BigDecimal amount) {
+        accountRepository.withdraw(fromAccountId, amount);
+        accountRepository.deposit(toAccountID, amount);
+    }
+}
+
+```
 
 @Transactional fortæller Spring, at metoden skal køre som én transaktion.
 
-Hvis en RuntimeException opstår, laver Spring automatisk rollback.
+Hvis en Exception opstår, laver Spring automatisk rollback.
+
+```java
+@Repository
+public class AccountRepository {
+
+    private final JdbcTemplate jdbcTemplate;
+
+    public AccountRepository(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }
+
+    public void withdraw(int accountId, BigDecimal amount) {
+        jdbcTemplate.update("UPDATE user_account SET balance = balance - ? WHERE account_id = ?", amount, accountId);
+    }
+
+    public void deposit(int accountId, BigDecimal amount) {
+        int rows = jdbcTemplate.update("UPDATE user_account SET balance = balance + ? WHERE account_id = ?", amount, accountId);
+        if (rows == 0) {
+            throw new IllegalArgumentException("Account not found");
+        }
+    }
+}
+```
 
 ---
 
@@ -250,10 +297,6 @@ Service eller Repository lag?
 @Transactional bør placeres på service-metoder, fordi en transaktion ofte omfatter flere repository-kald.
 
 Service lag:
-
-
-Repository lag:
-
 
 ---
 
@@ -266,5 +309,4 @@ Repository lag:
 
 ---
 
-## Aktiviteter
-
+[Opgave: Transactions with Spring Boot](opgave_transaction_springboot.md)
