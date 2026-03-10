@@ -73,7 +73,7 @@ Fordele:
 ---
 
 ### Deployment af en Spring Boot app til Azure
-Vi deployer [message appen](https://github.com/mnyborg/message) fra uge 35.  
+Vi deployer [message appen](https://github.com/mnyborg/message) fra uge 5.  
 #### Opret en Azure Web App
 1. Log ind på [Azure Portal](https://portal.azure.com).
 2. Vælg **Create a resource** og vælg **Web App** 
