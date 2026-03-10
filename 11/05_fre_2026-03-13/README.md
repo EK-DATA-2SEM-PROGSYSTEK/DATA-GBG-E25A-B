@@ -237,25 +237,7 @@ finally {
 
 ### Spring Boot Eksempel
 
-```java
-@Transactional
-public void transferMoney(int fromAccountId, int toAccountId, int amount) {
 
-    jdbcTemplate.update(
-            "UPDATE account SET balance = balance - ? WHERE account_id = ?",
-            amount, fromAccountId
-    );
-
-    if (true) {
-        throw new RuntimeException("Something went wrong");
-    }
-
-    jdbcTemplate.update(
-            "UPDATE account SET balance = balance + ? WHERE account_id = ?",
-            amount, toAccountId
-    );
-}
-```
 
 @Transactional fortæller Spring, at metoden skal køre som én transaktion.
 
@@ -269,66 +251,9 @@ Service eller Repository lag?
 
 Service lag:
 
-```java
-@Service
-public class AccountService {
-
-    private final AccountRepository accountRepository;
-
-    public AccountService(AccountRepository accountRepository) {
-        this.accountRepository = accountRepository;
-    }
-
-    @Transactional
-    public void transferMoney(int fromAccountId, int toAccountId, double amount) {
-
-        Double balance = accountRepository.findBalance(fromAccountId);
-
-        if (balance < amount) {
-            throw new RuntimeException("Insufficient funds");
-        }
-
-        accountRepository.withdraw(fromAccountId, amount);
-        accountRepository.deposit(toAccountId, amount);
-    }
-}
-```
 
 Repository lag:
 
-```java
-@Repository
-public class AccountRepository {
-
-    private final JdbcTemplate jdbcTemplate;
-
-    public AccountRepository(JdbcTemplate jdbcTemplate) {
-        this.jdbcTemplate = jdbcTemplate;
-    }
-
-    public Double findBalance(int accountId) {
-        return jdbcTemplate.queryForObject(
-            "SELECT balance FROM account WHERE account_id = ?",
-            Double.class,
-            accountId
-        );
-    }
-
-    public void withdraw(int accountId, double amount) {
-        jdbcTemplate.update(
-            "UPDATE account SET balance = balance - ? WHERE account_id = ?",
-            amount, accountId
-        );
-    }
-
-    public void deposit(int accountId, double amount) {
-        jdbcTemplate.update(
-            "UPDATE account SET balance = balance + ? WHERE account_id = ?",
-            amount, accountId
-        );
-    }
-}
-```
 
 ---
 
@@ -342,3 +267,4 @@ public class AccountRepository {
 ---
 
 ## Aktiviteter
+
