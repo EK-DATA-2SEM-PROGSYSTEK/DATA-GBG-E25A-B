@@ -88,16 +88,17 @@ Vi deployer [message appen](https://github.com/mnyborg/message) fra uge 35.
 Bemærk: Der er kun et begrænset antal regions til rådighed i "free plan", se Policy | Authoring | Assignments | Allowed resource deployment regions
 
 Hvis man vil se hordan de performer (latency test) kan man benytte [Azure Latency Test](https://www.azurespeed.com/Azure/Latency)   
+
 5. Vælg **Pricing plan**  
 Vælg **Free F1 Plan** for at undgå omkostninger. (vigitgt!) 
 <img src="assets/azure4.png" alt="Alt Text" width="700">
 Tryk "Review + create"
-<img src="assets/azure5.png" alt="Alt Text" width="700">
+<img src="assets/azure5.png" alt="Alt Text" width="700">  
 Tryk "Create"  
 Efter et stykke tid bliver appen deployed og man kan klikke "Go to resource":    
-<img src="assets/azure6.png" alt="Alt Text" width="700">
+<img src="assets/azure6.png" alt="Alt Text" width="700">  
 Nu vises appen's URL på Azure:  
-<img src="assets/azure7.png" alt="Alt Text" width="700">
+<img src="assets/azure7.png" alt="Alt Text" width="700">  
 Når man klkker på appen's URl kommer man til defualt landing page og man kan klikke på "Deployment center":  
 <img src="assets/azure8.png" alt="Alt Text" width="700">
 <img src="assets/azure9.png" alt="Alt Text" width="700">
