@@ -54,6 +54,12 @@ Profiles kan aktiveres ved at sætte `spring.profiles.active` property i `applic
 
 ---
 
+Environment variables skal angives i de forskellige kontekster dvs. localhost, github og Azure.
+
+Husk database urlen skal inkludere protokollen f.eks `jdbc:mysql://localhost:3306/my_database_name` 
+
+---
+
 ## Database Deployment på Azure
 
 ### Deployed Database
@@ -69,19 +75,15 @@ Deployed applikation med database integration
 
 ---
 
-### [Opgave: Deploy en MySQL database på Azure](opgave-db-deployment.md)
+
+### [Opgave: Opret en MySQL Database Server på Azure](azure_mysqlserver_guide.md)
+
+---
+
+### [Opgave: Deploy en MySQL database på Azure](opgave-database-deployment.md)
 
 ---
 
 ### [Opgave: Integration med deployed application](opgave-database-integration.md)
 
-
 ---
-
-## Aktiviteter
-
-[Opgave: Deploy en MySQL database på Azure](opgave-db-deployment.md)
-
-[Opgave: Integration med deployed application](opgave-database-integration.md)
-
-Opgave: Deploy Turistguide database på Azure og integrere i Turistguide applikationen
