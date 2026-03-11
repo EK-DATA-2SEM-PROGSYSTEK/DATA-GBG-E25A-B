@@ -278,7 +278,10 @@ public class AccountRepository {
     }
 
     public void withdraw(int accountId, BigDecimal amount) {
-        jdbcTemplate.update("UPDATE user_account SET balance = balance - ? WHERE account_id = ?", amount, accountId);
+        int rows = jdbcTemplate.update("UPDATE user_account SET balance = balance - ? WHERE account_id = ?", amount, accountId);
+        if (rows == 0) {
+            throw new IllegalArgumentException("Account not found");
+        }
     }
 
     public void deposit(int accountId, BigDecimal amount) {
@@ -310,3 +313,4 @@ Service lag:
 ---
 
 [Opgave: Transactions with Spring Boot](opgave_transaction_springboot.md)
+
