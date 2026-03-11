@@ -53,6 +53,29 @@ Cloud-modellerne handler om, hvor ansvaret ligger mellem bruger og cloud-udbyder
 - **BaaS (Backend as a Service)**: Addressere spicifikke backend behov til mobil- og webapps med API’er. (ex: database management, user authentication)  
   Eksempler: Firebase, AWS Amplify.
 
+Eksempler på komponenter i de enkelte lag:  
+```
++--------------------------------------------------+
+|                Applikation                       |
+|  (fx Spring Boot, Node.js, .NET, Web App)        |
++--------------------------------------------------+
+|                Middleware                        |
+|  Runtime, Web Server, API, Messaging             |
+|  fx Java runtime, Tomcat, .NET runtime           |
++--------------------------------------------------+
+|             Operativsystem (OS)                  |
+|        Linux / Windows Server                    |
++--------------------------------------------------+
+|           Virtualiseringslag                     |
+|        Hypervisor (fx Hyper-V, Xen)              |
+|        Virtuelle maskiner (VM)                   |
++--------------------------------------------------+
+|                Hardware                          |
+|        CPU, RAM, Disk, Netværk                   |
+|        Fysiske servere i datacenter              |
++--------------------------------------------------+
+```
+
 Analogi til **at køre bil**:  
 - **On-Prem** = du ejer bilen og står for alle udgifter: anskaffelsespris, vedligeholdelse, forsikring, brændstof / el  
 - **IaaS** = du leaser bilen og står for visse udgifter: dæk, forsikring, brændstof / el   
