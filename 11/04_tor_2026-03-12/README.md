@@ -80,7 +80,7 @@ Deployed applikation med database integration
 
 ---
 
-### [Opgave: Deploy en MySQL database på Azure](opgave-database-deployment.md)
+### [Opgave: Deploy en MySQL database på Azure](opgave_database_deployment.md)
 
 ---
 
