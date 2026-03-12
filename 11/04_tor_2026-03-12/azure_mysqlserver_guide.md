@@ -31,7 +31,10 @@ This requires a (student) account on Azure. If an account has not been created, 
 
 <img src="assets/azure_project_details.png" alt="project details" width="450">
 
-6. Set the Server details as shown.
+6. Set the Server details as shown. Here, North Europe is chosen as the Region. 
+
+NB. In the Azure Free Plan Subscription, only a limited number of regions are allowed. 
+ The regions can be seen by in Policy | Authoring | Assignments | Allowed resource deployment regions
 
 <img src="assets/azure_server_details.png" alt="server details" width="450">
 
