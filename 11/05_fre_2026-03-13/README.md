@@ -65,7 +65,7 @@ UPDATE account SET balance = balance + 100 WHERE account_id = 2;
 COMMIT;
 ```
 
-### ```ROLLBACK```
+#### ```ROLLBACK```
 
 Ændringerne fra disse statements gemmes ikke i databasen, når ROLLBACK-kommandoen køres.
 
@@ -313,4 +313,5 @@ Service lag:
 ---
 
 [Opgave: Transactions with Spring Boot](opgave_transaction_springboot.md)
+
 
