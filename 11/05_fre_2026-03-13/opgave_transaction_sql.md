@@ -41,7 +41,7 @@ Efter hver kommando skal resultatet skrives ned og forklares.
 ### Opgave 2. ROLLBACK
 Følgende SQL kommandoer skal eksekveres i rækkefølgen og i den MySQL server forbindelsen
 som angivede i tabellen dvs. 1. `SELECT * FROM account;` i Session A
-og så 2. `SELECT * FROM account;` i Session A og så videre.
+og så 2. `SELECT * FROM account;` i Session B og så videre.
 
 
 Efter hver kommando skal resultatet skrives ned og forklares.
