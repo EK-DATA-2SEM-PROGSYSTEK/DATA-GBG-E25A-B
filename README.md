@@ -314,7 +314,7 @@
 <tr>
   <td></td>
   <td><a href="12/05_fre_2026-03-20/README.md">Fredag 20-03-2026</a></td>
-  <td>Vejledning turistguide </td>
+  <td>Fejlhåndtering i Spring Boot</td>
   <td>IANB</td>
   <td></td>
 </tr>
@@ -324,7 +324,7 @@
 <tr>
   <td>13</td>
   <td><a href="13/01_man_2026-03-23/README.md">Mandag 23-03-2026</a></td>
-  <td>Fejlhåndtering i Spring Boot</td>
+  <td>Vejledning turistguide</td>
   <td>SIEB</td>
   <td></td>
 </tr>
