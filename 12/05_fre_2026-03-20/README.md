@@ -52,6 +52,64 @@ Eksempel CRUD applikation:
 
 ---
 
+### Controller level håndtering
+
+Controller-level fejlhåndtering bruges primært til forventede brugerfejl 
+som f.eks. ugyldigt input eller manglende felter og er fejl som brugeren kan rette.
+
+Det samme view returneres ofte.
+
+
+Exceptions kastes i service klassen og håndteres i controller klassen.
+
+I controller klassen:
+
+```java
+    @PostMapping
+    public String create(@ModelAttribute Profile profile, Model model) {
+        try {
+            profileService.create(profile);
+            return "redirect:/exprofiles";
+        } catch (InvalidProfileException | DuplicateProfileException ex) {
+            model.addAttribute("profile", profile);
+            model.addAttribute("formTitle", "Create Profile");
+            model.addAttribute("formAction", "/exprofiles");
+            model.addAttribute("submitLabel", "Create");
+            model.addAttribute("errorMessage", ex.getMessage());
+            return "profiles/profile-form";
+        }
+    }
+```
+
+og i service klassen:
+
+```java
+    public Profile create(Profile profile) {
+        validateProfile(profile);
+        try {
+            return profileRepository.insert(profile);
+        } catch (DataIntegrityViolationException ex) {
+            throw new DuplicateProfileException("Name or email already exists.");
+        } catch (DataAccessException ex) {
+            throw new DatabaseOperationException("Failed to create profile.", ex);
+        }
+    }
+```
+
+---
+
+Server-side validering (Controller og GlobalExceptionHandler) er nødvendig for korrekthed og sikkerhed.
+
+Client-side validering skal også implementeres til at forhindre unødvendige forespørgsler forbedre brugeroplevelsen (UX)
+
+f.eks.
+```html
+<label for="email">Email</label>
+<input id="email" type="email" required th:field="*{email}" maxlength="100">
+```
+
+---
+
 ### Global Fejlhåndtering med ```@ControllerAdvice```
 
 En GlobalExceptionHandler er en klasse annoteret med: ```@ControllerAdvice```
