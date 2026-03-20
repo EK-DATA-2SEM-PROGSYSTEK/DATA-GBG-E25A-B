@@ -29,7 +29,7 @@ Læs: [Handle Exceptions in Spring Boot: A Guide to Clean Code Principles](https
 
 ---
 
-### Hvad kan går galt?
+### Hvad kan gå galt?
 
 Eksempel CRUD applikation:
 
