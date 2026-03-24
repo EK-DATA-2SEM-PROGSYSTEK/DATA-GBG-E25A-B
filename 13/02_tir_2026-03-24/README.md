@@ -35,3 +35,8 @@ At kunne implementere sessions i et Spring Boot projekt.
 ## Aktiviteter
 
 [Opgave 1](opgave1_sessions.md)
+
+[Opgave 2](opgave2_sessions.md)
+
+[Opgave 3](opgave3_sessions.md)
+
