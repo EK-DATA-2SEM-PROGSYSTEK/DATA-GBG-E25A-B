@@ -17,6 +17,13 @@ I den første video skal I kun se indtil 6.10 - dvs til og med "Recap cookies an
 ## Læringsmål
 At kunne implementere sessions i et Spring Boot projekt.
 
+## Indhold
+
+### Session, normal flow
+
+
+<img src="session1.png" alt="Alt Text" width="1000">
+
 ## Aktiviteter
 
 [Opgave 1](opgave1_sessions.md)
