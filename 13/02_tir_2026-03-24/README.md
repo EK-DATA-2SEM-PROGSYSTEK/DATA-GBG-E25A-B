@@ -24,6 +24,10 @@ At kunne implementere sessions i et Spring Boot projekt.
 
 <img src="session1.png" alt="Alt Text" width="1000">
 
+<img src="session2.png" alt="Alt Text" width="1000">
+
+<img src="session3.png" alt="Alt Text" width="1000">
+
 ## Aktiviteter
 
 [Opgave 1](opgave1_sessions.md)
