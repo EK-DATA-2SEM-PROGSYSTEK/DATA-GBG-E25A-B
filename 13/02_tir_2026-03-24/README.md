@@ -16,3 +16,7 @@ I den første video skal I kun se indtil 6.10 - dvs til og med "Recap cookies an
 
 ## Læringsmål
 At kunne implementere sessions i et Spring Boot projekt.
+
+## Aktiviteter
+
+[Opgave 1](opgave1_sessions.md)
