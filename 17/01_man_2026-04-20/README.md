@@ -79,4 +79,53 @@ Best practices for README
 - Har en tydelig struktur
 
 
+### Hvad er en CONTRIBUTING?
+
+CONTRIBUTING.md beskriver hvordan man bidrager til projektet:
+
+- Git workflow
+- Branching strategi
+- Pull Requests
+- Kodestandarder
+
+Den er rettet mod udviklere  
+### Typisk indhold i CONTRIBUTING
+#### Workflow
+1. Fork repository
+2. Opret branch
+3. Lav ændringer
+4. Commit
+5. Push
+6. Opret Pull Request
+
+#### Branching strategi
+- main → stabil kode
+- dev → udvikling
+- feature/* → nye features
+#### Coding guidelines
+- Brug meningsfulde navne
+- Følg Java conventions
+- Ingen hardcodede værdier
+#### Pull Requests
+- Beskriv ændringer
+- Link til issue
+- Få review før merge
+### Best practices for CONTRIBUTING
+- Klart og simpelt workflow
+- Tydelige regler
+- Ensartet struktur
+- Let at følge for nye udviklere
+
+### Samspillet mellem README og CONTRIBUTING
+
+| README | CONTRIBUTING |
+|--------|-------------|
+| Forklarer projektet | Forklarer samarbejde |
+| Rettet mod brugere | Rettet mod udviklere |
+| Hvordan man bruger systemet | Hvordan man bidrager |
+| Første indtryk | Arbejdsregler |
+
+- README svarer på: “Hvad er det her?”
+- CONTRIBUTING svarer på: “Hvordan arbejder vi med det?”
+
 ## Aktiviteter
