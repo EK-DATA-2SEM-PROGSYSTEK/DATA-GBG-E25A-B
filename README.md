@@ -413,7 +413,7 @@
   <td><a href="16/01_man_2026-04-13/README.md">Mandag 13-04-2026</a></td>
   <td>Wishlist projektvejledning</td>
   <td>MANY</td>
-  <td></td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
