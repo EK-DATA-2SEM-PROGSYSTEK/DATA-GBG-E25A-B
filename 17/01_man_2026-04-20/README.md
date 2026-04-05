@@ -49,15 +49,15 @@ En webapplikation der viser turistattraktioner i Danmark.
 - Tilføj nye attraktioner
 
 ### Teknologier
-- Java 17
+- Java 21
 - Spring Boot
 - Thymeleaf
 - MySQL
 
 ### Installation
 
-git clone https://github.com/brugernavn/projekt.git
-cd projekt
+git clone https://github.com/brugernavn/projekt.git  
+cd projekt  
 mvn spring-boot:run
 
 ### Brug
