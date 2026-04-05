@@ -580,7 +580,7 @@
   <td><a href="20/03_ons_2026-05-13/README.md">Onsdag 13-05-2026</a></td>
   <td>Eksamensprojekt - statusmøde</td>
   <td>SIEB/MANY</td>
-  <td></td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -611,7 +611,7 @@
   <td><a href="21/02_tir_2026-05-19/README.md">Tirsdag 19-05-2026</a></td>
   <td>Eksamensprojekt - sprint 2</td>
   <td>MANY</td>
-  <td></td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -632,7 +632,7 @@
   <td><a href="21/05_fre_2026-05-22/README.md">Fredag 22-05-2026</a></td>
   <td>Eksamensprojekt - sprint 2</td>
   <td>MANY</td>
-  <td></td>
+  <td>Online</td>
 </tr>
 
 <!-- UGE 22 -->
