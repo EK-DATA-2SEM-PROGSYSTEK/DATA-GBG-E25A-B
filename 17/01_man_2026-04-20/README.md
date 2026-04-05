@@ -6,6 +6,8 @@ Begge disse filer anvender Markdown (.md), er et letvægts markup-sprog, hvor ma
 
 ## Forberedelse
 Se disse videoer:  
+[Learning GitHub - How to Write MarkDown](https://www.youtube.com/watch?v=eJojC3lSkwg)  
+Skriv direkte i GitHub, hvor der også er preview
 
 
 
