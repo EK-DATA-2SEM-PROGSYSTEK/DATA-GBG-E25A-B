@@ -690,7 +690,7 @@ gantt
     Turistguide 3                   :tg3, 2026-03-09, 2026-03-27
 
     section Miniprojekt
-    Miniprojekt                     :mini, 2026-04-06, 2026-04-24
+    Miniprojekt                     :mini, 2026-04-09, 2026-04-24
 
     section Eksamensprojekt
     Eksamensprojekt                 :exam, 2026-04-27, 2026-05-27
