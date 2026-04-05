@@ -128,4 +128,103 @@ Den er rettet mod udviklere
 - README svarer på: “Hvad er det her?”
 - CONTRIBUTING svarer på: “Hvordan arbejder vi med det?”
 
+### Kort introduktion til Markdown
+Markdown er et letvægts markup-sprog, hvor man bruger simple tegn til at formatere tekst. Det bruges til at skrive dokumentation som fx:
+README.md og CONTRIBUTING.md  
+Det gør det nemt at skrive struktureret tekst, som samtidig bliver pænt vist på GitHub.
+
+#### Grundlæggende syntaks
+
+**Overskrifter**
+```
+# H1
+## H2
+### H3
+```
+# H1
+## H2
+### H3
+
+**Tekstformatering**
+```
+**Fed tekst**
+*Kursiv tekst*
+~~Gennemstreget~~
+```
+**Fed tekst**
+*Kursiv tekst*
+~~Gennemstreget~~
+
+
+
+**Lister**
+**Punktliste**
+```
+- Punkt 1
+- Punkt 2
+```
+- Punkt 1
+- Punkt 2
+  
+**Nummereret liste**
+```
+1. Første
+2. Anden
+```
+1. Første
+2. Anden
+
+
+**Links**
+```
+[Google](https://google.com)
+```
+**Billeder**
+```
+![Alt tekst](billede.png)
+[Google](https://google.com)
+```
+![Alt tekst](billede.png)
+[Google](https://google.com)
+
+**Kode**
+**Inline kode**
+```
+`System.out.println("Hello");`
+```
+`System.out.println("Hello");`
+
+
+**Kodeblok**
+```
+```java
+System.out.println("Hello");
+```
+```java
+System.out.println("Hello");
+```
+---
+
+## Tabeller
+```md
+| Navn | Alder |
+|------|------|
+| Mads | 30 |
+
+## Tabeller
+```md
+| Navn | Alder |
+|------|------|
+| Mads | 30 |
+💡 Hvorfor bruger vi Markdown?
+Let at lære
+Hurtigt at skrive
+Understøttes direkte i GitHub
+Perfekt til dokumentation
+🧠 Tips
+Brug korte og klare overskrifter
+Hold teksten overskuelig
+Brug kodeblokke til eksempler
+Undgå for lange afsnit
+
 ## Aktiviteter
