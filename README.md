@@ -449,9 +449,9 @@
 <tr>
   <td>17</td>
   <td><a href="17/01_man_2026-04-20/README.md">Mandag 20-04-2026</a></td>
-  <td>Readme og contribute</td>
+  <td>Readme og contributing, Wishlist projektvejledning</td>
   <td>MANY</td>
-  <td></td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
