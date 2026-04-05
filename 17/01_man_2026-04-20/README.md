@@ -5,10 +5,12 @@ Vi ser på bruge af README og CONTRIBUTING filerne i et Github projekt.
 Begge disse filer anvender Markdown (.md), er et letvægts markup-sprog, hvor man bruger simple tegn til at formatere tekst.
 
 ## Forberedelse
-Se disse videoer:  
+Se denne videoer:  
 [Learning GitHub - How to Write MarkDown](https://www.youtube.com/watch?v=eJojC3lSkwg)  
 Nemmest at Skrive direkte i GitHub, hvor der også er preview
 
+Resourcer:  
+[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 
 ## Læringsmål
@@ -151,13 +153,15 @@ Det gør det nemt at skrive struktureret tekst, som samtidig bliver pænt vist p
 *Kursiv tekst*
 ~~Gennemstreget~~
 ```
-**Fed tekst**
-*Kursiv tekst*
-~~Gennemstreget~~
+**Fed tekst**  
+*Kursiv tekst*  
+~~Gennemstreget~~  
+
+Bemærk: ny linje fås ved to spaces efter hinanden
 
 
 
-**Lister**
+**Lister**  
 **Punktliste**
 ```
 - Punkt 1
@@ -179,15 +183,16 @@ Det gør det nemt at skrive struktureret tekst, som samtidig bliver pænt vist p
 ```
 [Google](https://google.com)
 ```
+[Google](https://google.com)  
+
 **Billeder**
 ```
 ![Alt tekst](billede.png)
-[Google](https://google.com)
 ```
 ![Alt tekst](billede.png)
-[Google](https://google.com)
 
-**Kode**
+
+**Kode**  
 **Inline kode**
 ```
 `System.out.println("Hello");`
@@ -203,28 +208,12 @@ System.out.println("Hello");
 ```java
 System.out.println("Hello");
 ```
----
 
 ## Tabeller
 ```md
 | Navn | Alder |
 |------|------|
-| Mads | 30 |
+| Hans | 30 |
 
-## Tabeller
-```md
-| Navn | Alder |
-|------|------|
-| Mads | 30 |
-💡 Hvorfor bruger vi Markdown?
-Let at lære
-Hurtigt at skrive
-Understøttes direkte i GitHub
-Perfekt til dokumentation
-🧠 Tips
-Brug korte og klare overskrifter
-Hold teksten overskuelig
-Brug kodeblokke til eksempler
-Undgå for lange afsnit
 
 ## Aktiviteter
