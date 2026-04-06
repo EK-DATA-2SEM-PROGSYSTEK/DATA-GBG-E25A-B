@@ -33,4 +33,15 @@ Læs følgende online:
 
 # Indhold
 
+## Design Thinking
+
 <img src="designthinking_illustration_final-01-01.png" alt="Alt Text" width="700">
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+## Usability
+
+- Learnability: How easy is it for users to accomplish basic tasks the first time they encounter the design?
+- Efficiency: Once users have learned the design, how quickly can they perform tasks?
+- Memorability: When users return to the design after a period of not using it, how easily can they re-establish proficiency?
+- Errors: How many errors do users make, how severe are these errors, and how easily can they recover from the errors?
+- Satisfaction: How pleasant is it to use the design?
