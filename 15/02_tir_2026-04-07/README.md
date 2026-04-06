@@ -33,4 +33,4 @@ Læs følgende online:
 
 # Indhold
 
-<img src="" alt="Alt Text" width="700">
+<img src="designthinking_illustration_final-01-01.png" alt="Alt Text" width="700">
