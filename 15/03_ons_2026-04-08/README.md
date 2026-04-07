@@ -8,6 +8,7 @@ I mini-projektet skal vi bruge Github projects til projektstyring.
 Se disse videoer om Github Projects:  
 Overview:  
 [Issues and Projects in GitHub](https://www.youtube.com/watch?v=fFrq28RY1SQ)  
+
 Detaljerede forklaringer:  
 [Getting started with GitHub Projects](https://www.youtube.com/watch?v=lzpcyYIbHqE&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=1)  
 [Adding existing issues to GitHub Projects](https://www.youtube.com/watch?v=Wym76EjWKZw&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=2)  
