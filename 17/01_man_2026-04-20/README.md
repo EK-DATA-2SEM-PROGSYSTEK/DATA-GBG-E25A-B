@@ -210,7 +210,6 @@ System.out.println("Hello");
 ```
 
 ## Tabeller
-Format:
 ```
 | Overskrift 1 | Overskrift 2 | Overskrift 3 |
 | :--- | :---: | ---: |
