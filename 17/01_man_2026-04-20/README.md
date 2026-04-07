@@ -210,10 +210,15 @@ System.out.println("Hello");
 ```
 
 ## Tabeller
-```md
+```
 | Navn | Alder |
-|------|------|
+|:---|:---|
 | Hans | 30 |
+```
+| Navn | Alder |
+|:---|:---|
+| Hans | 30 |
+
 
 
 ## Aktiviteter
