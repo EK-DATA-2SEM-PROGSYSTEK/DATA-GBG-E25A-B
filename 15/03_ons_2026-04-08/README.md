@@ -41,7 +41,7 @@ Et Project board og dets issues knyttes altid til ét eller flere repositories.
 ### Issue (User Story)
 Et issue bruges til at beskrive et stykke arbejde, typisk en user story, en feature request eller en bug.  
 ### Sub-issues (Tasks)
-Et issue kan opdeles i mindre tasks, enten som afkrydsningsfelter i beskrivelsen eller som selvstændige issues, der linkes til hoved-issuet.  
+Et issue kan opdeles i mindre tasks, der er selvstændige issues og som automatisk linkes til hoved-issuet (parent issue).  
 ### Project Board
 Et Project i GitHub fungerer som en visuel Scrum-tavle, hvor du kan følge arbejdet fra idé til færdigt resultat.
 Boardet kan have kolonner som fx:
