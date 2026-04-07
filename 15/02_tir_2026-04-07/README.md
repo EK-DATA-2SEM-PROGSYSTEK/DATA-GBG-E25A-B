@@ -50,6 +50,16 @@ Læs følgende online:
 ## Gestaltprincipper
 [Simulering af principperne](https://www.gestaltprinciples.com)
 
+-------------------------------------------------------------------------------------------------------------------
+<img src="gruppering.jpg" alt="Alt Text" width="700">
+
+-------------------------------------------------------------------------------------------------------------------
+<img src="gruppering_med_linje.jpg" alt="Alt Text" width="700">
+
+-------------------------------------------------------------------------------------------------------------------
+<img src="gestaltlove.jpg" alt="Alt Text" width="700">
+
+
 # Aktiviteter
 
 [Opgave 1](opgave_gestaltlove.md)
