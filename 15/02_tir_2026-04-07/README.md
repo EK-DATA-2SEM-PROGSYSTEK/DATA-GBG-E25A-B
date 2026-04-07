@@ -66,6 +66,6 @@ Læs følgende online:
 
 [Opgave 2](opgave_heuristics.md)
 
-[Opgave 3]
+[Opgave 3](opgave_papir_prototype.md)
 
 [Opgave 4]
