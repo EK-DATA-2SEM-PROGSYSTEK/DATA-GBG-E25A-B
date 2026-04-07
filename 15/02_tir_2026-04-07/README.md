@@ -59,6 +59,10 @@ Læs følgende online:
 -------------------------------------------------------------------------------------------------------------------
 <img src="gestaltlove.jpg" alt="Alt Text" width="700">
 
+## Nogle værktøjer til wireframes/clickable prototypes
+
+[Figma](https://www.figma.com)
+[Penpot](https://penpot.app/design)
 
 # Aktiviteter
 
