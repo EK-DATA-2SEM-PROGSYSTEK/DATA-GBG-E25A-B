@@ -49,7 +49,9 @@ Boardet kan have kolonner som fx:
 - In progress – opgaver i gang
 - Done – færdige opgaver
 
-Kollonnerne er baseret på værdier i status field, som kan konfigureres under settings 
+Kollonnerne er baseret på værdier i status field, som kan konfigureres under settings.  
+
+Normalt anbefales det at starte med et table view, hvor man lister alle sine User storues (Issues). herefter kan man lave forskellige views som f.eks scrum borad view.
 
 ### Eksempel på User Stories og Tasks – Message App  
 Repository: [message](https://github.com/EK-DATA-2SEM-PROGSYSTEK/message)  
