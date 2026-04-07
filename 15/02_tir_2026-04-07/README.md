@@ -68,4 +68,4 @@ Læs følgende online:
 
 [Opgave 3](opgave_papir_prototype.md)
 
-[Opgave 4]
+[Opgave 4](opgave_figma_prototype.md)
