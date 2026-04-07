@@ -19,6 +19,10 @@ Detaljerede forklaringer:
 [Issue Hierarchy with Sub-issues (opt-in beta)](https://www.youtube.com/watch?v=F42FN6cZmA4&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=8)  
 [Issue Types (opt-in beta)](https://www.youtube.com/watch?v=2wVmcuCC1is&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=9)  
 
+Bemærk:  
+Sub-issues og issue-types er ikke lænegere i beta, men udrullet permanent  
+Brugeringterface er ændret lidt ift. videoer - nu er der en separat 'View' knap til højre.
+
 Github organizations (giver jer mulighed for at være 'ligeværdige')  
 [How to Create Github Organization (Full 2025 Guide)](https://www.youtube.com/watch?v=6Byb4wWpPSQ)
 
