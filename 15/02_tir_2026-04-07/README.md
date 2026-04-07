@@ -45,3 +45,17 @@ Læs følgende online:
 - Memorability: When users return to the design after a period of not using it, how easily can they re-establish proficiency?
 - Errors: How many errors do users make, how severe are these errors, and how easily can they recover from the errors?
 - Satisfaction: How pleasant is it to use the design?
+
+
+## Gestaltprincipper
+[Simulering af principperne](https://www.gestaltprinciples.com)
+
+# Aktiviteter
+
+[Opgave 1](opgave_gestaltlove.md)
+
+[Opgave 2]
+
+[Opgave 3]
+
+[Opgave 4]
