@@ -51,7 +51,8 @@ Boardet kan have kolonner som fx:
 
 Kollonnerne er baseret på værdier i status field, som kan konfigureres under settings.  
 
-Normalt anbefales det at starte med et table view, hvor man lister alle sine User storues (Issues). herefter kan man lave forskellige views som f.eks scrum borad view.
+Normalt anbefales det at starte med et table view, hvor man lister alle sine user stories (Issues). herefter kan man lave forskellige views som f.eks scrum borad view.  
+Herefter nedbryder man sine user stories i tasks (sub-Issues)
 
 ### Eksempel på User Stories og Tasks – Message App  
 Repository: [message](https://github.com/EK-DATA-2SEM-PROGSYSTEK/message)  
