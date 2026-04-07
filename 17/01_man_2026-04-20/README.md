@@ -210,15 +210,17 @@ System.out.println("Hello");
 ```
 
 ## Tabeller
+Format:
 ```
-| Navn | Alder |
-|:---|:---|
-| Hans | 30 |
+| Overskrift 1 | Overskrift 2 | Overskrift 3 |
+| :--- | :---: | ---: |
+| Venstrestillet | Centreret | Højrestillet |
+| Række 2 | Data | Data |
 ```
-| Navn | Alder |
-|:---|:---|
-| Hans | 30 |
-
+| Overskrift 1 | Overskrift 2 | Overskrift 3 |
+| :--- | :---: | ---: |
+| Venstrestillet | Centreret | Højrestillet |
+| Række 2 | Data | Data |
 
 
 ## Aktiviteter
