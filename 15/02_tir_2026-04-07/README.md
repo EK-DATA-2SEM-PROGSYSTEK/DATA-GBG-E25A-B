@@ -64,7 +64,7 @@ Læs følgende online:
 
 [Opgave 1](opgave_gestaltlove.md)
 
-[Opgave 2]
+[Opgave 2](opgave_heuristics.md)
 
 [Opgave 3]
 
