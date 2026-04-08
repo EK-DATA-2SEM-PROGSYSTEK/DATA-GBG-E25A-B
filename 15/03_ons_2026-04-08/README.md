@@ -27,7 +27,8 @@ Github organizations (giver jer mulighed for at være 'ligeværdige')
 [How to Create Github Organization (Full 2025 Guide)](https://www.youtube.com/watch?v=6Byb4wWpPSQ)
 
 Ressourcer:  
-[Third-party application access policy i GitHub-organisationer](resources/third-party-application-access.md)
+[Third-party application access policy i GitHub-organisationer](resources/third-party-application-access.md)  
+[Openverse](https://github.com/WordPress/openverse) - eksempel på brug af GitHub projects i et stort projekt
 
 
 ## Læringsmål
