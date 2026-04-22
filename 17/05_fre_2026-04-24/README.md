@@ -9,6 +9,8 @@ Der gennemføres også en sprint retrospective samt et kode review af en anden g
 
 Vi starter med at kigge på kriterier for kode reviewet og proceduren.
 
+Vi mødes allesammen på fredag - uanset tidspunkt for demo/tilbagemeldinger.
+
 ---
 
 ## Forberedelse
