@@ -35,6 +35,7 @@ Se videoen:
 
 - At kunne gennemføre en detaljeret kode gennemgang
 - At kunne vurdere kode kvalitet
+- At kunne gennemføre en sprint retrospective
 
 ---
 
