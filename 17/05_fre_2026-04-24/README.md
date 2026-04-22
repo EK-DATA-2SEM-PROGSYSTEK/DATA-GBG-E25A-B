@@ -15,6 +15,11 @@ Vi starter med at kigge på kriterier for kode reviewet og proceduren.
 
 Læs:
 
+Proceduren Wishlist demonstration og kode gennemgang: [Wishlist demo](wishlist-afslutning-tidsplan.pdf)
+
+
+Læs:
+
 [The Sprint Retrospective](https://www.scrum.org/learning-series/sprint-retrospective/introduction-to-the-sprint-retrospective-)
 
 
