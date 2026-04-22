@@ -29,8 +29,16 @@ Se videoen:
 - At kunne gennemføre en detaljeret kode gennemgang
 - At kunne vurdere kode kvalitet
 
+---
 
 ## Indhold
+
+---
+
+### Demonstration og kode gennemgang
+Proceduren og tidsplanen for Wishlist afslutning findes her: [Wishlist afslutning](wishlist-afslutning-tidsplan.pdf)
+
+---
 
 ### The Scrum Guide on the Sprint Retrospective
 
