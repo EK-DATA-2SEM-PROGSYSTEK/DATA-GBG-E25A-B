@@ -52,6 +52,8 @@ Proceduren og tidsplanen for Wishlist afslutning findes her: [Wishlist afslutnin
 
 ### Opgave: Static code analysis (Peer review) [Hold A]() og [Hold B]()
 
+NB. Den udfyldte analyse skal sendes til den reviewed gruppe (emails findes i opgave beskrivelsen).
+
 ---
 
 ### Sprint Retrospective
@@ -92,14 +94,11 @@ Med udgangspunkt i det gennemførte sprint i projektet, udfør en sprint retrosp
 
 Hvert gruppemedlem skal oprette mindst 3 punkter i hver sektion.
 
-Diskuter herefter hvert punkt i plenum.
+Diskuter herefter hvert punkt.
 
 Lav en liste over forbedringer som teamet er enige om bør gennemføres.
 
-Lad teamet prioritere denne liste og vælge de 1-2 vigtigste at arbejde med i næste projekt sprints.
+Prioriter denne liste og vælge de 1-2 vigtigste at arbejde med i næste projekt sprints.
 
-En pdf skal afleveres på Fronter som indeholder:
-- Hvert medlems svar på de 3 spørgsmål
-- En prioriteret liste af forbedringer til det næste projekt/sprint
 
 ---
