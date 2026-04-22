@@ -52,6 +52,8 @@ Proceduren og tidsplanen for Wishlist afslutning findes her: [Wishlist afslutnin
 
 ---
 
+### Sprint Retrospective
+
 ### The Scrum Guide on the Sprint Retrospective
 
 *"The purpose of the Sprint Retrospective is to plan ways to increase quality and effectiveness.*
