@@ -50,7 +50,7 @@ Proceduren og tidsplanen for Wishlist afslutning findes her: [Wishlist afslutnin
 
 ### Static code analysis (Peer review)
 
-### Opgave: Static code analysis (Peer review) [Hold A](code-review-plan-holdA.pdf) og [Hold B](code-review-holdB.pdf)
+### Opgave: Static code analysis (Peer review) [Hold A](code-review-plan-holdA.pdf) og [Hold B](code-review-plan-holdB.pdf)
 
 [Static code analysis rubric](static-code-analysis-rubric.docx)
 
