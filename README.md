@@ -495,7 +495,7 @@
 <tr>
   <td></td>
   <td><a href="18/02_tir_2026-04-28/README.md">Tirsdag 28-04-2026</a></td>
-  <td>Repetition</td>
+  <td>Usability test</td>
   <td>SIEB</td>
   <td></td>
 </tr>
