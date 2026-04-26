@@ -1,17 +1,12 @@
 # Rapport og eksamination
 Vi starter med et hængeparti vedr. README og CONTRIBUTING fra d. 20/4. 
 
-## Orientering om rapporten
-
 ## Foreberedelse
 
 Orientér jer om emner til eksamen: [Eksamensemner](Eksamensemner-prog-sys-tek-itff-e25.pdf)
 
-## Indhold
-
-### Rapport
-
-Overordnet Indholdsfortegnelse
+## Orientering om rapportens indhold
+Overordnet Indholdsfortegnelse (forslag)
 
 0.	Forside
 1.	Indledning
@@ -34,7 +29,7 @@ Overordnet Indholdsfortegnelse
 
 ---
 
-### Eksamen 
+## Eksamen 
 
 Beskrivelse af den mundtlige eksamen
 
