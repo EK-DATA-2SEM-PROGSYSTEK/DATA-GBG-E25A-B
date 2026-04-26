@@ -1,6 +1,7 @@
 # Rapport og eksamination
+Vi starter med et hængeparti vedr. README og CONTRIBUTING fra d. 20/4. 
 
-## Orientering om rapporten og eksaminationen
+## Orientering om rapporten
 
 ## Foreberedelse
 
