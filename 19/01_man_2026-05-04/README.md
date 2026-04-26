@@ -5,13 +5,9 @@ Vi starter med et hængeparti vedr. README og CONTRIBUTING fra d. 20/4.
 
 ## Foreberedelse
 
-Nær læs dokumentet "Eksamen-Projektbeskrivelse E25.pdf" som findes på itsLearning og noter evt. spørgsmål.
-
+Orientér jer om emner til eksamen: [Eksamensemner](Eksamensemner-prog-sys-tek-itff-e25.pdf)
 
 ## Indhold
-
-
----
 
 ### Rapport
 
@@ -59,7 +55,6 @@ Eksaminationen foregår inden for alle fire fagområder med tiden fordelt efter 
 dvs. med størst fokus på programmering og systemudvikling.
 Der gives til sidst en samlet karakter ud fra en helhedsvurdering af produktet, rapporten og den mundtlige eksamen. 
 
-[Eksamensemner](Eksamensemner-prog-sys-tek-itff-e25.pdf)
 
 
 
