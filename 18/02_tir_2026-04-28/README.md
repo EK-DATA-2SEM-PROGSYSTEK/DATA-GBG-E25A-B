@@ -16,5 +16,7 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 - at kunne udføre en usability test med tænke-højt-metoden
 
+## Aktiviteter
 
+[Opgave 1](opgave_lav_usability_test.md)
 
