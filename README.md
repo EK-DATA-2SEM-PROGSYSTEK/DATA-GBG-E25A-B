@@ -572,7 +572,7 @@
   <td></td>
   <td><a href="20/02_tir_2026-05-12/README.md">Tirsdag 12-05-2026</a></td>
   <td>Eksamensprojekt - sprint 1</td>
-  <td>SIEB</td>
+  <td>IANB</td>
   <td></td>
 </tr>
 <tr>
@@ -603,7 +603,8 @@
   <td>21</td>
   <td><a href="21/01_man_2026-05-18/README.md">Mandag 18-05-2026</a></td>
   <td>Eksamensprojekt - sprint 2</td>
-  <td>IANB</td>
+  <td>SIEB</td>
+  <td>Online</td>
   <td></td>
 </tr>
 <tr>
@@ -649,6 +650,7 @@
   <td><a href="22/02_tir_2026-05-26/README.md">Tirsdag 26-05-2026</a></td>
   <td>Eksamensprojekt - sprint 2</td>
   <td>SIEB</td>
+  <td>Online</td>
   <td></td>
 </tr>
 <tr>
