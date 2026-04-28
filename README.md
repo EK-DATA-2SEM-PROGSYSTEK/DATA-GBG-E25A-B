@@ -605,7 +605,6 @@
   <td>Eksamensprojekt - sprint 2</td>
   <td>SIEB</td>
   <td>Online</td>
-  <td></td>
 </tr>
 <tr>
   <td></td>
@@ -651,7 +650,6 @@
   <td>Eksamensprojekt - sprint 2</td>
   <td>SIEB</td>
   <td>Online</td>
-  <td></td>
 </tr>
 <tr>
   <td></td>
