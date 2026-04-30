@@ -3,7 +3,7 @@ Vi starter med et hængeparti vedr. README og CONTRIBUTING fra d. 20/4.
 
 ## Foreberedelse
 
-Orientér jer om emner til eksamen: [Eksamensemner](Eksamensemner-prog-sys-tek-itff-e25.pdf)
+Orientér jer om emner til eksamen: [Eksamensemner](Eksamensemner-prog-sys-tek-itfu-f26.pdf)
 
 ## Orientering om rapportens indhold
 Overordnet Indholdsfortegnelse (forslag)
