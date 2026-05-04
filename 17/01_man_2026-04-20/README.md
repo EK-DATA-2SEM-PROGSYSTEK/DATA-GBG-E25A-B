@@ -116,7 +116,7 @@ CONTRIBUTING.md beskriver hvordan man bidrager til projektet:
 - Få review før merge
 
 #### Den interne model (Ingen forks) 
-De fleste virksomheder (hvor alle udviklere er ansat af samme firma) bruger man ikke forks. Her arbejder alle direkte i det samme centrale repository (repo).
+I de fleste virksomheder (hvor alle udviklere er ansat af samme firma) bruger man ikke forks. Her arbejder alle direkte i det samme centrale repository (repo).
 - Shared Repository Model: Alle teammedlemmer har skriveadgang til firmaets repo.
 - Feature Branches: I stedet for at forke, opretter man en ny "branch" direkte i firmaets repo (f.eks. git checkout -b feature/ny-log-in-side).
 - Pull Request: Man laver stadig en Pull Request, men den går fra én branch til en anden (f.eks. fra feature/ny-log-in-side til main) inden for det samme projekt.
