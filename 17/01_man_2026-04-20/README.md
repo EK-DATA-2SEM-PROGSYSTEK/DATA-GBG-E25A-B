@@ -83,7 +83,7 @@ Best practices for README
 
 ### Hvad er en CONTRIBUTING?
 
-CONTRIBUTING.md kommer oprindeligt fra open-source verdenen, og nedenstående tron er således for et open-source projekt
+CONTRIBUTING.md kommer oprindeligt fra open-source verdenen, og nedenstående trin er således for et open-source projekt
 CONTRIBUTING.md beskriver hvordan man bidrager til projektet:
 
 - Git workflow
