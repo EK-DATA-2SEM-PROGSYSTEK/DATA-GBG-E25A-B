@@ -41,10 +41,10 @@ Typisk struktur for README
 5. Brug
 6. Bidrag
 
-Eksempel: Touristguide projektet:  
+Eksempel: Turistguide projektet:  
 
 ---
-### Tourist Guide
+### Turist Guide
 
 En webapplikation der viser turistattraktioner i Danmark.
 
