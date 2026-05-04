@@ -92,7 +92,7 @@ CONTRIBUTING.md beskriver hvordan man bidrager til projektet:
 - Pull Requests
 - Kodestandarder
 
-Den er rettet mod udviklere  
+  
 ### Typisk indhold i CONTRIBUTING
 #### Workflow
 1. Fork repository
