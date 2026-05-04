@@ -10,7 +10,8 @@ Se denne videoer:
 Nemmest at Skrive direkte i GitHub, hvor der også er preview
 
 Resourcer:  
-[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)  
+[Openverse](https://github.com/WordPress/openverse) - eksempel på brug af README og CONTRIBUTING i et stort projekt
 
 
 ## Læringsmål
