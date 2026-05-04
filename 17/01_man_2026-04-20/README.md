@@ -113,6 +113,23 @@ Den er rettet mod udviklere
 - Beskriv ændringer
 - Link til issue
 - Få review før merge
+
+#### Den interne model (Ingen forks) 
+De fleste virksomheder (hvor alle udviklere er ansat af samme firma) bruger man ikke forks. Her arbejder alle direkte i det samme centrale repository (repo).
+- Shared Repository Model: Alle teammedlemmer har skriveadgang til firmaets repo.
+- Feature Branches: I stedet for at forke, opretter man en ny "branch" direkte i firmaets repo (f.eks. git checkout -b feature/ny-log-in-side).
+- Pull Request: Man laver stadig en Pull Request, men den går fra én branch til en anden (f.eks. fra feature/ny-log-in-side til main) inden for det samme projekt.
+
+#### Den eksterne/konsulent model (Forks bruges)
+Der er dog situationer i erhvervslivet, hvor forks stadig giver god mening:
+- Eksterne konsulenter: Hvis et firma hyrer et eksternt bureau, vil de ofte ikke give konsulenterne direkte adgang til deres "hellige" kildekode-repo. Konsulenterne forker projektet til deres egen organisation, arbejder der, og sender en Pull Request tilbage til kunden.
+- Sikkerhed og isolation: Store tech-giganter som Google eller Meta bruger nogle gange en fork-model internt for at sikre, at ingen ved et uheld kommer til at slette noget i hoved-projektet (selvom branch-beskyttelse i dag ofte løser dette).
+
+#### Hvorfor foretrækker firmaer "Branches" frem for "Forks"?
+- Overblik: Det er nemmere for teamet at se alle igangværende opgaver ét sted.
+- CI/CD: Det er lettere at opsætte automatiske tests (Continuous Integration), når alle branches lever i det samme repo.
+- Rettighedsstyring: Det er simplere at styre adgangen centralt.
+
 ### Best practices for CONTRIBUTING
 - Klart og simpelt workflow
 - Tydelige regler
