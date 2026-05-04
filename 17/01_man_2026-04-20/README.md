@@ -206,9 +206,9 @@ Bemærk: ny linje fås ved to spaces efter hinanden
 
 **Billeder**
 ```
-![Alt tekst](billede.png)
+![Alt tekst](md.png)
 ```
-![Alt tekst](billede.png)
+![Alt tekst](md.png)
 
 
 **Kode**  
