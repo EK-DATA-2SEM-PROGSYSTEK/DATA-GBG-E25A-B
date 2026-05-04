@@ -21,10 +21,11 @@ Overordnet Indholdsfortegnelse (forslag)
 10.	Test og Kodeanalyse
 11.	Systemudviklingsprocessen
 12.	CI/CD
-13.	Status på implementering og andre forhold
-14.	Konklusion
-15.	Litteraturliste
-16.	Bilag
+13.	Andre forhold
+14.	Status på implementering
+15.	Konklusion
+16.	Litteraturliste
+17.	Bilag
 
 
 ---
