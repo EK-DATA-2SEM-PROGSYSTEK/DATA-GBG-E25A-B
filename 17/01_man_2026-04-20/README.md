@@ -44,7 +44,7 @@ Typisk struktur for README
 Eksempel: Turistguide projektet:  
 
 ---
-### Turist Guide
+### Turistguide
 
 En webapplikation der viser turistattraktioner i Danmark.
 
