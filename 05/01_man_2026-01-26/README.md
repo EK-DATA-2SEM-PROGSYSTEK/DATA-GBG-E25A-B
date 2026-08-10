@@ -57,7 +57,7 @@ Se disse videoer:
 - Vi underviser projektbaseret, dvs. at det er projekterne, der er det styrende element.
 - Undervisningen er tværfaglig og dækker Programmering, Systemudvikling og Teknologi.
 - Emnerne, der undervises i, vælges ud fra behovene i det aktuelle projekt. Nye emner bruges med det samme.
-- Alle emner inden for Programmering og Systemudvikling dækkes, men undervisningens intensitet i de enkelte fagområder varierer fra uge til uge.
+- Alle emner inden for Programmering, Systemudvikling og Teknologi dækkes, men undervisningens intensitet i de enkelte fagområder varierer fra uge til uge.
 - Vi benytter bl.a. flipped classroom – en undervisningsstrategi, der vender den traditionelle læringsmodel på hovedet. I stedet for at modtage undervisning (f.eks. forelæsninger) i klassen og lave lektier derhjemme, tilegner man sig nyt indhold (som videoer eller læsematerialer) før undervisningen og bruger derefter klassetiden på interaktive aktiviteter, diskussioner og problemløsning med underviserens vejledning.
 
 ### Studiegrupperne
